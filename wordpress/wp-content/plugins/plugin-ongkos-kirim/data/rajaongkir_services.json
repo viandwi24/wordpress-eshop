@@ -1,0 +1,442 @@
+{
+  "jne": {
+    "ctc": {
+      "long": "CTC (City to City)",
+      "short": "CTC"
+    },
+    "ctcbdo": {
+      "long": "CTCBDO (City to City Bandung)",
+      "short": "CTCBDO"
+    },
+    "ctcoke": {
+      "long": "CTCOKE (City to City OKE)",
+      "short": "CTCOKE"
+    },
+    "ctcsps": {
+      "long": "CTCSPS (City to City SPS)",
+      "short": "CTCSPS"
+    },
+    "ctcyes": {
+      "long": "CTCYES (City to City YES)",
+      "short": "CTCYES"
+    },
+    "jtr": {
+      "long": "JTR (JNE Trucking)",
+      "short": "JTR"
+    },
+    "oke": {
+      "long": "OKE (Ongkos Kirim Ekonomis)",
+      "short": "OKE"
+    },
+    "reg": {
+      "long": "REG (Layanan Reguler)",
+      "short": "REG"
+    },
+    "sps": {
+      "long": "SPS (Super Speed)",
+      "short": "SPS"
+    },
+    "yes": {
+      "long": "YES (Yakin Esok Sampai)",
+      "short": "YES"
+    },
+    "intl": {
+      "long": "INTL (International)",
+      "short": "INTL"
+    }
+  },
+  "pos": {
+    "express-next-day-barang": {
+      "long": "Express Next Day Barang",
+      "short": "Express Next Day Barang"
+    },
+    "express-sameday-barang": {
+      "long": "Express Sameday Barang",
+      "short": "Express Sameday Barang"
+    },
+    "express-next-day": {
+      "long": "Express Next Day",
+      "short": "Express Next Day"
+    },
+    "express-sameday": {
+      "long": "Express Sameday",
+      "short": "Express Sameday"
+    },
+    "paket-jumbo-ekonomi": {
+      "long": "Paket Jumbo Ekonomi",
+      "short": "Paket Jumbo Ekonomi"
+    },
+    "paketpos-dangerous-goods": {
+      "long": "Paketpos Dangerous Goods",
+      "short": "Paketpos Dangerous Goods"
+    },
+    "paketpos-valuable-goods": {
+      "long": "Paketpos Valuable Goods",
+      "short": "Paketpos Valuable Goods"
+    },
+    "paket-kilat": {
+      "long": "Paket Kilat",
+      "short": "Paket Kilat"
+    },
+    "paket-kilat-khusus": {
+      "long": "Paket Kilat Khusus",
+      "short": "Paket Kilat Khusus"
+    },
+    "paketpos-biasa": {
+      "long": "Paketpos Biasa",
+      "short": "Paketpos Biasa"
+    },
+    "r-ln": {
+      "long": "R LN (Luar Negeri)",
+      "short": "R LN"
+    },
+    "ems-barang": {
+      "long": "EMS Barang (Luar Negeri)",
+      "short": "EMS Barang"
+    },
+    "paketpos-cepat-ls": {
+      "long": "Paketpos Cepat LN (Luar Negeri)",
+      "short": "Paketpos Cepat LN"
+    },
+    "paketpos-biasa-ls": {
+      "long": "Paketpos Biasa LN (Luar Negeri)",
+      "short": "Paketpos Biasa LN"
+    }
+  },
+  "tiki": {
+    "eco": {
+      "long": "ECO (Economi Service)",
+      "short": "ECO"
+    },
+    "hds": {
+      "long": "HDS (Holiday Delivery Service)",
+      "short": "HDS"
+    },
+    "ons": {
+      "long": "ONS (Over Night Service)",
+      "short": "ONS"
+    },
+    "reg": {
+      "long": "REG (Regular Service)",
+      "short": "REG"
+    },
+    "sds": {
+      "long": "SDS (Same Day Service)",
+      "short": "SDS"
+    },
+    "trc": {
+      "long": "TRC (Trucking Service)",
+      "short": "TRC"
+    },
+    "tds": {
+      "long": "TDS (Two Day Service)",
+      "short": "TDS"
+    },
+    "dokumen": {
+      "long": "Dokumen (Luar Negeri)",
+      "short": "Dokumen"
+    },
+    "paket": {
+      "long": "Paket (Luar Negeri)",
+      "short": "Paket"
+    }
+  },
+  "jnt": {
+    "ez": {
+      "long": "EZ (Regular Service)",
+      "short": "EZ"
+    },
+    "jsd": {
+      "long": "JSD (Same Day Service)",
+      "short": "JSD"
+    }
+  },
+  "wahana": {
+    "normal": {
+      "long": "Normal",
+      "short": "Normal"
+    },
+    "prioritas": {
+      "long": "Prioritas",
+      "short": "Prioritas"
+    },
+    "tujuan-khusus": {
+      "long": "Tujuan Khusus",
+      "short": "Tujuan Khusus"
+    }
+  },
+  "esl": {
+    "rpx-rdx": {
+      "long": "RPX/RDX (Paket Dokumen/Barang)",
+      "short": "RPX/RDX"
+    }
+  },
+  "ncs": {
+    "nrs": {
+      "long": "NRS (Regular Service)",
+      "short": "NRS"
+    },
+    "ons": {
+      "long": "ONS (Over Night Service)",
+      "short": "ONS"
+    },
+    "sds": {
+      "long": "SDS (Same Day Service)",
+      "short": "SDS"
+    }
+  },
+  "pcp": [],
+  "rpx": {
+    "sdp": {
+      "long": "SDP (Same Day Package)",
+      "short": "SDP"
+    },
+    "mdp": {
+      "long": "MDP (Mid Day Package)",
+      "short": "MDP"
+    },
+    "ndp": {
+      "long": "NDP (Next Day Package)",
+      "short": "NDP"
+    },
+    "rgp": {
+      "long": "RGP (Regular Package)",
+      "short": "RGP"
+    },
+    "gdp": {
+      "long": "GDP (Gold Package)",
+      "short": "GDP"
+    },
+    "bnp": {
+      "long": "BNP (Birdnest Package)",
+      "short": "BNP"
+    }
+  },
+  "pandu": [],
+  "sicepat": {
+    "reg": {
+      "long": "REG (Layanan Reguler)",
+      "short": "REG"
+    },
+    "best": {
+      "long": "BEST (Besok Sampai Tujuan)",
+      "short": "BEST"
+    },
+    "cargo": {
+      "long": "Cargo",
+      "short": "Cargo"
+    }
+  },
+  "pahala": {
+    "express": {
+      "long": "Express",
+      "short": "Express"
+    },
+    "reguler": {
+      "long": "Reguler",
+      "short": "Reguler"
+    },
+    "ons": {
+      "long": "ONS (Over Night Service)",
+      "short": "ONS"
+    },
+    "sds": {
+      "long": "SDS (Same Day Service)",
+      "short": "SDS"
+    }
+  },
+  "sap": {
+    "reg": {
+      "long": "REG (Regular Service)",
+      "short": "REG"
+    },
+    "sds": {
+      "long": "SDS (Same Day Service)",
+      "short": "SDS"
+    },
+    "ods": {
+      "long": "ODS (One Day Service)",
+      "short": "ODS"
+    }
+  },
+  "jet": {
+    "crg": {
+      "long": "CRG (Cargo)",
+      "short": "CRG"
+    },
+    "reg": {
+      "long": "REG (Regular)",
+      "short": "REG"
+    },
+    "xps": {
+      "long": "XPS (Express)",
+      "short": "XPS"
+    },
+    "pri": {
+      "long": "PRI (Priority)",
+      "short": "PRI"
+    }
+  },
+  "dse": {
+    "eco": {
+      "long": "ECO (Regular Service)",
+      "short": "ECO"
+    },
+    "ons": {
+      "long": "ONS (Over Night Service)",
+      "short": "ONS"
+    },
+    "sds": {
+      "long": "SDS (Same Day Service)",
+      "short": "SDS"
+    }
+  },
+  "slis": {
+    "regular": {
+      "long": "Regular",
+      "short": "Regular"
+    },
+    "express": {
+      "long": "Express",
+      "short": "Express"
+    },
+    "package": {
+      "long": "Package (Luar Negeri)",
+      "short": "Package"
+    },
+    "cosmetic-food": {
+      "long": "Cosmetic/Food (Luar Negeri)",
+      "short": "Cosmetic/Food"
+    }
+  },
+  "expedito": {
+    "citylink": {
+      "long": "CityLink",
+      "short": "CityLink"
+    },
+    "dhl-singapore": {
+      "long": "DHL Singapore",
+      "short": "DHL Singapore"
+    },
+    "dpex": {
+      "long": "DPEX",
+      "short": "DPEX"
+    },
+    "skynet-worldwide": {
+      "long": "SkyNet Worldwide",
+      "short": "SkyNet Worldwide"
+    },
+    "tnt-fedex": {
+      "long": "TNT | Fedex",
+      "short": "TNT | Fedex"
+    },
+    "ups": {
+      "long": "UPS",
+      "short": "UPS"
+    },
+    "aramex-indonesia": {
+      "long": "ARAMEX Indonesia",
+      "short": "ARAMEX Indonesia"
+    },
+    "sf-express": {
+      "long": "SF EXPRESS",
+      "short": "SF EXPRESS"
+    }
+  },
+  "first": {
+    "reg": {
+      "long": "REG (Regular Service)",
+      "short": "REG"
+    },
+    "ons": {
+      "long": "ONS (Over Night Service)",
+      "short": "ONS"
+    },
+    "sds": {
+      "long": "SDS (Same Day Service)",
+      "short": "SDS"
+    }
+  },
+  "star": {
+    "reguler": {
+      "long": "Reguler",
+      "short": "Reguler"
+    },
+    "dokumen": {
+      "long": "Dokumen",
+      "short": "Dokumen"
+    },
+    "motor": {
+      "long": "Motor",
+      "short": "Motor"
+    },
+    "motor-150-250-cc": {
+      "long": "Motor 150-250CC",
+      "short": "Motor 150-250CC"
+    }
+  },
+  "lion": {
+    "onepack": {
+      "long": "ONEPACK (One Day Service)",
+      "short": "ONEPACK"
+    },
+    "regpack": {
+      "long": "REGPACK (Regular Service)",
+      "short": "REGPACK"
+    }
+  },
+  "ninja": {
+    "nextday": {
+      "long": "NEXTDAY (Next Day Service)",
+      "short": "NEXTDAY"
+    },
+    "standard": {
+      "long": "STANDARD (Standard Service)",
+      "short": "STANDARD"
+    }
+  },
+  "idl": {
+    "isds": {
+      "long": "iSDS (Same Day Service)",
+      "short": "iSDS"
+    },
+    "ions": {
+      "long": "iONS (One Day Service)",
+      "short": "iONS"
+    },
+    "iscf": {
+      "long": "iSCF (Special Fleet)",
+      "short": "iSCF"
+    },
+    "ireg": {
+      "long": "iREG (Regular)",
+      "short": "iREG"
+    },
+    "icon": {
+      "long": "iCon (Ekonomis)",
+      "short": "iCon"
+    }
+  },
+  "rex": {
+  	"rex-0": {
+      "long": "REX-0",
+      "short": "REX-0"
+    },
+  	"rex-1": {
+      "long": "REX-1",
+      "short": "REX-1"
+    },
+  	"rex-5": {
+      "long": "REX-5",
+      "short": "REX-5"
+    },
+  	"exp": {
+      "long": "EXPRESS",
+      "short": "EXP"
+    },
+  	"rex-10": {
+      "long": "REX-10",
+      "short": "REX-10"
+    }
+  }
+}

@@ -1,0 +1,204 @@
+{
+  "jne": {
+    "reg": {
+      "long": "REG (Layanan Reguler)",
+      "short": "REG"
+    },
+    "oke": {
+      "long": "OKE (Ongkos Kirim Ekonomis)",
+      "short": "OKE"
+    },
+    "yes": {
+      "long": "YES (Yakin Esok Sampai)",
+      "short": "YES"
+    },
+    "sps": {
+      "long": "SPS (Super Speed)",
+      "short": "SPS"
+    },
+    "ctc": {
+      "long": "CTC (City to City)",
+      "short": "CTC"
+    },
+    "ctcoke": {
+      "long": "CTCOKE (City to City OKE)",
+      "short": "CTCOKE"
+    },
+    "ctcsps": {
+      "long": "CTCSPS (City to City SPS)",
+      "short": "CTCSPS"
+    },
+    "ctcyes": {
+      "long": "CTCYES (City to City YES)",
+      "short": "CTCYES"
+    },
+    "jtr": {
+      "long": "JTR (JNE Trucking)",
+      "short": "JTR"
+    },
+    "pelik": {
+      "long": "Pelikan",
+      "short": "Pelikan"
+    },
+    "popb": {
+      "long": "Pop Box",
+      "short": "POPBOX"
+    }
+  },
+  "pos": {
+    "paket-kilat-khusus": {
+      "long": "Paket Kilat Khusus",
+      "short": "Paket Kilat Khusus"
+    },
+    "paket-jumbo-ekonomi": {
+      "long": "Paket Jumbo Ekonomi",
+      "short": "Paket Jumbo Ekonomi"
+    },
+    "express-next-day-barang": {
+      "long": "Express Next Day Barang",
+      "short": "Express Next Day Barang"
+    },
+    "express-sameday-barang": {
+      "long": "Express Sameday Barang",
+      "short": "Express Sameday Barang"
+    },
+    "paketpos-dangerous-goods": {
+      "long": "Paketpos Dangerous Goods",
+      "short": "Paketpos Dangerous Goods"
+    },
+    "paketpos-valuable-goods": {
+      "long": "Paketpos Valuable Goods",
+      "short": "Paketpos Valuable Goods"
+    },
+    "q-comm": {
+      "long": "Q-Comm",
+      "short": "Q-Comm"
+    },
+    "q9-barang": {
+      "long": "Q9 Barang",
+      "short": "Q9 Barang"
+    }
+  },
+  "tiki": {
+    "economi-service-eco": {
+      "long": "ECO (Economi Service)",
+      "short": "ECO"
+    },
+    "holiday-delivery-service-hds": {
+      "long": "HDS (Holiday Delivery Service)",
+      "short": "HDS"
+    },
+    "over-night-service-ons": {
+      "long": "ONS (Over Night Service)",
+      "short": "ONS"
+    },
+    "regular-service-reg": {
+      "long": "REG (Regular Service)",
+      "short": "REG"
+    },
+    "same-day-service-sds": {
+      "long": "SDS (Same Day Service)",
+      "short": "SDS"
+    },
+    "trc": {
+      "long": "TRC (Trucking Service)",
+      "short": "TRC"
+    },
+    "two-day-service-tds": {
+      "long": "TDS (Two Day Service)",
+      "short": "TDS"
+    }
+  },
+  "jnt": {
+    "ez": {
+      "long": "EZ (Regular Service)",
+      "short": "EZ"
+    },
+    "jsd": {
+      "long": "JSD (Same Day Service)",
+      "short": "JSD"
+    },
+    "jnd": {
+      "long": "JND (Next Day Service)",
+      "short": "JND"
+    },
+    "eco": {
+      "long": "ECO",
+      "short": "ECO"
+    }
+  },
+  "wahana": {
+    "express": {
+      "long": "Express",
+      "short": "Express"
+    },
+    "ekonomis": {
+      "long": "Ekonomis",
+      "short": "Ekonomis"
+    },
+    "popbox": {
+      "long": "PopBox",
+      "short": "PopBox"
+    },
+    "cargo": {
+      "long": "Cargo",
+      "short": "Cargo"
+    }
+  },
+  "sicepat": {
+    "reg": {
+      "long": "REG (Layanan Reguler)",
+      "short": "REG"
+    },
+    "best": {
+      "long": "BEST (Besok Sampai Tujuan)",
+      "short": "BEST"
+    },
+    "gokil": {
+      "long": "GOKIL (Cargo Kilat)",
+      "short": "GOKIL"
+    },
+    "siunt": {
+      "long": "SIUNT (Siuntung)",
+      "short": "SIUNT"
+    }
+  },
+  "lion": {
+    "regpack": {
+      "long": "REGPACK (Layanan Reguler)",
+      "short": "REGPACK"
+    },
+    "onepack": {
+      "long": "ONEPACK (One Day Service)",
+      "short": "ONEPACK"
+    },
+    "landpack": {
+      "long": "LANDPACK (Kargo Darat)",
+      "short": "LANDPACK"
+    },
+    "bigpack": {
+      "long": "BIGPACK (Kargo Darat)",
+      "short": "BIGPACK"
+    }
+  },
+  "atlas": {
+    "udara": {
+      "long": "Udara",
+      "short": "Udara"
+    }
+  },
+  "anteraja": {
+    "regular": {
+      "long": "Regular",
+      "short": "Regular"
+    },
+    "next-day": {
+      "long": "Next Day",
+      "short": "Next Day"
+    },
+    "same-day": {
+      "long": "Same Day",
+      "short": "Same Day"
+    }
+  }
+}
