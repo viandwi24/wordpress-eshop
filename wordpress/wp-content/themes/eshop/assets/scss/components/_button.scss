@@ -1,0 +1,50 @@
+// mix
+@mixin button($color1, $color2, $withHover: true, $withBorder: true) {
+    @apply px-4 py-2 font-semibold transition-all duration-300 rounded-lg;
+
+    color: $color1;
+    background: $color2;
+    cursor: pointer;
+    @if $withBorder {
+        border: 1px solid $color1;
+    }
+
+    // hover if needed
+    @if $withHover {
+        &:hover {
+            color: $color2;
+            background: $color1;
+        }
+    }
+}
+
+// button
+.#{$appName}__button {
+    // colors
+    &.primary {
+        @include button(theme('colors.clearly-white'), theme('colors.red.500'), true, false);
+    }
+    &.secondary {
+        @include button(theme('colors.primary'), theme('colors.white'));
+    }
+    // navbar colors
+    &.navbar-primary {
+        @include button(theme('colors.red.500'), theme('colors.white'), false);
+    }
+    &.navbar-secondary {
+        @include button(theme('colors.white'), theme('colors.red.500'));
+    }
+
+    // size
+    &.sm {
+        @apply px-3 py-2 text-sm;
+    }
+    &.xs {
+        @apply px-2 py-1 text-xs;
+    }
+
+    //
+    &.block {
+        @apply w-full;
+    }
+}

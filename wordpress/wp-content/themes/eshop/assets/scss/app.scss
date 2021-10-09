@@ -1,7 +1,50 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+/*!
+Theme Name:   Eshop
+Theme URI:    https://www.github.com/viandwi24
+Author:       Alfian Dwi Nugraha
+Author URI:   https://www.github.com/viandwi24
+Description:  Custom Theme For E-Commerce WordPress with WooCommerce
+Version:      1.0.0
+Tested up to: 5.8.0
+Requires PHP: 5.6.0
+License:      GNU General Public License v3 or later
+License URI:  https://www.gnu.org/licenses/gpl-3.0.html
+Text Domain:  eshop
+*/
 
-body {
-    color: red;
+// vars
+$appName: 'eshop';
+
+// 
+.eshop-container {
+    @apply container mx-auto px-4 md:px-10 2xl:px-40;
+}
+main {
+    $navbarHeight: 92px;
+    $footerHeight: 291px;
+    min-height: calc(100vh - (#{$navbarHeight} + #{$footerHeight}));
+}
+
+// components
+@import './components/button';
+
+// Navbar
+$navbarBottomHeight: 68px;
+.navbar {
+    nav.menu-top-navbar-menu-container {
+        @apply py-1;
+
+        ul {
+            @apply flex justify-end space-x-3;
+
+            li {
+                @apply text-xs;
+
+                color: theme('colors.muted');
+            }
+        }
+    }
+    #navbar-bottom {
+        min-height: $navbarBottomHeight;
+    }
 }
