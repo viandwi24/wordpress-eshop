@@ -1,0 +1,4 @@
+2021-10-11T03:46:32+00:00 CRITICAL Cannot redeclare eshop_enhancement_init() (previously declared in /var/www/html/wp-content/plugins/eshop-enhancement/eshop.php:44) in /var/www/html/wp-content/plugins/eshop-enhancement/inc/functions-admin.php on line 55
+
+2021-10-11T04:10:19+00:00 CRITICAL require_once(): Failed opening required '/var/www/html/wp-content/plugins/eshop-enhancement//views/external-shop-edit.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/eshop-enhancement/inc/functions-admin.php on line 17
+

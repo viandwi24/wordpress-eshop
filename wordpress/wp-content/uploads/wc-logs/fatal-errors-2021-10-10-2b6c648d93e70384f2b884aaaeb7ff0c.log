@@ -1,0 +1,102 @@
+2021-10-10T14:00:57+00:00 CRITICAL Uncaught Error: Call to a member function get_var() on null in /var/www/html/wp-content/plugins/eshop-enhancement/views/external-shop.php:2
+Stack trace:
+#0 /var/www/html/wp-content/plugins/eshop-enhancement/inc/functions-admin.php(5): require_once()
+#1 /var/www/html/wp-includes/class-wp-hook.php(303): eshop_enhancement_external_shop_page('')
+#2 /var/www/html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#3 /var/www/html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#4 /var/www/html/wp-admin/admin.php(259): do_action('woocommerce_pag...')
+#5 {main}
+  thrown in /var/www/html/wp-content/plugins/eshop-enhancement/views/external-shop.php on line 2
+
+2021-10-10T14:01:14+00:00 CRITICAL Uncaught Error: Call to a member function get_var() on null in /var/www/html/wp-content/plugins/eshop-enhancement/views/external-shop.php:3
+Stack trace:
+#0 /var/www/html/wp-content/plugins/eshop-enhancement/inc/functions-admin.php(5): require_once()
+#1 /var/www/html/wp-includes/class-wp-hook.php(303): eshop_enhancement_external_shop_page('')
+#2 /var/www/html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#3 /var/www/html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#4 /var/www/html/wp-admin/admin.php(259): do_action('woocommerce_pag...')
+#5 {main}
+  thrown in /var/www/html/wp-content/plugins/eshop-enhancement/views/external-shop.php on line 3
+
+2021-10-10T14:01:17+00:00 CRITICAL Uncaught Error: Call to a member function get_var() on null in /var/www/html/wp-content/plugins/eshop-enhancement/views/external-shop.php:3
+Stack trace:
+#0 /var/www/html/wp-content/plugins/eshop-enhancement/inc/functions-admin.php(5): require_once()
+#1 /var/www/html/wp-includes/class-wp-hook.php(303): eshop_enhancement_external_shop_page('')
+#2 /var/www/html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#3 /var/www/html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#4 /var/www/html/wp-admin/admin.php(259): do_action('woocommerce_pag...')
+#5 {main}
+  thrown in /var/www/html/wp-content/plugins/eshop-enhancement/views/external-shop.php on line 3
+
+2021-10-10T15:19:08+00:00 CRITICAL Uncaught Error: Call to a member function get_results() on null in /var/www/html/wp-content/plugins/eshop-enhancement/views/external-shop.php:22
+Stack trace:
+#0 /var/www/html/wp-content/plugins/eshop-enhancement/inc/functions-admin.php(5): require_once()
+#1 /var/www/html/wp-includes/class-wp-hook.php(303): eshop_enhancement_external_shop_page('')
+#2 /var/www/html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#3 /var/www/html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#4 /var/www/html/wp-admin/admin.php(259): do_action('woocommerce_pag...')
+#5 {main}
+  thrown in /var/www/html/wp-content/plugins/eshop-enhancement/views/external-shop.php on line 22
+
+2021-10-10T15:19:26+00:00 CRITICAL Uncaught Error: Call to a member function get_results() on null in /var/www/html/wp-content/plugins/eshop-enhancement/views/external-shop.php:22
+Stack trace:
+#0 /var/www/html/wp-content/plugins/eshop-enhancement/inc/functions-admin.php(5): require_once()
+#1 /var/www/html/wp-includes/class-wp-hook.php(303): eshop_enhancement_external_shop_page('')
+#2 /var/www/html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#3 /var/www/html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#4 /var/www/html/wp-admin/admin.php(259): do_action('woocommerce_pag...')
+#5 {main}
+  thrown in /var/www/html/wp-content/plugins/eshop-enhancement/views/external-shop.php on line 22
+
+2021-10-10T15:19:42+00:00 CRITICAL Uncaught Error: Call to a member function get_results() on null in /var/www/html/wp-content/plugins/eshop-enhancement/views/external-shop.php:22
+Stack trace:
+#0 /var/www/html/wp-content/plugins/eshop-enhancement/inc/functions-admin.php(5): require_once()
+#1 /var/www/html/wp-includes/class-wp-hook.php(303): eshop_enhancement_external_shop_page('')
+#2 /var/www/html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#3 /var/www/html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#4 /var/www/html/wp-admin/admin.php(259): do_action('woocommerce_pag...')
+#5 {main}
+  thrown in /var/www/html/wp-content/plugins/eshop-enhancement/views/external-shop.php on line 22
+
+2021-10-10T15:19:44+00:00 CRITICAL Uncaught Error: Call to a member function get_results() on null in /var/www/html/wp-content/plugins/eshop-enhancement/views/external-shop.php:22
+Stack trace:
+#0 /var/www/html/wp-content/plugins/eshop-enhancement/inc/functions-admin.php(5): require_once()
+#1 /var/www/html/wp-includes/class-wp-hook.php(303): eshop_enhancement_external_shop_page('')
+#2 /var/www/html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#3 /var/www/html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#4 /var/www/html/wp-admin/admin.php(259): do_action('woocommerce_pag...')
+#5 {main}
+  thrown in /var/www/html/wp-content/plugins/eshop-enhancement/views/external-shop.php on line 22
+
+2021-10-10T15:20:16+00:00 CRITICAL Uncaught Error: Call to a member function get_results() on null in /var/www/html/wp-content/plugins/eshop-enhancement/views/external-shop.php:22
+Stack trace:
+#0 /var/www/html/wp-content/plugins/eshop-enhancement/inc/functions-admin.php(5): require_once()
+#1 /var/www/html/wp-includes/class-wp-hook.php(303): eshop_enhancement_external_shop_page('')
+#2 /var/www/html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#3 /var/www/html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#4 /var/www/html/wp-admin/admin.php(259): do_action('woocommerce_pag...')
+#5 {main}
+  thrown in /var/www/html/wp-content/plugins/eshop-enhancement/views/external-shop.php on line 22
+
+2021-10-10T15:20:22+00:00 CRITICAL Uncaught Error: Call to a member function get_results() on null in /var/www/html/wp-content/plugins/eshop-enhancement/views/external-shop.php:22
+Stack trace:
+#0 /var/www/html/wp-content/plugins/eshop-enhancement/inc/functions-admin.php(5): require_once()
+#1 /var/www/html/wp-includes/class-wp-hook.php(303): eshop_enhancement_external_shop_page('')
+#2 /var/www/html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#3 /var/www/html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#4 /var/www/html/wp-admin/admin.php(259): do_action('woocommerce_pag...')
+#5 {main}
+  thrown in /var/www/html/wp-content/plugins/eshop-enhancement/views/external-shop.php on line 22
+
+2021-10-10T15:20:35+00:00 CRITICAL Uncaught Error: Call to a member function get_results() on null in /var/www/html/wp-content/plugins/eshop-enhancement/views/external-shop.php:22
+Stack trace:
+#0 /var/www/html/wp-content/plugins/eshop-enhancement/inc/functions-admin.php(5): require_once()
+#1 /var/www/html/wp-includes/class-wp-hook.php(303): eshop_enhancement_external_shop_page('')
+#2 /var/www/html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#3 /var/www/html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#4 /var/www/html/wp-admin/admin.php(259): do_action('woocommerce_pag...')
+#5 {main}
+  thrown in /var/www/html/wp-content/plugins/eshop-enhancement/views/external-shop.php on line 22
+
+2021-10-10T15:50:25+00:00 CRITICAL require_once(): Failed opening required '/var/www/html/wp-content/plugins/eshop-enhancement//views/external-shop-create.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/eshop-enhancement/inc/functions-admin.php on line 16
+

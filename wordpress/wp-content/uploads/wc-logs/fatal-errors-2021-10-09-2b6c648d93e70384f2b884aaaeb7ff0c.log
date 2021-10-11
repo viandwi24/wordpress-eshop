@@ -1,0 +1,342 @@
+2021-10-09T11:39:59+00:00 CRITICAL Uncaught Error: Call to undefined function add_dashboard_page() in /var/www/html/wp-content/plugins/eshop-enhancement/eshop.php:39
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(303): eshop_enhancement_init('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-settings.php(441): do_action('plugins_loaded')
+#4 /var/www/html/wp-config.php(133): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#7 /var/www/html/index.php(17): require('/var/www/html/w...')
+#8 {main}
+  thrown in /var/www/html/wp-content/plugins/eshop-enhancement/eshop.php on line 39
+
+2021-10-09T11:40:12+00:00 CRITICAL Uncaught Error: Call to undefined function add_dashboard_page() in /var/www/html/wp-content/plugins/eshop-enhancement/eshop.php:39
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(303): eshop_enhancement_init('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-settings.php(441): do_action('plugins_loaded')
+#4 /var/www/html/wp-config.php(133): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#7 /var/www/html/index.php(17): require('/var/www/html/w...')
+#8 {main}
+  thrown in /var/www/html/wp-content/plugins/eshop-enhancement/eshop.php on line 39
+
+2021-10-09T11:40:12+00:00 CRITICAL Uncaught Error: Call to undefined function add_dashboard_page() in /var/www/html/wp-content/plugins/eshop-enhancement/eshop.php:39
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(303): eshop_enhancement_init('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-settings.php(441): do_action('plugins_loaded')
+#4 /var/www/html/wp-config.php(133): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#7 /var/www/html/index.php(17): require('/var/www/html/w...')
+#8 {main}
+  thrown in /var/www/html/wp-content/plugins/eshop-enhancement/eshop.php on line 39
+
+2021-10-09T11:40:12+00:00 CRITICAL Uncaught Error: Call to undefined function add_dashboard_page() in /var/www/html/wp-content/plugins/eshop-enhancement/eshop.php:39
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(303): eshop_enhancement_init('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-settings.php(441): do_action('plugins_loaded')
+#4 /var/www/html/wp-config.php(133): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#7 /var/www/html/index.php(17): require('/var/www/html/w...')
+#8 {main}
+  thrown in /var/www/html/wp-content/plugins/eshop-enhancement/eshop.php on line 39
+
+2021-10-09T11:40:12+00:00 CRITICAL Uncaught Error: Call to undefined function add_dashboard_page() in /var/www/html/wp-content/plugins/eshop-enhancement/eshop.php:39
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(303): eshop_enhancement_init('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-settings.php(441): do_action('plugins_loaded')
+#4 /var/www/html/wp-config.php(133): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#7 /var/www/html/index.php(17): require('/var/www/html/w...')
+#8 {main}
+  thrown in /var/www/html/wp-content/plugins/eshop-enhancement/eshop.php on line 39
+
+2021-10-09T11:40:12+00:00 CRITICAL Uncaught Error: Call to undefined function add_dashboard_page() in /var/www/html/wp-content/plugins/eshop-enhancement/eshop.php:39
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(303): eshop_enhancement_init('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-settings.php(441): do_action('plugins_loaded')
+#4 /var/www/html/wp-config.php(133): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#7 /var/www/html/index.php(17): require('/var/www/html/w...')
+#8 {main}
+  thrown in /var/www/html/wp-content/plugins/eshop-enhancement/eshop.php on line 39
+
+2021-10-09T11:40:12+00:00 CRITICAL Uncaught Error: Call to undefined function add_dashboard_page() in /var/www/html/wp-content/plugins/eshop-enhancement/eshop.php:39
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(303): eshop_enhancement_init('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-settings.php(441): do_action('plugins_loaded')
+#4 /var/www/html/wp-config.php(133): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#7 /var/www/html/index.php(17): require('/var/www/html/w...')
+#8 {main}
+  thrown in /var/www/html/wp-content/plugins/eshop-enhancement/eshop.php on line 39
+
+2021-10-09T11:40:12+00:00 CRITICAL Uncaught Error: Call to undefined function add_dashboard_page() in /var/www/html/wp-content/plugins/eshop-enhancement/eshop.php:39
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(303): eshop_enhancement_init('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-settings.php(441): do_action('plugins_loaded')
+#4 /var/www/html/wp-config.php(133): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#7 /var/www/html/index.php(17): require('/var/www/html/w...')
+#8 {main}
+  thrown in /var/www/html/wp-content/plugins/eshop-enhancement/eshop.php on line 39
+
+2021-10-09T11:40:12+00:00 CRITICAL Uncaught Error: Call to undefined function add_dashboard_page() in /var/www/html/wp-content/plugins/eshop-enhancement/eshop.php:39
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(303): eshop_enhancement_init('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-settings.php(441): do_action('plugins_loaded')
+#4 /var/www/html/wp-config.php(133): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#7 /var/www/html/index.php(17): require('/var/www/html/w...')
+#8 {main}
+  thrown in /var/www/html/wp-content/plugins/eshop-enhancement/eshop.php on line 39
+
+2021-10-09T11:40:12+00:00 CRITICAL Uncaught Error: Call to undefined function add_dashboard_page() in /var/www/html/wp-content/plugins/eshop-enhancement/eshop.php:39
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(303): eshop_enhancement_init('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-settings.php(441): do_action('plugins_loaded')
+#4 /var/www/html/wp-config.php(133): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#7 /var/www/html/index.php(17): require('/var/www/html/w...')
+#8 {main}
+  thrown in /var/www/html/wp-content/plugins/eshop-enhancement/eshop.php on line 39
+
+2021-10-09T11:40:12+00:00 CRITICAL Uncaught Error: Call to undefined function add_dashboard_page() in /var/www/html/wp-content/plugins/eshop-enhancement/eshop.php:39
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(303): eshop_enhancement_init('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-settings.php(441): do_action('plugins_loaded')
+#4 /var/www/html/wp-config.php(133): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#7 /var/www/html/index.php(17): require('/var/www/html/w...')
+#8 {main}
+  thrown in /var/www/html/wp-content/plugins/eshop-enhancement/eshop.php on line 39
+
+2021-10-09T11:40:12+00:00 CRITICAL Uncaught Error: Call to undefined function add_dashboard_page() in /var/www/html/wp-content/plugins/eshop-enhancement/eshop.php:39
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(303): eshop_enhancement_init('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-settings.php(441): do_action('plugins_loaded')
+#4 /var/www/html/wp-config.php(133): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#7 /var/www/html/index.php(17): require('/var/www/html/w...')
+#8 {main}
+  thrown in /var/www/html/wp-content/plugins/eshop-enhancement/eshop.php on line 39
+
+2021-10-09T11:40:12+00:00 CRITICAL Uncaught Error: Call to undefined function add_dashboard_page() in /var/www/html/wp-content/plugins/eshop-enhancement/eshop.php:39
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(303): eshop_enhancement_init('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-settings.php(441): do_action('plugins_loaded')
+#4 /var/www/html/wp-config.php(133): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#7 /var/www/html/index.php(17): require('/var/www/html/w...')
+#8 {main}
+  thrown in /var/www/html/wp-content/plugins/eshop-enhancement/eshop.php on line 39
+
+2021-10-09T11:40:12+00:00 CRITICAL Uncaught Error: Call to undefined function add_dashboard_page() in /var/www/html/wp-content/plugins/eshop-enhancement/eshop.php:39
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(303): eshop_enhancement_init('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-settings.php(441): do_action('plugins_loaded')
+#4 /var/www/html/wp-config.php(133): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#7 /var/www/html/index.php(17): require('/var/www/html/w...')
+#8 {main}
+  thrown in /var/www/html/wp-content/plugins/eshop-enhancement/eshop.php on line 39
+
+2021-10-09T11:40:12+00:00 CRITICAL Uncaught Error: Call to undefined function add_dashboard_page() in /var/www/html/wp-content/plugins/eshop-enhancement/eshop.php:39
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(303): eshop_enhancement_init('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-settings.php(441): do_action('plugins_loaded')
+#4 /var/www/html/wp-config.php(133): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#7 /var/www/html/index.php(17): require('/var/www/html/w...')
+#8 {main}
+  thrown in /var/www/html/wp-content/plugins/eshop-enhancement/eshop.php on line 39
+
+2021-10-09T11:40:15+00:00 CRITICAL Uncaught Error: Call to undefined function add_dashboard_page() in /var/www/html/wp-content/plugins/eshop-enhancement/eshop.php:39
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(303): eshop_enhancement_init('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-settings.php(441): do_action('plugins_loaded')
+#4 /var/www/html/wp-config.php(133): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#7 /var/www/html/index.php(17): require('/var/www/html/w...')
+#8 {main}
+  thrown in /var/www/html/wp-content/plugins/eshop-enhancement/eshop.php on line 39
+
+2021-10-09T11:41:09+00:00 CRITICAL Uncaught Error: Call to undefined function add_dashboard_page() in /var/www/html/wp-content/plugins/eshop-enhancement/eshop.php:39
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(303): eshop_enhancement_init('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-settings.php(441): do_action('plugins_loaded')
+#4 /var/www/html/wp-config.php(133): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#7 /var/www/html/index.php(17): require('/var/www/html/w...')
+#8 {main}
+  thrown in /var/www/html/wp-content/plugins/eshop-enhancement/eshop.php on line 39
+
+2021-10-09T11:41:13+00:00 CRITICAL Uncaught Error: Call to undefined function add_dashboard_page() in /var/www/html/wp-content/plugins/eshop-enhancement/eshop.php:39
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(303): eshop_enhancement_init('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-settings.php(441): do_action('plugins_loaded')
+#4 /var/www/html/wp-config.php(133): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#7 /var/www/html/index.php(17): require('/var/www/html/w...')
+#8 {main}
+  thrown in /var/www/html/wp-content/plugins/eshop-enhancement/eshop.php on line 39
+
+2021-10-09T11:41:14+00:00 CRITICAL Uncaught Error: Call to undefined function add_dashboard_page() in /var/www/html/wp-content/plugins/eshop-enhancement/eshop.php:39
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(303): eshop_enhancement_init('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-settings.php(441): do_action('plugins_loaded')
+#4 /var/www/html/wp-config.php(133): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#7 /var/www/html/index.php(17): require('/var/www/html/w...')
+#8 {main}
+  thrown in /var/www/html/wp-content/plugins/eshop-enhancement/eshop.php on line 39
+
+2021-10-09T11:41:37+00:00 CRITICAL Uncaught Error: Call to undefined function add_dashboard_page() in /var/www/html/wp-content/plugins/eshop-enhancement/eshop.php:39
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(303): eshop_enhancement_init('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-settings.php(441): do_action('plugins_loaded')
+#4 /var/www/html/wp-config.php(133): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#7 /var/www/html/index.php(17): require('/var/www/html/w...')
+#8 {main}
+  thrown in /var/www/html/wp-content/plugins/eshop-enhancement/eshop.php on line 39
+
+2021-10-09T11:41:53+00:00 CRITICAL Uncaught Error: Call to undefined function add_dashboard_page() in /var/www/html/wp-content/plugins/eshop-enhancement/eshop.php:39
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(303): eshop_enhancement_init('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-settings.php(441): do_action('plugins_loaded')
+#4 /var/www/html/wp-config.php(133): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#7 /var/www/html/index.php(17): require('/var/www/html/w...')
+#8 {main}
+  thrown in /var/www/html/wp-content/plugins/eshop-enhancement/eshop.php on line 39
+
+2021-10-09T11:49:08+00:00 CRITICAL syntax error, unexpected end of file in /var/www/html/wp-content/plugins/eshop-enhancement/inc/functions-admin.php on line 2
+
+2021-10-09T11:49:08+00:00 CRITICAL syntax error, unexpected end of file in /var/www/html/wp-content/plugins/eshop-enhancement/inc/functions-admin.php on line 2
+
+2021-10-09T12:00:29+00:00 CRITICAL Uncaught Error: Object of class Closure could not be converted to string in /var/www/html/wp-includes/functions.php:2125
+Stack trace:
+#0 /var/www/html/wp-includes/functions.php(2125): str_replace('\\', '/', Object(Closure))
+#1 /var/www/html/wp-includes/plugin.php(706): wp_normalize_path(Object(Closure))
+#2 /var/www/html/wp-admin/includes/plugin.php(1388): plugin_basename(Object(Closure))
+#3 /var/www/html/wp-content/plugins/eshop-enhancement/inc/functions-admin.php(12): add_submenu_page('woocommerce', 'External Shop', 'External Shop', 'manage_options', Object(Closure), 'eshop_enhanceme...')
+#4 /var/www/html/wp-includes/class-wp-hook.php(303): eshop_enhancement_menu('')
+#5 /var/www/html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#7 /var/www/html/wp-admin/includes/menu.php(155): do_action('admin_menu', '')
+#8 /var/www/html/wp-admin/menu.php(341): require_once('/var/www/html/w...')
+#9 /var/www/html/wp-admin/admin. in /var/www/html/wp-includes/functions.php on line 2125
+
+2021-10-09T12:00:34+00:00 CRITICAL Uncaught Error: Object of class Closure could not be converted to string in /var/www/html/wp-includes/functions.php:2125
+Stack trace:
+#0 /var/www/html/wp-includes/functions.php(2125): str_replace('\\', '/', Object(Closure))
+#1 /var/www/html/wp-includes/plugin.php(706): wp_normalize_path(Object(Closure))
+#2 /var/www/html/wp-admin/includes/plugin.php(1388): plugin_basename(Object(Closure))
+#3 /var/www/html/wp-content/plugins/eshop-enhancement/inc/functions-admin.php(12): add_submenu_page('woocommerce', 'External Shop', 'External Shop', 'manage_options', Object(Closure), 'eshop_enhanceme...')
+#4 /var/www/html/wp-includes/class-wp-hook.php(303): eshop_enhancement_menu('')
+#5 /var/www/html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#7 /var/www/html/wp-admin/includes/menu.php(155): do_action('admin_menu', '')
+#8 /var/www/html/wp-admin/menu.php(341): require_once('/var/www/html/w...')
+#9 /var/www/html/wp-admin/admin. in /var/www/html/wp-includes/functions.php on line 2125
+
+2021-10-09T12:00:35+00:00 CRITICAL Uncaught Error: Object of class Closure could not be converted to string in /var/www/html/wp-includes/functions.php:2125
+Stack trace:
+#0 /var/www/html/wp-includes/functions.php(2125): str_replace('\\', '/', Object(Closure))
+#1 /var/www/html/wp-includes/plugin.php(706): wp_normalize_path(Object(Closure))
+#2 /var/www/html/wp-admin/includes/plugin.php(1388): plugin_basename(Object(Closure))
+#3 /var/www/html/wp-content/plugins/eshop-enhancement/inc/functions-admin.php(12): add_submenu_page('woocommerce', 'External Shop', 'External Shop', 'manage_options', Object(Closure), 'eshop_enhanceme...')
+#4 /var/www/html/wp-includes/class-wp-hook.php(303): eshop_enhancement_menu('')
+#5 /var/www/html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#7 /var/www/html/wp-admin/includes/menu.php(155): do_action('admin_menu', '')
+#8 /var/www/html/wp-admin/menu.php(341): require_once('/var/www/html/w...')
+#9 /var/www/html/wp-admin/admin. in /var/www/html/wp-includes/functions.php on line 2125
+
+2021-10-09T12:02:00+00:00 CRITICAL Uncaught Error: Object of class Closure could not be converted to string in /var/www/html/wp-includes/functions.php:2125
+Stack trace:
+#0 /var/www/html/wp-includes/functions.php(2125): str_replace('\\', '/', Object(Closure))
+#1 /var/www/html/wp-includes/plugin.php(706): wp_normalize_path(Object(Closure))
+#2 /var/www/html/wp-admin/includes/plugin.php(1388): plugin_basename(Object(Closure))
+#3 /var/www/html/wp-content/plugins/eshop-enhancement/inc/functions-admin.php(19): add_submenu_page('woocommerce', 'External Shop', 'External Shop', 'manage_options', Object(Closure), 'eshop_enhanceme...')
+#4 /var/www/html/wp-includes/class-wp-hook.php(303): eshop_enhancement_menu('')
+#5 /var/www/html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#7 /var/www/html/wp-admin/includes/menu.php(155): do_action('admin_menu', '')
+#8 /var/www/html/wp-admin/menu.php(341): require_once('/var/www/html/w...')
+#9 /var/www/html/wp-admin/admin. in /var/www/html/wp-includes/functions.php on line 2125
+
+2021-10-09T12:02:09+00:00 CRITICAL Uncaught Error: Object of class Closure could not be converted to string in /var/www/html/wp-includes/functions.php:2125
+Stack trace:
+#0 /var/www/html/wp-includes/functions.php(2125): str_replace('\\', '/', Object(Closure))
+#1 /var/www/html/wp-includes/plugin.php(706): wp_normalize_path(Object(Closure))
+#2 /var/www/html/wp-admin/includes/plugin.php(1388): plugin_basename(Object(Closure))
+#3 /var/www/html/wp-content/plugins/eshop-enhancement/inc/functions-admin.php(19): add_submenu_page('woocommerce', 'External Shop', 'External Shop', 'manage_options', Object(Closure), 'eshop_enhanceme...')
+#4 /var/www/html/wp-includes/class-wp-hook.php(303): eshop_enhancement_menu('')
+#5 /var/www/html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#7 /var/www/html/wp-admin/includes/menu.php(155): do_action('admin_menu', '')
+#8 /var/www/html/wp-admin/menu.php(341): require_once('/var/www/html/w...')
+#9 /var/www/html/wp-admin/admin. in /var/www/html/wp-includes/functions.php on line 2125
+

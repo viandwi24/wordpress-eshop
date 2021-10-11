@@ -1,0 +1,51 @@
+// woocomerce
+.woocommerce {
+    .product {
+        .summary {
+            & > .title {
+                font-size: 2rem;
+                font-weight: 700;
+                line-height: 1.5;
+                margin-bottom: 0.5rem;
+                color: theme('colors.black');
+            }
+            .price {
+                font-size: 1.5rem;
+                font-weight: 700;
+            }
+            .woocommerce-product-details__short-description {
+                color: theme('colors.black');
+            }
+            .cart {
+                margin-top: 1rem;
+                margin-bottom: 1rem;
+                .quantity {
+                    display: none;
+                }
+                .button {
+                    width: 100%;
+                }
+            }
+            .product_meta {
+                color: theme('colors.black');
+                .external_shop {
+                    margin-top: .25rem;
+                    .title {
+                        margin-bottom: .5rem;
+                        color: theme('colors.black');
+                    }
+                    .items {
+                        a {
+                            display: inline-block;
+                            img {
+                                display: inline-block;
+                                width: 2.5rem;
+                                height: 2.5rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
