@@ -175,6 +175,84 @@ main {
   width: 100%;
 }
 
+#categories.owl-carousel {
+  border-radius: 0.7rem;
+  overflow: hidden;
+}
+
+#categories.owl-carousel .item {
+  margin-right: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+#categories.owl-carousel .item img {
+  display: inline-block;
+  height: 100px;
+  /* width: 188px;
+  height: 188px; */
+}
+
+#banner.owl-carousel {
+  border-radius: 0.7rem;
+  overflow: hidden;
+}
+
+#banner.owl-carousel .item img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+#banner.owl-carousel .owl-dots {
+  position: absolute;
+  bottom: 0;
+  margin-left: 0.5rem;
+  margin-bottom: 0.2rem;
+}
+
+#banner.owl-carousel .owl-dots button span {
+  width: 7px;
+  height: 7px;
+  margin: 3px 4px;
+}
+
+#banner.owl-carousel .owl-nav {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  transform: translateY(-50%);
+}
+
+#banner.owl-carousel .owl-nav button {
+  position: absolute;
+  transform: translateY(-50%);
+  background: #fff;
+  width: 2rem;
+  height: 2rem;
+  cursor: pointer;
+  border-radius: 50%;
+  box-shadow: 0 0.1rem 0.2rem rgba(0, 0, 0, 0.5);
+}
+
+#banner.owl-carousel .owl-nav button span {
+  font-size: 1rem;
+}
+
+#banner.owl-carousel .owl-nav button span:hover,
+#banner.owl-carousel .owl-nav button:hover {
+  color: #000 !important;
+}
+
+#banner.owl-carousel .owl-nav .owl-prev {
+  left: 0;
+}
+
+#banner.owl-carousel .owl-nav .owl-next {
+  right: 0;
+}
+
 .woocommerce .product .summary > .title {
   font-size: 2rem;
   font-weight: 700;
@@ -252,4 +330,14 @@ main {
 
 .navbar #navbar-bottom {
   min-height: 68px;
+}
+
+.navbar .custom-logo-link {
+  align-self: center;
+}
+
+.navbar .custom-logo {
+  height: 32px;
+  width: auto;
+  align-self: center;
 }

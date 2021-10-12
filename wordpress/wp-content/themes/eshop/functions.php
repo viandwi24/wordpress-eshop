@@ -13,7 +13,10 @@ require_once __DIR__ . '/inc/global.functions.php';
  * Setup Theme
  */
 function eshop_setup() {
-    // add_theme_support('menus');
+    add_theme_support('menus');
+    add_theme_support('title-tag');
+    add_theme_support('woocommerce');
+    add_theme_support('custom-logo');
 }
 add_action('after_setup_theme', 'eshop_setup');
 
@@ -21,7 +24,7 @@ add_action('after_setup_theme', 'eshop_setup');
  * Register 
  */
 function eshop_register() {
-    $plugin_path = trailingslashit( WP_PLUGIN_DIR ) . 'woocommerce/woocommerce.php';
+    // $plugin_path = trailingslashit( WP_PLUGIN_DIR ) . 'woocommerce/woocommerce.php';
     register_nav_menu('navbar-top-menu', 'Top Navbar Menu');
 }
 add_action('init', 'eshop_register');
@@ -40,11 +43,21 @@ function eshop_setup_style_scripts() {
         'eshop-vendor-script' => eshop_assets('vendor/fontawesome/js/fontawesome.min.js'),
         'eshop-script' => eshop_asset('js/app.js'),
     ];
+
+    // 
+    if (is_home()) {
+        $styles['eshop-owl-carousel'] = eshop_assets('vendor/owl-carousel/dist/assets/owl.carousel.min.css');
+        $styles['eshop-owl-theme'] = eshop_assets('vendor/owl-carousel/dist/assets/owl.theme.default.min.css');
+        $scripts['eshop-owl-carousel'] = eshop_assets('vendor/owl-carousel/dist/owl.carousel.min.js');
+    }
+
+
+    // 
     foreach ($styles as $key => $style) {
         wp_enqueue_style($key, $style, [], ESHOP_VERSION);
     }
     foreach ($scripts as $key => $script) {
-        wp_enqueue_script($key, $script, [], ESHOP_VERSION, true);
+        wp_enqueue_script($key, $script, ['jquery'], ESHOP_VERSION, true);
     }    
 }
 add_action('wp_enqueue_scripts', 'eshop_setup_style_scripts');

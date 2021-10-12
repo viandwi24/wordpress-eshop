@@ -29,7 +29,8 @@ main {
 @import './components/button';
 
 // pages
-@import './pages//product';
+@import './pages/home';
+@import './pages/product';
 
 // Navbar
 $navbarBottomHeight: 68px;
@@ -49,5 +50,13 @@ $navbarBottomHeight: 68px;
     }
     #navbar-bottom {
         min-height: $navbarBottomHeight;
+    }
+    .custom-logo-link {
+        align-self: center;
+    }
+    .custom-logo {
+        height: 32px;
+        width: auto;
+        align-self: center;
     }
 }
