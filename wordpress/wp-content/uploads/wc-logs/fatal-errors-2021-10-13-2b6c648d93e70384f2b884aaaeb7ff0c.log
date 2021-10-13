@@ -1,0 +1,16 @@
+2021-10-13T05:20:04+00:00 CRITICAL Uncaught Error: Object of class WP_Post could not be converted to string in /var/www/html/wp-content/themes/eshop/index.php:32
+Stack trace:
+#0 /var/www/html/wp-includes/template-loader.php(106): include()
+#1 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#2 /var/www/html/index.php(17): require('/var/www/html/w...')
+#3 {main}
+  thrown in /var/www/html/wp-content/themes/eshop/index.php on line 32
+
+2021-10-13T05:40:44+00:00 CRITICAL Uncaught Error: Object of class WP_Post could not be converted to string in /var/www/html/wp-content/themes/eshop/index.php:53
+Stack trace:
+#0 /var/www/html/wp-includes/template-loader.php(106): include()
+#1 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#2 /var/www/html/index.php(17): require('/var/www/html/w...')
+#3 {main}
+  thrown in /var/www/html/wp-content/themes/eshop/index.php on line 53
+

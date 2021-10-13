@@ -6,3 +6,6 @@ function eshop_config($key) {
     ];
 	return apply_filters('eshop_config', $defaultConfig[$key], $key, $defaultConfig);
 }
+function money($value){
+	return "Rp " . number_format($value, 0,',','.');
+}
