@@ -59,16 +59,28 @@
 					</li>
 				@endauth
 				@guest('customer') -->
-				<li>
-					<a href="<?= esc_url(home_url('/my-account')) ?>" class="eshop__button sm navbar-secondary">
-						Register
-					</a>
-				</li>
-				<li>
-					<a href="<?= esc_url(home_url('/my-account')) ?>" class="eshop__button sm navbar-primary">
-					Login
-					</a>
-				</li>
+				<?php
+				$current_user = wp_get_current_user();
+				if(is_user_logged_in()):
+				?>
+					<li>
+						<a href="<?= esc_url(home_url('/my-account')) ?>">
+							<i class="fa fa-user mr-1"></i>
+							<?= $current_user->display_name; ?>
+						</a>
+					</li>
+				<?php else: ?>
+					<li>
+						<a href="<?= esc_url(home_url('/my-account')) ?>" class="eshop__button sm navbar-secondary">
+							Register
+						</a>
+					</li>
+					<li>
+						<a href="<?= esc_url(home_url('/my-account')) ?>" class="eshop__button sm navbar-primary">
+						Login
+						</a>
+					</li>
+				<?php endif ?>
 			</ul>
 		</div>
 	</div>

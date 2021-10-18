@@ -41,6 +41,7 @@ require_once ESHOP_ENHANCEMENT_PLUGIN_PATH . '/inc/functions.php';
 
 // init.
 function eshop_enhancement_init() {
+	require_once ESHOP_ENHANCEMENT_PLUGIN_PATH . '/inc/page-admin.php';
 	require_once ESHOP_ENHANCEMENT_PLUGIN_PATH . '/inc/functions-admin.php';
 	require_once ESHOP_ENHANCEMENT_PLUGIN_PATH . '/inc/product-custom-tab.php';
 	require_once ESHOP_ENHANCEMENT_PLUGIN_PATH . '/inc/product-display.php';
@@ -48,6 +49,13 @@ function eshop_enhancement_init() {
 
 // table
 function eshop_enhancement_on_activate() {
+	eshop_enhancement_init_table_external_shop();
+	eshop_enhancement_init_table_social_media();
+}
+register_activation_hook(__FILE__, 'eshop_enhancement_on_activate');
+
+// 
+function eshop_enhancement_init_table_external_shop() {
 	global $wpdb;
 	$table_name = eshop_config('external_shop_table_name');
 	$sql = "CREATE TABLE `$table_name` (
@@ -62,4 +70,18 @@ function eshop_enhancement_on_activate() {
 		dbDelta($sql);
 	}
 }
-register_activation_hook(__FILE__, 'eshop_enhancement_on_activate');
+function eshop_enhancement_init_table_social_media() {
+	global $wpdb;
+	$table_name = eshop_config('social_media_table_name');
+	$sql = "CREATE TABLE `$table_name` (
+		`social_media_id` INT NOT NULL AUTO_INCREMENT,
+		`social_media_name` VARCHAR(255),
+		`social_media_link` VARCHAR(255),
+		`social_media_logo` VARCHAR(255),
+		PRIMARY KEY (`social_media_id`)
+	) ENGINE=InnoDB";
+	if ($wpdb->get_var("SHOW TABLES LIKE '$table_name'") != $table_name) {
+		require_once(ABSPATH . '/wp-admin/includes/upgrade.php');
+		dbDelta($sql);
+	}
+}

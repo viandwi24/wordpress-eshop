@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700;900&display=swap');
+
 /*!
 Theme Name:   Eshop
 Theme URI:    https://www.github.com/viandwi24
@@ -28,10 +30,17 @@ main {
 // components
 @import './components/button';
 @import './components/card';
+@import './components/input';
 
 // pages
 @import './pages/home';
 @import './pages/product';
+@import './pages/myaccount';
+
+// 
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
 
 // Navbar
 $navbarBottomHeight: 68px;

@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700;900&display=swap);
 /*!
 Theme Name:   Eshop
 Theme URI:    https://www.github.com/viandwi24
@@ -16,52 +17,52 @@ Text Domain:  eshop
   width: 100%;
 }
 
-@media (min-width: 640px) {
-  .eshop-container {
+@media (min-width: 640px){
+  .eshop-container{
     max-width: 640px;
   }
 }
 
-@media (min-width: 768px) {
-  .eshop-container {
+@media (min-width: 768px){
+  .eshop-container{
     max-width: 768px;
   }
 }
 
-@media (min-width: 1024px) {
-  .eshop-container {
+@media (min-width: 1024px){
+  .eshop-container{
     max-width: 1024px;
   }
 }
 
-@media (min-width: 1280px) {
-  .eshop-container {
+@media (min-width: 1280px){
+  .eshop-container{
     max-width: 1280px;
   }
 }
 
-@media (min-width: 1536px) {
-  .eshop-container {
+@media (min-width: 1536px){
+  .eshop-container{
     max-width: 1536px;
   }
 }
 
-.eshop-container {
+.eshop-container{
   margin-left: auto;
   margin-right: auto;
   padding-left: 1rem;
   padding-right: 1rem;
 }
 
-@media (min-width: 768px) {
-  .eshop-container {
+@media (min-width: 768px){
+  .eshop-container{
     padding-left: 2.5rem;
     padding-right: 2.5rem;
   }
 }
 
-@media (min-width: 1536px) {
-  .eshop-container {
+@media (min-width: 1536px){
+  .eshop-container{
     padding-left: 10rem;
     padding-right: 10rem;
   }
@@ -246,6 +247,47 @@ main {
   transform: scale(1.05);
 }
 
+.woocommerce-Input.input-text {
+  width: 100%;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border-radius: 0.25rem;
+  border-width: 2px;
+  --tw-border-opacity: 1;
+  border-color: rgba(229, 231, 235, var(--tw-border-opacity));
+}
+
+.woocommerce-Input.input-text:focus{
+  --tw-border-opacity: 1;
+  border-color: rgba(139, 92, 246, var(--tw-border-opacity));
+}
+
+.woocommerce-Input.input-text{
+  --tw-bg-opacity: 1;
+  background-color: rgba(229, 231, 235, var(--tw-bg-opacity));
+}
+
+.woocommerce-Input.input-text:focus{
+  --tw-bg-opacity: 1;
+  background-color: rgba(232, 232, 232, var(--tw-bg-opacity));
+}
+
+.woocommerce-Input.input-text{
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  line-height: 1.25;
+  --tw-text-opacity: 1;
+  color: rgba(55, 65, 81, var(--tw-text-opacity));
+}
+
+.woocommerce-Input.input-text:focus{
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
 #categories.owl-carousel {
   border-radius: 0.7rem;
   overflow: hidden;
@@ -377,6 +419,60 @@ main {
   height: 2.5rem;
 }
 
+.woocommerce-MyAccount-navigation ul li {
+  padding: 0.675em 0 0.775em;
+  border-bottom: 1px solid #e5e7eb;
+  color: #6b7280;
+}
+
+.woocommerce-MyAccount-navigation ul li.is-active {
+  font-weight: 700;
+  color: #1f2937;
+}
+
+.woocommerce-MyAccount-navigation ul li:hover {
+  color: #1f2937;
+}
+
+.woocommerce-MyAccount-navigation ul li:last-child {
+  border-bottom: none;
+}
+
+@media (min-width: 1024px) {
+  .woocommerce-MyAccount-navigation {
+    width: 20% !important;
+  }
+}
+
+.woocommerce-MyAccount-content {
+  color: #4b5563;
+  margin-top: 0.5rem;
+}
+
+.woocommerce-MyAccount-content .woocommerce-button.button {
+  margin-right: 0.5rem;
+}
+
+.woocommerce-MyAccount-content .woocommerce-Addresses {
+  margin-top: 1rem;
+}
+
+.woocommerce-MyAccount-content .woocommerce-Addresses div {
+  border: 1px solid #6b7280;
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+}
+
+@media (min-width: 1024px) {
+  .woocommerce-MyAccount-content {
+    width: 75% !important;
+  }
+}
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
 .navbar nav.menu-top-navbar-menu-container {
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
@@ -387,7 +483,7 @@ main {
   justify-content: flex-end;
 }
 
-.navbar nav.menu-top-navbar-menu-container ul > :not([hidden]) ~ :not([hidden]) {
+.navbar nav.menu-top-navbar-menu-container ul > :not([hidden]) ~ :not([hidden]){
   --tw-space-x-reverse: 0;
   margin-right: calc(0.75rem * var(--tw-space-x-reverse));
   margin-left: calc(0.75rem * calc(1 - var(--tw-space-x-reverse)));

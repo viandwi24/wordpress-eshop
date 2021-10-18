@@ -61,3 +61,17 @@ function eshop_setup_style_scripts() {
     }    
 }
 add_action('wp_enqueue_scripts', 'eshop_setup_style_scripts');
+
+
+// 
+function eshop_woocommerce_breadcrumbs() {
+    return array(
+        'delimiter'   => ' &#47; ',
+        'wrap_before' => '<nav class="woocommerce-breadcrumb eshop-breadcrumb" itemprop="breadcrumb">',
+        'wrap_after'  => '</nav>',
+        'before'      => '',
+        'after'       => '',
+        'home'        => _x( 'Home', 'breadcrumb', 'woocommerce' ),
+    );
+}
+add_filter('woocommerce_breadcrumb_defaults', 'eshop_woocommerce_breadcrumbs');
