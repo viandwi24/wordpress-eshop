@@ -508,3 +508,26 @@ body {
   width: auto;
   align-self: center;
 }
+
+.woocommerce-breadcrumb {
+  overflow: auto;
+  margin-bottom: 0 !important;
+  color: #999;
+  white-space: nowrap;
+  padding-top: 1em !important;
+  padding-bottom: 1em !important;
+  font-size: 0.875em !important;
+}
+
+.woocommerce-breadcrumb a {
+  color: #444 !important;
+}
+
+.woocommerce-breadcrumb .breadcrumb-separator {
+  display: inline-block !important;
+  padding: 0 0.5407911001em !important;
+  position: relative;
+  top: -2px !important;
+  opacity: 0.4 !important;
+  font-size: 0.5em !important;
+}

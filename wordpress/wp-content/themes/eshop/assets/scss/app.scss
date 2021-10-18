@@ -70,3 +70,27 @@ $navbarBottomHeight: 68px;
         align-self: center;
     }
 }
+
+// Breadcrumb
+.woocommerce-breadcrumb {
+    overflow: auto;
+    margin-bottom: 0 !important;
+    color: #999;
+    white-space: nowrap;
+    padding-top: 1em !important;
+    padding-bottom: 1em !important;
+    font-size: .875em !important;
+
+    a {
+        color: #444 !important;
+    }
+
+    .breadcrumb-separator {
+        display: inline-block !important;
+        padding: 0 .5407911001em !important;
+        position: relative;
+        top: -2px !important;
+        opacity: .4 !important;
+        font-size: .5em !important;
+    }
+}

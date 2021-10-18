@@ -15,8 +15,9 @@
 				<?php (has_custom_logo()) ? the_custom_logo() : '' ?>
 				<a href="<?php echo esc_url(home_url('/')); ?>" class="ml-2 self-center text-2xl font-semibold"><?php bloginfo('name') ?></a>
 			</a>
-			<form action="" class="hidden md:flex w-1/5 pl-4 items-center">
+			<form action="<?= site_url('shop') ?>" class="hidden md:flex w-1/5 pl-4 items-center">
 				<input
+					name="q"
 					type="text"
 					placeholder="Search Product..."
 					class="

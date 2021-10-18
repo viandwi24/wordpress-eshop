@@ -56,7 +56,7 @@
 	<div class="mt-16 border-t border-red-700 bg-red-600 flex flex-col items-center">
 		<div class="container mx-auto px-6">
 			<div class="text-center py-3">
-				<img class="inline-block h-5 mb-2" src="<?= home_url('payment-method') ?>" alt="Payment Method">
+				<img class="inline-block mb-2" src="<?= home_url('payment-method') ?>" alt="Payment Method">
 				<p class="text-xs text-white">
 					© 2020 <?= bloginfo('name'); ?>
 				</p>
