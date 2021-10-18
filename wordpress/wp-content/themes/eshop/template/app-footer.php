@@ -23,8 +23,8 @@
 						<?php endif; ?>
 					</div>
 					<div class="w-full md:w-1/3 flex flex-col">
-						<div class="text-black font-semibold text-lg">Social Media</div>
-						<div class="w-full justify-center flex flex-row space-x-2">
+						<div class="text-black font-semibold text-lg mb-1">Social Media</div>
+						<div class="w-full md:w-auto justify-center md:justify-start flex flex-row space-x-2">
 							<?php if ($socials = eshop_get_social_media()): ?>
 								<?php foreach ($socials as $social): ?>
 									<span class="mb-1">
