@@ -94,3 +94,25 @@ $navbarBottomHeight: 68px;
         font-size: .5em !important;
     }
 }
+
+// Notices
+.woocommerce-notices-wrapper {
+    .woocommerce-message {
+        border: none;
+        border-left: 8px solid theme('colors.blue.700');
+        background-color: theme('colors.blue.500');
+        color: theme('colors.white');
+
+        .button {
+            background: none;
+            padding: 0.1rem;
+            color: theme('colors.white');
+
+            &:hover {
+                background: none !important;
+                color: theme('colors.white');
+                text-decoration: underline;
+            }
+        }
+    }
+}

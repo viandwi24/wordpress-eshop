@@ -48,3 +48,19 @@
         @apply w-full;
     }
 }
+
+
+
+// 
+.button {
+    &.checkout-button {
+        transition: all 0.6s ease;
+        background: theme('colors.red.500') !important;
+        padding: 1rem 3rem !important;
+
+        &:hover {
+            background: theme('colors.red.700') !important;
+            color: theme('colors.white') !important;
+        }
+    }
+}

@@ -1,6 +1,16 @@
 // woocomerce
 .woocommerce {
     .product {
+        .onsale {
+            width: 4em;
+            height: 4em;
+            display: flex;
+            justify-content: center;
+            justify-items: center;
+            align-items: center;
+            top: 0;
+            left: 0;
+        }
         .summary {
             & > .title {
                 font-size: 2rem;
@@ -8,6 +18,9 @@
                 line-height: 1.5;
                 margin-bottom: 0.5rem;
                 color: theme('colors.black');
+            }
+            & > .product_title {
+                font-size: 0;
             }
             .price {
                 font-size: 1.5rem;
@@ -44,6 +57,44 @@
                             }
                         }
                     }
+                }
+            }
+        }
+        .wc-tabs {
+            margin-bottom: 1rem !important;
+        }
+        .woocommerce-Tabs-panel {
+            h2 {
+                display: none;
+            }
+        }
+        .comment-form {
+            textarea {
+                @apply bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500;
+            }
+        }
+        .comment-reply-title {
+            @apply font-semibold text-xl;
+        }
+        .comment_container {
+            img {
+                opacity: 1 !important;
+            }
+        }
+        .stars {
+            .star {
+                color: theme('colors.red.500') !important;
+            }
+        }
+        .button {
+            &.single_add_to_cart_button {
+                transition: all 0.6s ease;
+                background: theme('colors.red.500') !important;
+                padding: 1rem 3rem !important;
+
+                &:hover {
+                    background: theme('colors.red.700') !important;
+                    color: theme('colors.white') !important;
                 }
             }
         }
