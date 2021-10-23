@@ -1,4 +1,15 @@
-<footer class="footer bg-gray-50 relative pt-1 border-t-2 border-red-300">
+<footer class="footer bg-gray-50 relative border-t-2 border-red-300">
+	<section class="py-3 text-white bg-red-500">
+		<div class="container mx-auto px-6">
+			<div class="inline-block text-xl">
+				<i class="fas fa-paper-plane"></i>
+				Jangan lupa ikuti kami
+			</div>
+			<div class="inline-block text-sm ml-4">
+				...dan dapatkan potongan harga dan hadiah menarik dari kami
+			</div>
+		</div>
+	</section>
 	<div class="container mx-auto px-6">
 		<div class="sm:flex sm:mt-2 w-full">
 			<div class="mt-8 flex text-center flex-col md:flex-row flex-1">
@@ -41,10 +52,12 @@
 						</div>
 					</div>
 					<div class="w-full md:w-1/3 flex flex-col">
-						<span class="mb-1"><a href="#" class="text-muted text-sm hover:text-black">BRI</a></span>
-						<span class="mb-1"><a href="#" class="text-muted text-sm hover:text-black">DANA</a></span>
-						<span class="mb-1"><a href="#" class="text-muted text-sm hover:text-black">OVO</a></span>
-						<span class="mb-1"><a href="#" class="text-muted text-sm hover:text-black">BCA</a></span>
+						<?php
+						wp_nav_menu([
+							'theme_location' => 'navbar-top-menu',
+							'container' => 'nav',
+						]);
+						?>
 					</div>
 				</div>
 			</div>
@@ -64,3 +77,30 @@
 		</div>
 	</div>
 </footer>
+<div class="floating-chat">
+    <i class="icon fas fa-comments" aria-hidden="true"></i>
+	<span class="text">Live Chat</span>
+    <div class="chat">
+        <div class="header">
+            <span class="title">
+                Live Chat
+            </span>
+            <button class="btn-close">
+                <i class="fa fa-times" aria-hidden="true"></i>
+            </button>
+        </div>
+        <ul class="messages">
+			<?php for($i = 0; $i < 15; $i++): ?>
+			<?php endfor; ?>
+				<!-- <li class="other">Dari sana</li>
+				<li class="self">dari sini</li> -->
+        </ul>
+        <div class="footer">
+            <!-- <div class="text-box" contenteditable="true" disabled="true"></div> -->
+			<input type="text" class="text-box">
+            <button class="send" id="sendMessage">
+				<i class="fa fa-paper-plane" aria-hidden="true"></i>
+			</button>
+        </div>
+    </div>
+</div>

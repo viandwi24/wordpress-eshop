@@ -31,6 +31,7 @@ main {
 @import './components/button';
 @import './components/card';
 @import './components/input';
+@import './components/chat';
 
 // pages
 @import './pages/home';
@@ -38,6 +39,10 @@ main {
 @import './pages/myaccount';
 
 // 
+
+* {
+    box-sizing: border-box;
+}
 body {
     font-family: 'Source Sans Pro', sans-serif;
 }
@@ -45,7 +50,7 @@ body {
 // Navbar
 $navbarBottomHeight: 68px;
 .navbar {
-    nav.menu-top-navbar-menu-container {
+    nav.menu-top-navbar-container {
         @apply py-1;
 
         ul {

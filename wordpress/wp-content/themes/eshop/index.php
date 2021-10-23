@@ -57,6 +57,48 @@ get_header()
 
 	<section>
 		<div class="eshop-container mb-6">
+			<div class="rounded-lg p-6 flex divide-x-4 divide-red-600 divide-dashed border border-red-300">
+				<div class="w-1/5 flex space-x-4 justify-center items-center">
+					<i class="fas fa-truck text-5xl self-center text-red-500"></i>
+					<div>
+						<div class="text-lg font-semibold">Free Delivery</div>
+						<div class="text-xs text-muted">From $50</div>
+					</div>
+				</div>
+				<div class="w-1/5 flex space-x-4 justify-center items-center">
+					<i class="fas fa-exchange-alt text-5xl self-center text-red-500"></i>
+					<div>
+						<div class="text-lg font-semibold">99% Positive</div>
+						<div class="text-xs text-muted">Feedbacks</div>
+					</div>
+				</div>
+				<div class="w-1/5 flex space-x-4 justify-center items-center">
+					<i class="fas fa-exchange-alt text-5xl self-center text-red-500"></i>
+					<div>
+						<div class="text-lg font-semibold">365 days</div>
+						<div class="text-xs text-muted">For free return</div>
+					</div>
+				</div>
+				<div class="w-1/5 flex space-x-4 justify-center items-center">
+					<i class="far fa-credit-card text-5xl self-center text-red-500"></i>
+					<div>
+						<div class="text-lg font-semibold">Payment</div>
+						<div class="text-xs text-muted">Secure Payment</div>
+					</div>
+				</div>
+				<div class="w-1/5 flex space-x-4 justify-center items-center">
+					<i class="fas fa-tag text-5xl self-center text-red-500"></i>
+					<div>
+						<div class="text-lg font-semibold">Only Best</div>
+						<div class="text-xs text-muted">Brands</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section>
+		<div class="eshop-container mb-6">
 			<div class="w-full px-4 py-3 rounded bg-gray-50">
 				<div class="text-2xl font-bold mb-2 text-black">
 					Categories
@@ -66,13 +108,15 @@ get_header()
 						<?php
 						$thumbnail_id = get_term_meta( $category->term_id, 'thumbnail_id', true ); 
 						$image = wp_get_attachment_url( $thumbnail_id );
+						// get permalink of product category
+						$permalink = get_term_link( $category->term_id );
 						?>
-						<div class="item py-4 px-4 bg-clearly-white">
+						<a href="<?= $permalink ?>" class="item py-4 px-4 bg-clearly-white">
 							<img src="<?= $image ?>" alt="<?= $category->name ?>" class="flex-1">
 							<div class="text-center truncate">
 								<?= $category->name ?>
 							</div>
-						</div>
+						</a>
 					<?php endforeach; ?>
 				</div>
 			</div>
