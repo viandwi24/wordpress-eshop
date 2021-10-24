@@ -43,50 +43,47 @@ get_header()
 		<div class="eshop-container mb-6">
 			<div id="banner" class="owl-carousel owl-theme">
 				<div class="item">
-					<img src="https://picsum.photos/520/140?random=1" alt="Banner">
+					<img src="<?= site_url('banner-min-1800') ?>" alt="Banner">
 				</div>
-				<div class="item">
-					<img src="https://picsum.photos/520/140?random=2" alt="Banner">
-				</div>
-				<div class="item">
-					<img src="https://picsum.photos/520/140?random=3" alt="Banner">
-				</div>
+				<!-- <div class="item">
+					<img src="<?= site_url('wall-fans-page-01-2') ?>" alt="Banner">
+				</div> -->
 			</div>
 		</div>
 	</section>
 
-	<section>
+	<section class="hidden md:block">
 		<div class="eshop-container mb-6">
-			<div class="rounded-lg p-6 flex divide-x-4 divide-red-600 divide-dashed border border-red-300">
-				<div class="w-1/5 flex space-x-4 justify-center items-center">
+			<div class="rounded-lg p-6 flex flex-col divide-y-4 md:divide-y-0 md:flex-row md:divide-x-4 divide-red-600 divide-dashed border border-red-300">
+				<div class="w-full md:w-1/5 flex py-4 space-x-4 justify-center items-center">
 					<i class="fas fa-truck text-5xl self-center text-red-500"></i>
 					<div>
 						<div class="text-lg font-semibold">Free Delivery</div>
 						<div class="text-xs text-muted">From $50</div>
 					</div>
 				</div>
-				<div class="w-1/5 flex space-x-4 justify-center items-center">
+				<div class="w-full md:w-1/5 flex py-4 space-x-4 justify-center items-center">
 					<i class="fas fa-exchange-alt text-5xl self-center text-red-500"></i>
 					<div>
 						<div class="text-lg font-semibold">99% Positive</div>
 						<div class="text-xs text-muted">Feedbacks</div>
 					</div>
 				</div>
-				<div class="w-1/5 flex space-x-4 justify-center items-center">
+				<div class="w-full md:w-1/5 flex py-4 space-x-4 justify-center items-center">
 					<i class="fas fa-exchange-alt text-5xl self-center text-red-500"></i>
 					<div>
 						<div class="text-lg font-semibold">365 days</div>
 						<div class="text-xs text-muted">For free return</div>
 					</div>
 				</div>
-				<div class="w-1/5 flex space-x-4 justify-center items-center">
+				<div class="w-full md:w-1/5 flex py-4 space-x-4 justify-center items-center">
 					<i class="far fa-credit-card text-5xl self-center text-red-500"></i>
 					<div>
 						<div class="text-lg font-semibold">Payment</div>
 						<div class="text-xs text-muted">Secure Payment</div>
 					</div>
 				</div>
-				<div class="w-1/5 flex space-x-4 justify-center items-center">
+				<div class="w-full md:w-1/5 flex py-4 space-x-4 justify-center items-center">
 					<i class="fas fa-tag text-5xl self-center text-red-500"></i>
 					<div>
 						<div class="text-lg font-semibold">Only Best</div>

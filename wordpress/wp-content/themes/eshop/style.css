@@ -301,7 +301,7 @@ main {
 
 .floating-chat {
   position: fixed;
-  z-index: 99;
+  z-index: 40;
   bottom: 10px;
   right: 10px;
   background: #e05d5d;

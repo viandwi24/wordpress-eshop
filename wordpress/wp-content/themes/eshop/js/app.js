@@ -463,6 +463,30 @@ var navbarInit = function navbarInit() {
   window.addEventListener('DOMContentLoaded', onWindowScroll);
 };
 
+var sidebarInit = function sidebarInit() {
+  var el = document.querySelector('.sidebar-mobile');
+  var bg = el.querySelectorAll('.bg');
+  var sidebarToggle = document.querySelectorAll('.toggle-sidebar-mobile');
+  if (!el) return false;
+
+  var toggle = function toggle() {
+    if (el.classList.contains('fixed')) {
+      el.classList.remove('fixed');
+      el.classList.add('hidden');
+    } else {
+      el.classList.add('fixed');
+      el.classList.remove('hidden');
+    }
+  };
+
+  bg.forEach(function (el) {
+    return el.addEventListener('click', toggle);
+  });
+  sidebarToggle.forEach(function (el) {
+    return el.addEventListener('click', toggle);
+  });
+};
+
 var liveChatInit = function liveChatInit() {
   var el = document.querySelector('.floating-chat');
   var btnClose = el.querySelector('.btn-close');
@@ -560,6 +584,7 @@ var liveChatInit = function liveChatInit() {
 
 
 navbarInit();
+sidebarInit();
 liveChatInit();
 
 /***/ }),

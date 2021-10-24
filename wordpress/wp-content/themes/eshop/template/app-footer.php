@@ -17,7 +17,7 @@
 					<a href="" class="block font-bold text-black text-2xl">
 						<?= bloginfo('name'); ?>
 					</a>
-					<div class="text-sm">
+					<div class="text-sm px-2 md:pr-12">
 						<?= bloginfo('description'); ?>
 					</div>
 					<div class="mt-3 h-32 w-32 hidden md:inline-block">

@@ -401,6 +401,26 @@ const navbarInit = () => {
     window.addEventListener('DOMContentLoaded', onWindowScroll);
 }
 
+const sidebarInit = () => {
+    const el = document.querySelector('.sidebar-mobile');
+    const bg = el.querySelectorAll('.bg')
+    const sidebarToggle = document.querySelectorAll('.toggle-sidebar-mobile')
+    if (!el) return false;
+
+    const toggle = () => {
+        if (el.classList.contains('fixed')) {
+            el.classList.remove('fixed');
+            el.classList.add('hidden');
+        } else {
+            el.classList.add('fixed');
+            el.classList.remove('hidden');
+        }
+    }
+
+    bg.forEach(el => el.addEventListener('click', toggle))
+    sidebarToggle.forEach(el => el.addEventListener('click', toggle))
+}
+
 const liveChatInit = () => {
     const el = document.querySelector('.floating-chat');
     const btnClose = el.querySelector('.btn-close');
@@ -504,4 +524,5 @@ const liveChatInit = () => {
 
 // 
 navbarInit();
+sidebarInit();
 liveChatInit();
