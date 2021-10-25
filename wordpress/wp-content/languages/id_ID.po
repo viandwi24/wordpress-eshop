@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 5.8.x - Development package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-10-11 11:45:49+0000\n"
+"PO-Revision-Date: 2021-10-25 11:28:10+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -16378,7 +16378,7 @@ msgstr "Tag: "
 #. translators: %s: Login URL.
 #: wp-includes/comment-template.php:2449
 msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
-msgstr "Anda harus <a href=\"%s\">masuk log</a> untuk mengirim sebuah komentar."
+msgstr "Anda harus <a href=\"%s\">masuk</a> untuk berkomentar."
 
 #: wp-includes/link-template.php:1141 wp-includes/link-template.php:1503
 #: wp-includes/link-template.php:1611 wp-includes/link-template.php:1674
@@ -16391,7 +16391,7 @@ msgstr "1 Komentar"
 
 #: wp-includes/comment-template.php:936
 msgid "No Comments"
-msgstr "Tidak ada Komentar"
+msgstr "Tidak ada komentar"
 
 #: wp-includes/comment-template.php:1605
 msgid "Enter your password to view comments."

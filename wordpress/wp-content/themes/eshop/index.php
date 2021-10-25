@@ -152,7 +152,14 @@ get_header()
 												<?= $post->post_title ?>
 											</div>
 											<div class="price">
-												<?= money($product->get_price()) ?>
+												<?php if( $product->is_on_sale() ): ?>
+													<div class="sale">
+														<?= money($product->get_sale_price()) ?>
+													</div>
+												<?php endif; ?>
+												<div class="regular">
+													<?= money($product->get_regular_price()) ?>
+												</div>
 											</div>
 											<div class="rating">
 												<?php
@@ -182,6 +189,16 @@ get_header()
 			</div>
 		</section>
 	<?php endforeach; ?>
+
+	<!-- <section>
+		<div class="eshop-container mb-6">
+			<div class="flex items-baseline mb-2">
+				<div class="text-2xl font-bold text-black">
+					Ilham Camera
+				</div>
+			</div>
+		</div>
+	</section> -->
 
 </main>
 <script>
