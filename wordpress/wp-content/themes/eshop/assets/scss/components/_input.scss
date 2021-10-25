@@ -1,5 +1,32 @@
+@import '../mixin/input';
+
 .woocommerce-Input {
     &.input-text {
-        @apply bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500;
+        @include eshop-input-text;
+    }
+}
+
+.select2-selection {
+    border: 1px solid theme('colors.gray.200') !important;
+    background: theme('colors.gray.100') !important;
+    display: flex !important;
+    height: 40px !important;
+    flex-direction: column;
+    justify-content: center;
+
+    .select2-selection__rendered {
+      padding-left: 16px !important;
+      padding-right: 28px !important;
+    }
+
+    .select2-selection__arrow {
+        height: 40px !important;
+        right: 8px !important;
+    }
+}
+
+.woocommerce-input-wrapper {
+    label {
+        line-height: 1 !important;
     }
 }

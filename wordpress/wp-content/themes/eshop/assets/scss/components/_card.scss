@@ -36,6 +36,15 @@
                 @apply text-black font-bold;
                 font-size: 14px;
                 margin-bottom: 4px;
+
+                & .regular {
+                    @apply text-lg;
+                }
+
+                & .sale {
+                    text-decoration: line-through;
+                    color: theme('colors.red.500');
+                }
             }
             & > .rating {
                 .text {

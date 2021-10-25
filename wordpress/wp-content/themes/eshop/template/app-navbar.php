@@ -14,7 +14,7 @@
 			<a class="brand self-center flex">
 				<?php (has_custom_logo()) ? the_custom_logo() : '' ?>
 				<a href="<?php echo esc_url(home_url('/')); ?>" class="ml-2 self-center text-2xl font-semibold"><?php bloginfo('name') ?></a>
-				<div class="flex-1 flex justify-end justify-items-end items-center">
+				<div class="flex-1 flex md:hidden justify-end justify-items-end items-center">
 					<button class="self-center toggle-sidebar-mobile">
 						<i class="fas fa-bars text-2xl"></i>
 					</button>

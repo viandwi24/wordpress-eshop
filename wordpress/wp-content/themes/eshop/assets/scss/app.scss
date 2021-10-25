@@ -37,6 +37,7 @@ main {
 @import './pages/home';
 @import './pages/product';
 @import './pages/myaccount';
+@import './pages/billing';
 
 // 
 
@@ -101,23 +102,38 @@ $navbarBottomHeight: 68px;
 }
 
 // Notices
-.woocommerce-notices-wrapper {
-    .woocommerce-message {
-        border: none;
-        border-left: 8px solid theme('colors.blue.700');
-        background-color: theme('colors.blue.500');
+@mixin woocommerce-info {
+    border: none;
+    border-left: 8px solid theme('colors.blue.700');
+    background-color: theme('colors.blue.500');
+    color: theme('colors.white');
+
+    .button {
+        background: none;
+        padding: 0.1rem;
         color: theme('colors.white');
 
-        .button {
-            background: none;
-            padding: 0.1rem;
+        &:hover {
+            background: none !important;
             color: theme('colors.white');
-
-            &:hover {
-                background: none !important;
-                color: theme('colors.white');
-                text-decoration: underline;
-            }
+            text-decoration: underline;
         }
     }
+
+
+    &:before,
+    &:after {
+        color: theme('colors.white');
+    }
+}
+.woocommerce-notices-wrapper,
+.woocommerce-form-coupon-toggle {
+    .woocommerce-message,
+    .woocommerce-info {
+        @include woocommerce-info;
+    }
+}
+
+.cart-empty.woocommerce-info {
+    @include woocommerce-info;
 }

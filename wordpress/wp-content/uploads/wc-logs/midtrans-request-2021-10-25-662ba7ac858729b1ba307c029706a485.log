@@ -1,0 +1,172 @@
+2021-10-25T17:58:49+00:00 DEBUG 
+====Midtrans Plugin Version: 2.32.0====
+====Start Log Sen, 25 Okt 2021 17:58:49 +0000====
+Array
+(
+    [transaction_details] => Array
+        (
+            [order_id] => 48
+            [gross_amount] => 16611996
+        )
+
+    [customer_details] => Array
+        (
+            [first_name] => Alfian
+            [last_name] => Nugraha
+            [email] => manager@mail.com
+            [phone] => 0895337617550
+            [billing_address] => Array
+                (
+                    [first_name] => Alfian
+                    [last_name] => Nugraha
+                    [address] => Hahaha itulah pokoknya
+                    [city] => Kab. Tulungagung
+                    [postal_code] => 66274
+                    [phone] => 0895337617550
+                    [country_code] => IDN
+                )
+
+            [shipping_address] => Array
+                (
+                    [first_name] => Alfian
+                    [last_name] => Nugraha
+                    [address] => Hahaha itulah pokoknya
+                    [city] => Kab. Tulungagung
+                    [postal_code] => 66274
+                    [phone] => 0895337617550
+                    [country_code] => IDN
+                )
+
+        )
+
+    [item_details] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 47
+                    [price] => 8249000
+                    [quantity] => 1
+                    [name] => Contoh Kamera 10
+                )
+
+            [1] => Array
+                (
+                    [id] => 19
+                    [price] => 8249000
+                    [quantity] => 1
+                    [name] => Canon EOS 1500D Kit EF-S 18-55mm F/3.5-5.6 IS II
+                )
+
+            [2] => Array
+                (
+                    [id] => shippingfee
+                    [price] => 113996
+                    [quantity] => 1
+                    [name] => Shipping Fee
+                )
+
+        )
+
+    [credit_card] => Array
+        (
+            [secure] => 1
+        )
+
+    [metadata] => Array
+        (
+            [x_midtrans_wc_plu] => Array
+                (
+                    [version] => 2.32.0
+                    [wc] => 5.8.0
+                    [php] => 7.4.24
+                )
+
+        )
+
+)
+
+====End Log Sen, 25 Okt 2021 17:58:49 +0000 (0)====
+
+
+2021-10-25T18:03:09+00:00 DEBUG 
+====Midtrans Plugin Version: 2.32.0====
+====Start Log Sen, 25 Okt 2021 18:03:09 +0000====
+Array
+(
+    [transaction_details] => Array
+        (
+            [order_id] => 49
+            [gross_amount] => 8308498
+        )
+
+    [customer_details] => Array
+        (
+            [first_name] => Alfian
+            [last_name] => Nugraha
+            [email] => manager@mail.com
+            [phone] => 0895337617550
+            [billing_address] => Array
+                (
+                    [first_name] => Alfian
+                    [last_name] => Nugraha
+                    [address] => Hahaha itulah pokoknya
+                    [city] => Kab. Tulungagung
+                    [postal_code] => 66274
+                    [phone] => 0895337617550
+                    [country_code] => IDN
+                )
+
+            [shipping_address] => Array
+                (
+                    [first_name] => Alfian
+                    [last_name] => Nugraha
+                    [address] => Hahaha itulah pokoknya
+                    [city] => Kab. Tulungagung
+                    [postal_code] => 66274
+                    [phone] => 0895337617550
+                    [country_code] => IDN
+                )
+
+        )
+
+    [item_details] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 19
+                    [price] => 8249000
+                    [quantity] => 1
+                    [name] => Canon EOS 1500D Kit EF-S 18-55mm F/3.5-5.6 IS II
+                )
+
+            [1] => Array
+                (
+                    [id] => shippingfee
+                    [price] => 59498
+                    [quantity] => 1
+                    [name] => Shipping Fee
+                )
+
+        )
+
+    [credit_card] => Array
+        (
+            [secure] => 1
+        )
+
+    [metadata] => Array
+        (
+            [x_midtrans_wc_plu] => Array
+                (
+                    [version] => 2.32.0
+                    [wc] => 5.8.0
+                    [php] => 7.4.24
+                )
+
+        )
+
+)
+
+====End Log Sen, 25 Okt 2021 18:03:09 +0000 (0)====
+
+

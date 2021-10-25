@@ -98,5 +98,19 @@
                 }
             }
         }
+
+        // 
+        .woocommerce-tabs.wc-tabs-wrapper {
+            .tabs.wc-tabs {
+                li {
+                    border-radius: 0;
+
+                    &.active {
+                        z-index: 0;
+                        border-radius: 0 !important;
+                    }
+                }
+            }
+        }
     }
 }

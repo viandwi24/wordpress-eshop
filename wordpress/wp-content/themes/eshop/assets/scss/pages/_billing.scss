@@ -1,0 +1,29 @@
+@import '../mixin/input';
+
+@mixin h3-title {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: theme('colors.black');
+  margin-bottom: 1rem;
+}
+
+.woocommerce {
+  .woocommerce-billing-fields {
+    h3 {
+      @include h3-title;
+    }
+  }
+
+  #customer_details {
+    margin-bottom: 2rem;
+  }
+
+  .input-text,
+  textarea {
+    @include eshop-input-text;
+  }
+
+  h3#order_review_heading {
+    @include h3-title;
+  }
+}
