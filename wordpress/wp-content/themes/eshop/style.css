@@ -284,10 +284,6 @@ main {
 }
 
 .woocommerce-Input.input-text{
-  padding-left: 1rem;
-  padding-right: 1rem;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
   line-height: 1.25;
   --tw-text-opacity: 1;
   color: rgba(55, 65, 81, var(--tw-text-opacity));
@@ -301,6 +297,7 @@ main {
 .woocommerce-Input.input-text{
   background: #f3f4f6 !important;
   border: 1px solid #e5e7eb !important;
+  padding: 6px 6px 8px !important;
 }
 
 .select2-selection {
@@ -857,10 +854,6 @@ main {
 }
 
 .woocommerce .input-text, .woocommerce textarea{
-  padding-left: 1rem;
-  padding-right: 1rem;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
   line-height: 1.25;
   --tw-text-opacity: 1;
   color: rgba(55, 65, 81, var(--tw-text-opacity));
@@ -875,6 +868,7 @@ main {
 .woocommerce textarea{
   background: #f3f4f6 !important;
   border: 1px solid #e5e7eb !important;
+  padding: 6px 6px 8px !important;
 }
 
 .woocommerce h3#order_review_heading {

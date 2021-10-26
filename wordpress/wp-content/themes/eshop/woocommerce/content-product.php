@@ -35,7 +35,14 @@ if ( empty( $product ) || ! $product->is_visible() ) {
 				<?= $post->post_title ?>
 			</div>
 			<div class="price">
-				<?= money($product->get_price()) ?>
+				<?php if( $product->is_on_sale() ): ?>
+					<div class="sale">
+						<?= money($product->get_sale_price()) ?>
+					</div>
+				<?php endif; ?>
+				<div class="regular">
+					<?= money($product->get_regular_price()) ?>
+				</div>
 			</div>
 			<div class="rating">
 				<?php
