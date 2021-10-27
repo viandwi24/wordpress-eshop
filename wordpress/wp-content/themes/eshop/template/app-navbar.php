@@ -94,22 +94,23 @@
 
 <?php
 $mobileMenus = [
-	['type' => 'item', 'text' => 'Home', 'link' => esc_url(home_url())],
-	['type' => 'item', 'text' => 'Products', 'link' => get_permalink(wc_get_page_id('shop'))],
-	['type' => 'item', 'text' => 'Cart', 'link' => get_permalink(wc_get_page_id('cart'))],
+	['type' => 'item', 'text' => 'Beranda', 'link' => esc_url(home_url())],
+	['type' => 'item', 'text' => 'Produk', 'link' => get_permalink(wc_get_page_id('shop'))],
+	['type' => 'item', 'text' => 'Blog', 'link' =>esc_url(home_url('blog'))],
+	['type' => 'item', 'text' => 'Keranjang', 'link' => get_permalink(wc_get_page_id('cart'))],
 	['type' => 'header', 'text' => 'Browse'],
 ];
 
 if(is_user_logged_in()) {
-	$mobileMenus[] = ['type' => 'item', 'text' => 'My Account', 'link' => esc_url(home_url('/my-account'))];
+	$mobileMenus[] = ['type' => 'item', 'text' => 'Akun Saya', 'link' => esc_url(home_url('/my-account'))];
 } else {
-	$mobileMenus[] = ['type' => 'item', 'text' => 'Login', 'link' => esc_url(home_url('/my-account'))];
-	$mobileMenus[] = ['type' => 'item', 'text' => 'Sign Up', 'link' => esc_url(home_url('/my-account'))];
+	$mobileMenus[] = ['type' => 'item', 'text' => 'Masuk', 'link' => esc_url(home_url('/my-account'))];
+	$mobileMenus[] = ['type' => 'item', 'text' => 'Daftar', 'link' => esc_url(home_url('/my-account'))];
 }
 
 
 if ($socials = eshop_get_social_media()) {
-	$mobileMenus[] = ['type' => 'header', 'text' => 'Social Media'];
+	$mobileMenus[] = ['type' => 'header', 'text' => 'Media Sosial'];
 	foreach ($socials as $social) {
 		$mobileMenus[] = [
 			'type' => 'item',

@@ -22,9 +22,17 @@
             & > .product_title {
                 font-size: 0;
             }
+            .stock {
+                color: theme('colors.black');
+                margin-top: .5rem;
+            }
             .price {
                 font-size: 1.5rem;
                 font-weight: 700;
+
+                del, ins {
+                    display: block;
+                }
             }
             .woocommerce-product-details__short-description {
                 color: theme('colors.black');
