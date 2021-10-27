@@ -673,6 +673,10 @@ main {
   color: #222831;
 }
 
+.woocommerce .product .summary .product_meta > span {
+  display: block;
+}
+
 .woocommerce .product .summary .product_meta .external_shop {
   margin-top: 0.25rem;
 }

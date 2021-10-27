@@ -49,6 +49,9 @@
             }
             .product_meta {
                 color: theme('colors.black');
+                & > span {
+                    display: block;
+                }
                 .external_shop {
                     margin-top: .25rem;
                     .title {

@@ -24,7 +24,7 @@
 				<input
 					name="q"
 					type="text"
-					placeholder="Search Product..."
+					placeholder="Cari produk..."
 					class="
 						w-full
 						py-2 px-4 text-sm

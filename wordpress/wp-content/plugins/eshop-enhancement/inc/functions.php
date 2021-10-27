@@ -24,7 +24,10 @@ function eshop_config($key) {
 	return apply_filters('eshop_config', $defaultConfig[$key], $key, $defaultConfig);
 }
 function money($value) {
-	return "Rp " . number_format($value, 0,',','.');
+    if (is_numeric($value)) {
+        return "Rp " . number_format($value, 0,',','.');
+    }
+    return $value;
 }
 function eshop_get_external_shop() {
     global $wpdb;

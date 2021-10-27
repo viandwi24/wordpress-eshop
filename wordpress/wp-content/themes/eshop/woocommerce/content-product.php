@@ -35,13 +35,19 @@ if ( empty( $product ) || ! $product->is_visible() ) {
 				<?= $post->post_title ?>
 			</div>
 			<div class="price">
+				<?php
+				// money($product->get_regular_price())
+				$price_sale = money(wc_get_price_to_display($product, ['price' => $product->get_sale_price()]));
+				$price_regular = money(wc_get_price_to_display($product, ['price' => $product->get_regular_price()]));
+				if ($price_sale == $price_regular) $price_sale = '';
+				?>
 				<?php if( $product->is_on_sale() ): ?>
 					<div class="sale">
-						<?= money($product->get_sale_price()) ?>
+						<?= $price_sale ?>
 					</div>
 				<?php endif; ?>
 				<div class="regular">
-					<?= money($product->get_regular_price()) ?>
+					<?= $price_regular ?>
 				</div>
 			</div>
 			<div class="rating">

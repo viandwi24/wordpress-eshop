@@ -1,14 +1,14 @@
 <?php
 $groups = [
 	[
-		'title' => 'Hot Products',
+		'title' => 'Produk Trend',
 		'args' => [
 			'post_type' => 'product',
 			'posts_per_page' => 6,
 		]
 	],
 	[
-		'title' => 'News Products',
+		'title' => 'Produk Terbaru',
 		'args' => [
 			'post_type' => 'product',
 			'posts_per_page' => 6,
@@ -149,44 +149,8 @@ get_header()
 								while($loop->have_posts()):
 									$loop->the_post();
 									$product = wc_get_product($post->ID);
+									wc_get_template_part( 'content', 'product' );
 									?>
-									<div class="">
-										<a href="<?= $product->get_permalink(); ?>" class="eshop__card product" title="<?= $post->post_title ?>">
-											<?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $loop->post->ID ), 'single-post-thumbnail' );?>
-											<!-- <img class="image" src="{{ product_images($product->images[0]['path']) }}" alt="Product Image"> -->
-											<img class="image" src="<?php  echo $image[0]; ?>" alt="Product Image">
-											<div class="detail">
-												<div class="title">
-													<?= $post->post_title ?>
-												</div>
-												<div class="price">
-													<?php if( $product->is_on_sale() ): ?>
-														<div class="sale">
-															<?= money($product->get_sale_price()) ?>
-														</div>
-													<?php endif; ?>
-													<div class="regular">
-														<?= money($product->get_regular_price()) ?>
-													</div>
-												</div>
-												<div class="rating">
-													<?php
-													$rate = $product->get_average_rating();
-													?>
-													<?php for($i = 0; $i < 5; $i++): ?>
-														<?php if($i < floor($rate)): ?>
-															<i class="fa fa-star icon text-yellow-500"></i>
-														<?php else: ?>
-															<i class="fa fa-star icon text-yellow-300"></i>
-														<?php endif; ?>
-													<?php endfor; ?>
-													<span class="text">
-														<?= ($rate > 0) ? $rate : '' ?>
-													</span>
-												</div>
-											</div>
-										</a>
-									</div>
 
 									<?php
 								endwhile;
