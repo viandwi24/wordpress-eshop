@@ -30,3 +30,16 @@
         line-height: 1 !important;
     }
 }
+
+
+form.woocommerce-ordering {
+    select {
+        @include eshop-input-text;
+        &::after {
+            position: absolute;
+            display: block;
+            content: 'ᛎ';
+            right: 0;
+        }
+    }
+}

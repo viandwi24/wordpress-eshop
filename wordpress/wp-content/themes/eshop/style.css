@@ -1,4 +1,6 @@
 @import url(https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700;900&display=swap);
+@charset "UTF-8";
+
 /*!
 Theme Name:   Eshop
 Theme URI:    https://www.github.com/viandwi24
@@ -321,6 +323,45 @@ main {
 
 .woocommerce-input-wrapper label {
   line-height: 1 !important;
+}
+
+form.woocommerce-ordering select {
+  width: 100%;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border-radius: 0.25rem;
+}
+
+form.woocommerce-ordering select:focus{
+  --tw-border-opacity: 1;
+  border-color: rgba(139, 92, 246, var(--tw-border-opacity));
+  --tw-bg-opacity: 1;
+  background-color: rgba(232, 232, 232, var(--tw-bg-opacity));
+}
+
+form.woocommerce-ordering select{
+  line-height: 1.25;
+  --tw-text-opacity: 1;
+  color: rgba(55, 65, 81, var(--tw-text-opacity));
+}
+
+form.woocommerce-ordering select:focus{
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+form.woocommerce-ordering select{
+  background: #f3f4f6 !important;
+  border: 1px solid #e5e7eb !important;
+  padding: 6px 6px 8px !important;
+}
+
+form.woocommerce-ordering select::after {
+  position: absolute;
+  display: block;
+  content: "ᛎ";
+  right: 0;
 }
 
 .floating-chat {
