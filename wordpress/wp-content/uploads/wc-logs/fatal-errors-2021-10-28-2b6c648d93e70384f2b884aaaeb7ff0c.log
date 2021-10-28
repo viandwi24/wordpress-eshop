@@ -1,0 +1,8 @@
+2021-10-28T16:01:21+00:00 CRITICAL Uncaught Error: Access to undeclared static property: MWB_Product_Filter_For_Woocommerce_Onboarding_Steps::$store_url in /var/www/html/wp-content/plugins/mwb-product-filter-for-woocommerce/includes/class-mwb-product-filter-for-woocommerce-onboarding-steps.php:690
+Stack trace:
+#0 /var/www/html/wp-content/plugins/mwb-product-filter-for-woocommerce/includes/class-mwb-product-filter-for-woocommerce-onboarding-steps.php(655): MWB_Product_Filter_For_Woocommerce_Onboarding_Steps->mwb_pffw_hubwoo_submit_form(Array, 'onboarding')
+#1 /var/www/html/wp-content/plugins/mwb-product-filter-for-woocommerce/includes/class-mwb-product-filter-for-woocommerce-onboarding-steps.php(619): MWB_Product_Filter_For_Woocommerce_Onboarding_Steps->mwb_pffw_handle_form_submission_for_hubspot(Array, 'onboarding')
+#2 /var/www/html/wp-includes/class-wp-hook.php(303): MWB_Product_Filter_For_Woocommerce_Onboarding_Steps->mwb_pffw_send_onboarding_data('')
+#3 /var/www/html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#4 / di /var/www/html/wp-content/plugins/mwb-product-filter-for-woocommerce/includes/class-mwb-product-filter-for-woocommerce-onboarding-steps.php pada baris 690
+

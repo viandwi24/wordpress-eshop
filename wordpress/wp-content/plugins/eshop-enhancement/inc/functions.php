@@ -11,9 +11,9 @@ function dd($data) {
     exit;
 }
 function eshop_enhancement_start_session() {
-    if(!session_id()) {
-        session_start();
-    }
+    // if(!session_id()) {
+    //     session_start();
+    // }
 }
 function eshop_config($key) {
     global $wpdb;

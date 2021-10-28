@@ -364,6 +364,38 @@ form.woocommerce-ordering select::after {
   right: 0;
 }
 
+.wpf_autocomplete .ui-autocomplete-input {
+  width: 100%;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border-radius: 0.25rem;
+}
+
+.wpf_autocomplete .ui-autocomplete-input:focus{
+  --tw-border-opacity: 1;
+  border-color: rgba(139, 92, 246, var(--tw-border-opacity));
+  --tw-bg-opacity: 1;
+  background-color: rgba(232, 232, 232, var(--tw-bg-opacity));
+}
+
+.wpf_autocomplete .ui-autocomplete-input{
+  line-height: 1.25;
+  --tw-text-opacity: 1;
+  color: rgba(55, 65, 81, var(--tw-text-opacity));
+}
+
+.wpf_autocomplete .ui-autocomplete-input:focus{
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.wpf_autocomplete .ui-autocomplete-input{
+  background: #f3f4f6 !important;
+  border: 1px solid #e5e7eb !important;
+  padding: 6px 6px 8px !important;
+}
+
 .floating-chat {
   position: fixed;
   z-index: 40;
@@ -1074,63 +1106,30 @@ body {
   font-size: 0.5em !important;
 }
 
-.woocommerce-notices-wrapper .woocommerce-message,
-.woocommerce-notices-wrapper .woocommerce-info,
-.woocommerce-form-coupon-toggle .woocommerce-message,
-.woocommerce-form-coupon-toggle .woocommerce-info {
+.woocommerce-message,
+.woocommerce-info {
   border: none;
   border-left: 8px solid #1d4ed8;
   background-color: #3b82f6;
   color: #E8E8E8;
 }
 
-.woocommerce-notices-wrapper .woocommerce-message .button,
-.woocommerce-notices-wrapper .woocommerce-info .button,
-.woocommerce-form-coupon-toggle .woocommerce-message .button,
-.woocommerce-form-coupon-toggle .woocommerce-info .button {
+.woocommerce-message .button,
+.woocommerce-info .button {
   background: none;
   padding: 0.1rem;
   color: #E8E8E8;
 }
 
-.woocommerce-notices-wrapper .woocommerce-message .button:hover,
-.woocommerce-notices-wrapper .woocommerce-info .button:hover,
-.woocommerce-form-coupon-toggle .woocommerce-message .button:hover,
-.woocommerce-form-coupon-toggle .woocommerce-info .button:hover {
+.woocommerce-message .button:hover,
+.woocommerce-info .button:hover {
   background: none !important;
   color: #E8E8E8;
   text-decoration: underline;
 }
 
-.woocommerce-notices-wrapper .woocommerce-message:before, .woocommerce-notices-wrapper .woocommerce-message:after,
-.woocommerce-notices-wrapper .woocommerce-info:before,
-.woocommerce-notices-wrapper .woocommerce-info:after,
-.woocommerce-form-coupon-toggle .woocommerce-message:before,
-.woocommerce-form-coupon-toggle .woocommerce-message:after,
-.woocommerce-form-coupon-toggle .woocommerce-info:before,
-.woocommerce-form-coupon-toggle .woocommerce-info:after {
-  color: #E8E8E8;
-}
-
-.cart-empty.woocommerce-info {
-  border: none;
-  border-left: 8px solid #1d4ed8;
-  background-color: #3b82f6;
-  color: #E8E8E8;
-}
-
-.cart-empty.woocommerce-info .button {
-  background: none;
-  padding: 0.1rem;
-  color: #E8E8E8;
-}
-
-.cart-empty.woocommerce-info .button:hover {
-  background: none !important;
-  color: #E8E8E8;
-  text-decoration: underline;
-}
-
-.cart-empty.woocommerce-info:before, .cart-empty.woocommerce-info:after {
+.woocommerce-message:before, .woocommerce-message:after,
+.woocommerce-info:before,
+.woocommerce-info:after {
   color: #E8E8E8;
 }

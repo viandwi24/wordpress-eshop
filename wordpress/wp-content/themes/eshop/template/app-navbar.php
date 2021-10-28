@@ -21,8 +21,9 @@
 				</div>
 			</a>
 			<form action="<?= site_url('shop') ?>" class="hidden md:flex w-1/5 pl-4 items-center">
+				<input type="hidden" name="wpf" value="filter">
 				<input
-					name="q"
+					name="wpf_cari"
 					type="text"
 					placeholder="Cari produk..."
 					class="
@@ -33,6 +34,7 @@
 						hover:text-primary hover:bg-red-200 hover:placeholder-primary
 						focus:text-primary focus:bg-red-200 focus:placeholder-primary
 					"
+					value="<?= isset($_GET['wpf_cari']) ? $_GET['wpf_cari'] : ''  ?>"
 				>
 			</form>
 			<ul class="menu flex-1 hidden md:flex justify-end items-center space-x-2">

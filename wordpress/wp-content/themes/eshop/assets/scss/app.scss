@@ -127,14 +127,8 @@ $navbarBottomHeight: 68px;
         color: theme('colors.white');
     }
 }
-.woocommerce-notices-wrapper,
-.woocommerce-form-coupon-toggle {
-    .woocommerce-message,
-    .woocommerce-info {
-        @include woocommerce-info;
-    }
-}
 
-.cart-empty.woocommerce-info {
+.woocommerce-message,
+.woocommerce-info {
     @include woocommerce-info;
 }

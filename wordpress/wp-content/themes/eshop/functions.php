@@ -17,8 +17,49 @@ function eshop_setup() {
     add_theme_support('title-tag');
     add_theme_support('woocommerce');
     add_theme_support('custom-logo');
+    add_theme_support('widgets');
+    add_theme_support('widgets-block-editor');
 }
 add_action('after_setup_theme', 'eshop_setup');
+
+// 
+// add_filter( 'woocommerce_product_query_tax_query', 'eshop_filter_product_topic', 10, 2 );
+// function eshop_filter_product_topic( $tax_query, $query ) {
+//     // Only on Product Category archives pages
+//     if( is_admin() || ! is_product_category()  ) return $tax_query;
+//     dd('ehe');
+
+//     // The taxonomy for Product Categories
+//     $taxonomy = 'product_cat';
+
+//     if( isset( $_GET['topic'] ) && ! empty( $_GET['topic'] )) {
+//         $tax_query[] = array(
+//             'taxonomy'       => $taxonomy,
+//             'field'   => 'slug',
+//             'terms'     => array( $_GET['topic'] ),
+//             'operator'   => 'IN'
+//         );
+//     }
+
+//     return $tax_query;
+// }
+
+// 
+// function eshop_widgets_init() {
+// 	register_sidebar(
+// 		array(
+// 			'name'          => 'Eshop Products',
+// 			'id'            => 'eshop-sidebar-products',
+// 			'description'   => 'Add widgets to appear in Sidebar Products Pages.',
+// 			'before_widget' => '<section id="%1$s" class="widget %2$s text-center">',
+// 			'after_widget'  => '</section>',
+// 			'before_title'  => '<h2 class="widget-title">',
+// 			'after_title'   => '</h2>',
+// 		)
+// 	);
+
+// }
+// add_action( 'widgets_init', 'eshop_widgets_init' );
 
 
 /**

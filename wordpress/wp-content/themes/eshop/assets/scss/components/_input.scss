@@ -43,3 +43,9 @@ form.woocommerce-ordering {
         }
     }
 }
+
+.wpf_autocomplete {
+    .ui-autocomplete-input {
+        @include eshop-input-text;
+    }
+}
