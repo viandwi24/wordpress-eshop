@@ -44,14 +44,22 @@ get_header( 'shop' );
 				?>
 			</header>
 		</div>
-		<div class="flex space-x-12">
-			<div class="w-1/4">
+		<div class="flex flex-col md:flex-row md:space-x-12">
+			<div class="w-full md:w-1/4 accordion-mobile">
 				<!-- <div class="font-semibold text-2xl text-black">
 					Filter
 				</div> -->
-				<?= apply_shortcodes('[searchandfilter id="filter"]'); ?>
+				<div class="title">
+					Filter
+					<span class="float-right">
+						<i class="icon fa fa-chevron-down"></i>
+					</span>
+				</div>
+				<div class="content">
+					<?= apply_shortcodes('[searchandfilter id="filter"]'); ?>
+				</div>
 			</div>
-			<div class="w-3/4">
+			<div class="w-full md:w-3/4">
 				<?php
 				if ( woocommerce_product_loop() ) {
 
@@ -116,6 +124,18 @@ get_header( 'shop' );
 		</div>
 	</div>
 </section>
+
+<script>
+	const accordion = document.querySelector('.accordion-mobile')
+	accordion.querySelector('.title').addEventListener('click', () => {
+		const state = accordion.classList.contains('collapsed')
+		if (state) {
+			accordion.classList.remove('collapsed')
+		} else {
+			accordion.classList.add('collapsed')
+		}
+	})
+</script>
 
 <?php
 get_footer( 'shop' );

@@ -33,6 +33,16 @@
                 del, ins {
                     display: block;
                 }
+
+                del {
+                    color: theme('colors.red.500');
+                }
+
+                ins {
+                    @apply text-3xl;
+                }
+
+                margin-bottom: 1rem;
             }
             .woocommerce-product-details__short-description {
                 color: theme('colors.black');
@@ -50,6 +60,7 @@
             .product_meta {
                 color: theme('colors.black');
                 & > span {
+                    margin-top: .25rem;
                     display: block;
                 }
                 .external_shop {

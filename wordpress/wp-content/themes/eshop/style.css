@@ -719,10 +719,20 @@ form.woocommerce-ordering select::after {
 .woocommerce .product .summary .price {
   font-size: 1.5rem;
   font-weight: 700;
+  margin-bottom: 1rem;
 }
 
 .woocommerce .product .summary .price del, .woocommerce .product .summary .price ins {
   display: block;
+}
+
+.woocommerce .product .summary .price del {
+  color: #e05d5d;
+}
+
+.woocommerce .product .summary .price ins {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 
 .woocommerce .product .summary .woocommerce-product-details__short-description {
@@ -747,6 +757,7 @@ form.woocommerce-ordering select::after {
 }
 
 .woocommerce .product .summary .product_meta > span {
+  margin-top: 0.25rem;
   display: block;
 }
 
@@ -1037,6 +1048,42 @@ form.woocommerce-ordering select::after {
   font-weight: 600;
   color: #222831;
   margin-bottom: 1rem;
+}
+
+.accordion-mobile > * {
+  transition: all 0.3s ease-in-out;
+}
+
+.accordion-mobile .title {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 600;
+  color: #222831;
+  border: 1px solid #d1d5db;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.accordion-mobile .title .icon {
+  transition: all 0.3s ease-in-out;
+}
+
+.accordion-mobile .title:hover {
+  background-color: #f3f4f6;
+}
+
+.accordion-mobile .content {
+  background: white;
+  padding: 1rem 2rem;
+  border: 1px solid #d1d5db;
+  border-top: none;
+  margin-bottom: 1rem;
+}
+
+.accordion-mobile.collapsed .content {
+  height: 0;
+  overflow: hidden;
+  padding: 0;
 }
 
 * {
