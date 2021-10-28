@@ -135,6 +135,9 @@ get_header( 'shop' );
 			accordion.classList.add('collapsed')
 		}
 	})
+	if (window.innerWidth < 768) {
+		accordion.classList.add('collapsed')
+	}
 </script>
 
 <?php
