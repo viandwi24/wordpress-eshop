@@ -1,7 +1,9 @@
 module.exports = {
   // mode: 'jit',
   purge: [
-    './**/*.php',
+    './shortcodes/*.php',
+    './template/*.php',
+    './woocommerce/**/*.php',
   ],
   darkMode: false, // or 'media' or 'class'
   theme: {

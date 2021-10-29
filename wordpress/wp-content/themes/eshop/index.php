@@ -44,7 +44,7 @@ get_header()
 		<div class="eshop-container">
 			<?php require_once __DIR__ . '/shortcodes/blog.php'; ?>
 		</div>
-	</main>	
+	</main>
 <?php else: ?>
 	<main class="my-4">
 		<section>
@@ -117,7 +117,9 @@ get_header()
 							$permalink = get_term_link( $category->term_id );
 							?>
 							<a href="<?= $permalink ?>" class="item py-4 px-4 bg-clearly-white">
-								<img src="<?= $image ?>" alt="<?= $category->name ?>" class="flex-1">
+								<div class="p-6">
+									<img src="<?= $image ?>" alt="<?= $category->name ?>" class="flex-1">
+								</div>
 								<div class="text-center truncate">
 									<?= $category->name ?>
 								</div>
