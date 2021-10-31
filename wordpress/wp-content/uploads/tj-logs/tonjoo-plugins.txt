@@ -4,3 +4,5 @@
 [2021-10-20 15:30:31] Activation wooongkir-premium success
 [2021-10-23 16:56:06] Failed to check license data wooongkir-premium. Attempt 1
 [2021-10-23 16:56:06] Check status wooongkir-premium for domain http://5061-61-5-37-209.ngrok.io failed, with error: Not authenticated, Website Not Registered
+[2021-10-31 12:37:13] Failed to check license data wooongkir-premium. Attempt 2
+[2021-10-31 12:37:17] Check status wooongkir-premium for domain http://99bc-36-88-115-161.ngrok.io failed, with error: Not authenticated, Website Not Registered

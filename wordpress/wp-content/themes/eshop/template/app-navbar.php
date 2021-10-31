@@ -58,26 +58,26 @@
 							</a>
 						</li>
 					<?php endforeach; ?>
-					<li class="px-4">
+					<li class="pl-4 pr-2">
 						<div class="h-5 w-0.5 bg-white"></div>
 					</li>
 					<?php
 					$current_user = wp_get_current_user();
 					if(is_user_logged_in()):
 					?>
-						<li>
+						<li class="ml-2">
 							<a href="<?= esc_url(home_url('/my-account')) ?>">
 								<i class="fa fa-user mr-1"></i>
 								<?= $current_user->display_name; ?>
 							</a>
 						</li>
 					<?php else: ?>
-						<li>
+						<li class="ml-2">
 							<a href="<?= esc_url(home_url('/my-account')) ?>" class="eshop__button sm navbar-secondary">
 								Register
 							</a>
 						</li>
-						<li>
+						<li class="ml-2">
 							<a href="<?= esc_url(home_url('/my-account')) ?>" class="eshop__button sm navbar-primary">
 							Login
 							</a>
