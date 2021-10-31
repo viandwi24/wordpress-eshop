@@ -80,6 +80,46 @@
 							</div>
 						</div>
 					</li>
+					<?php if ($socials = eshop_get_social_media()): ?>
+						<li class="ml-4">
+							<a
+								href="javascript:void(0)"
+								class="category-dropdown ml-3 text-sm transition-colors duration-300 justify-center align-middle items-center flex space-x-2 text-white hover:text-black"
+							>
+								<!-- <i class="fas fa-tags"></i> -->
+								<span class="self-center">Sosial Media</span>
+								<i class="fas fa-chevron-down"></i>
+							</a>
+							<div class="absolute z-20 hidden">
+								<div
+									class="
+										relative px-4 py-2 w-40 mt-6
+										border border-red-500 shadow-xl
+										bg-red-600
+									"
+								>
+									<ul class="flex flex-col text-sm space-y-1">
+										<?php foreach ($socials as $social): ?>
+											<li class="duration-300 transition-all hover:text-black">
+												<a href="<?= $social->social_media_link ?>" class="flex space-x-2">
+													<span>
+														<?php if (strpos($social->social_media_logo, 'fa-') !== false): ?>
+															<i class="<?= $social->social_media_logo ?> fa-fw"></i>
+														<?php else: ?>
+															<img src="<?= $social->social_media_logo ?>" alt="<?= $social->social_media_name ?>" style="max-width: 54px;">
+														<?php endif; ?>
+													</span>
+													<span>
+														<?= $social->social_media_name ?>
+													</span>
+												</a>
+											</li>
+										<?php endforeach; ?>
+									</ul>
+								</div>
+							</div>
+						</li>
+					<?php endif; ?>
 					<li class="ml-4">
 						<a href="<?= esc_url(home_url('shop')) ?>" class="text-sm transition-colors duration-300 flex space-x-2 text-white hover:text-black">
 							<span class="self-center">Produk</span>
@@ -123,15 +163,26 @@
 				</ul>
 				<script>
 					document.addEventListener('DOMContentLoaded', function () {
-						document.querySelector('.category-dropdown').addEventListener('click', function (e) {
-							this.parentElement.querySelector('div').classList.toggle('hidden')
-						});
-						document.addEventListener('click', function (e) {
-							if (!document.querySelector('.category-dropdown').parentElement.querySelector('div').classList.contains('hidden')) {
-								// check if the clicked element is outside the dropdown
-								if (!document.querySelector('.category-dropdown').contains(e.target)) {
-									document.querySelector('.category-dropdown').parentElement.querySelector('div').classList.add('hidden')
+						const openedDropdowns = []
+						document.querySelectorAll('.category-dropdown').forEach(function (el) {
+							el.addEventListener('click', function (e) {
+								if (this.parentElement.querySelector('div').classList.contains('hidden')) {
+									openedDropdowns.push(this)
 								}
+								this.parentElement.querySelector('div').classList.toggle('hidden')
+							});
+						})
+						document.addEventListener('click', function (e) {
+							console.log(openedDropdowns)
+							if (openedDropdowns.length > 0) {
+								openedDropdowns.forEach(function (el) {
+									if (!el.parentElement.querySelector('div').classList.contains('hidden')) {
+										// check if the clicked element is outside the dropdown
+										if (!el.contains(e.target)) {
+											el.parentElement.querySelector('div').classList.add('hidden')
+										}
+									}
+								})
 							}
 						});
 					})
