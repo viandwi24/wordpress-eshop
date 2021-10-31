@@ -1,3 +1,6 @@
+@import '../mixin/input';
+@import '../mixin/button';
+
 article.post {
   h1 {
     @apply text-5xl;
@@ -21,5 +24,62 @@ article.post {
 
   .content {
     margin-top: 1.5rem;
+  }
+
+  .comments-area {
+    margin-top: 2rem;
+    .comments-title {
+      @apply text-2xl;
+      color: theme('colors.black');
+    }
+    border: 1px solid theme('colors.gray.100');
+    padding: 1rem;
+
+    .comment-list {
+      margin-top: 1rem;
+      div.comment {
+        display: flex;
+        .img-thumbnail {
+          padding: 0 .75rem;
+        }
+        .comment-block {
+          flex: 1 1 0%;
+        }
+      }
+    }
+
+    .comment-respond {
+      h3 {
+        @apply text-2xl;
+        color: theme('colors.black');
+        margin: 1rem 0;
+
+        &::before {
+          content: '';
+          @apply text-sm;
+          color: theme('colors.muted');
+          display: block;
+          width: 100%;
+          border-bottom: 2px solid theme('colors.gray.100');
+          margin-top: 1rem;
+          margin-bottom: 1rem;
+        }
+      }
+      .comment-form {
+        & > p {
+          margin-bottom: .5rem;
+        }
+      }
+
+      input[type=text], textarea {
+        @include eshop-input-text;
+      }
+
+      .form-submit {
+        input.submit {
+          @include eshop-button;
+        }
+      }
+    }
   }
 }

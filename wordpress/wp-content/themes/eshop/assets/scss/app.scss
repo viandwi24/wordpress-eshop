@@ -56,7 +56,6 @@ $navbarBottomHeight: 68px;
 .navbar {
     nav.menu-top-navbar-container {
         @apply py-1;
-
         ul {
             @apply flex justify-end space-x-3;
 
@@ -64,6 +63,17 @@ $navbarBottomHeight: 68px;
                 @apply text-xs;
 
                 color: theme('colors.muted');
+            }
+        }
+    }
+    nav.menu-bottom-navbar-container {
+        @apply py-1;
+        ul {
+            @apply flex justify-end space-x-3;
+
+            li {
+                @apply text-sm;
+                color: theme('colors.white');
             }
         }
     }

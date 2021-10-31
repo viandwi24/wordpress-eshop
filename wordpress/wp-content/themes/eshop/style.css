@@ -299,7 +299,7 @@ main {
 .woocommerce-Input.input-text{
   background: #f3f4f6 !important;
   border: 1px solid #e5e7eb !important;
-  padding: 6px 6px 8px !important;
+  padding: 8px 8px 8px !important;
 }
 
 .select2-selection {
@@ -354,7 +354,7 @@ form.woocommerce-ordering select:focus{
 form.woocommerce-ordering select{
   background: #f3f4f6 !important;
   border: 1px solid #e5e7eb !important;
-  padding: 6px 6px 8px !important;
+  padding: 8px 8px 8px !important;
 }
 
 form.woocommerce-ordering select::after {
@@ -393,7 +393,7 @@ form.woocommerce-ordering select::after {
 .wpf_autocomplete .ui-autocomplete-input{
   background: #f3f4f6 !important;
   border: 1px solid #e5e7eb !important;
-  padding: 6px 6px 8px !important;
+  padding: 8px 8px 8px !important;
 }
 
 .floating-chat {
@@ -970,6 +970,110 @@ article.post .content {
   margin-top: 1.5rem;
 }
 
+article.post .comments-area {
+  margin-top: 2rem;
+  border: 1px solid #f3f4f6;
+  padding: 1rem;
+}
+
+article.post .comments-area .comments-title {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  color: #222831;
+}
+
+article.post .comments-area .comment-list {
+  margin-top: 1rem;
+}
+
+article.post .comments-area .comment-list div.comment {
+  display: flex;
+}
+
+article.post .comments-area .comment-list div.comment .img-thumbnail {
+  padding: 0 0.75rem;
+}
+
+article.post .comments-area .comment-list div.comment .comment-block {
+  flex: 1 1 0%;
+}
+
+article.post .comments-area .comment-respond h3 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  color: #222831;
+  margin: 1rem 0;
+}
+
+article.post .comments-area .comment-respond h3::before {
+  content: "";
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  color: #6b7280;
+  display: block;
+  width: 100%;
+  border-bottom: 2px solid #f3f4f6;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+article.post .comments-area .comment-respond .comment-form > p {
+  margin-bottom: 0.5rem;
+}
+
+article.post .comments-area .comment-respond input[type=text], article.post .comments-area .comment-respond textarea {
+  width: 100%;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border-radius: 0.25rem;
+}
+
+article.post .comments-area .comment-respond input[type=text]:focus, article.post .comments-area .comment-respond textarea:focus{
+  --tw-border-opacity: 1;
+  border-color: rgba(139, 92, 246, var(--tw-border-opacity));
+  --tw-bg-opacity: 1;
+  background-color: rgba(232, 232, 232, var(--tw-bg-opacity));
+}
+
+article.post .comments-area .comment-respond input[type=text], article.post .comments-area .comment-respond textarea{
+  line-height: 1.25;
+  --tw-text-opacity: 1;
+  color: rgba(55, 65, 81, var(--tw-text-opacity));
+}
+
+article.post .comments-area .comment-respond input[type=text]:focus, article.post .comments-area .comment-respond textarea:focus{
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+article.post .comments-area .comment-respond input[type=text], article.post .comments-area .comment-respond textarea{
+  background: #f3f4f6 !important;
+  border: 1px solid #e5e7eb !important;
+  padding: 8px 8px 8px !important;
+}
+
+article.post .comments-area .comment-respond .form-submit input.submit {
+  font-size: 100%;
+  margin: 0;
+  line-height: 1;
+  cursor: pointer;
+  position: relative;
+  text-decoration: none;
+  overflow: visible;
+  padding: 0.618em 1em;
+  font-weight: 700;
+  border-radius: 3px;
+  left: auto;
+  color: #515151;
+  background-color: #ebe9eb;
+  border: 0;
+  display: inline-block;
+  background-image: none;
+  box-shadow: none;
+  text-shadow: none;
+}
+
 .woocommerce h2 {
   font-size: 2rem;
   font-weight: 600;
@@ -1072,7 +1176,7 @@ article.post .content {
 .woocommerce textarea{
   background: #f3f4f6 !important;
   border: 1px solid #e5e7eb !important;
-  padding: 6px 6px 8px !important;
+  padding: 8px 8px 8px !important;
 }
 
 .woocommerce h3#order_review_heading {
@@ -1146,6 +1250,28 @@ body {
   font-size: 0.75rem;
   line-height: 1rem;
   color: #6b7280;
+}
+
+.navbar nav.menu-bottom-navbar-container {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+.navbar nav.menu-bottom-navbar-container ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar nav.menu-bottom-navbar-container ul > :not([hidden]) ~ :not([hidden]){
+  --tw-space-x-reverse: 0;
+  margin-right: calc(0.75rem * var(--tw-space-x-reverse));
+  margin-left: calc(0.75rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.navbar nav.menu-bottom-navbar-container ul li {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  color: #E8E8E8;
 }
 
 .navbar #navbar-bottom {

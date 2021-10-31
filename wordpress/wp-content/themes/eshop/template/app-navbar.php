@@ -10,86 +10,89 @@
 		</div>
 	</div>
 	<div id="navbar-bottom" class="bg-red-500">
-		<div class="eshop-container flex py-4 text-white">
-			<a class="brand self-center flex">
-				<?php (has_custom_logo()) ? the_custom_logo() : '' ?>
-				<a href="<?php echo esc_url(home_url('/')); ?>" class="ml-2 self-center text-2xl font-semibold"><?php bloginfo('name') ?></a>
-				<div class="flex-1 flex md:hidden justify-end justify-items-end items-center">
-					<button class="self-center toggle-sidebar-mobile">
-						<i class="fas fa-bars text-2xl"></i>
-					</button>
-				</div>
-			</a>
-			<form action="<?= site_url('shop') ?>" class="hidden md:flex w-1/5 pl-4 items-center">
-				<input type="hidden" name="wpf" value="filter">
-				<input
-					name="wpf_cari"
-					type="text"
-					placeholder="Cari produk..."
-					class="
-						w-full
-						py-2 px-4 text-sm
-						rounded outline-none transition-all duration-300
-						bg-red-400 text-white placeholder-white
-						hover:text-primary hover:bg-red-200 hover:placeholder-primary
-						focus:text-primary focus:bg-red-200 focus:placeholder-primary
-					"
-					value="<?= isset($_GET['wpf_cari']) ? $_GET['wpf_cari'] : ''  ?>"
-				>
-			</form>
-			<ul class="menu flex-1 hidden md:flex justify-end items-center space-x-2">
+		<div class="eshop-container py-4">
+			<div class="flex text-white">
+				<a class="brand self-center flex">
+					<?php (has_custom_logo()) ? the_custom_logo() : '' ?>
+					<a href="<?php echo esc_url(home_url('/')); ?>" class="ml-2 self-center text-2xl font-semibold"><?php bloginfo('name') ?></a>
+					<div class="flex-1 flex md:hidden justify-end justify-items-end items-center">
+						<button class="self-center toggle-sidebar-mobile">
+							<i class="fas fa-bars text-2xl"></i>
+						</button>
+					</div>
+				</a>
+				<form action="<?= site_url('shop') ?>" class="hidden md:flex w-1/5 pl-4 items-center">
+					<input type="hidden" name="wpf" value="filter">
+					<input
+						name="wpf_cari"
+						type="text"
+						placeholder="Cari produk..."
+						class="
+							w-full
+							py-2 px-4 text-sm
+							rounded outline-none transition-all duration-300
+							bg-red-400 text-white placeholder-white
+							hover:text-primary hover:bg-red-200 hover:placeholder-primary
+							focus:text-primary focus:bg-red-200 focus:placeholder-primary
+						"
+						value="<?= isset($_GET['wpf_cari']) ? $_GET['wpf_cari'] : ''  ?>"
+					>
+				</form>
+				<ul class="menu flex-1 hidden md:flex justify-end items-center">
+					<?php
+					$actionMenu = [
+						[ 'link' => esc_url(home_url('shop')), 'text' => "Produk" ],
+						[ 'link' => esc_url(home_url('blog')), 'text' => "Blog" ],
+						[ 'link' => get_permalink(wc_get_page_id('cart')), 'icon' => 'fa-solid fa-cart-shopping text-xl' ],
+					];
+					?>
+					<?php foreach ($actionMenu as $item) : ?>
+						<li class="ml-4">
+							<a href="<?= $item['link'] ?>" class="transition-colors duration-300 flex space-x-2 text-white hover:text-black">
+								<?php if(isset($item['icon'])): ?>
+									<i class="<?= $item['icon'] ?> text-xl"></i>
+								<?php endif; ?>
+								<?php if(isset($item['text'])): ?>
+									<span class="self-center"><?= $item['text'] ?></span>
+								<?php endif; ?>
+							</a>
+						</li>
+					<?php endforeach; ?>
+					<li class="px-4">
+						<div class="h-5 w-0.5 bg-white"></div>
+					</li>
+					<?php
+					$current_user = wp_get_current_user();
+					if(is_user_logged_in()):
+					?>
+						<li>
+							<a href="<?= esc_url(home_url('/my-account')) ?>">
+								<i class="fa fa-user mr-1"></i>
+								<?= $current_user->display_name; ?>
+							</a>
+						</li>
+					<?php else: ?>
+						<li>
+							<a href="<?= esc_url(home_url('/my-account')) ?>" class="eshop__button sm navbar-secondary">
+								Register
+							</a>
+						</li>
+						<li>
+							<a href="<?= esc_url(home_url('/my-account')) ?>" class="eshop__button sm navbar-primary">
+							Login
+							</a>
+						</li>
+					<?php endif ?>
+				</ul>
+			</div>
+			<!-- <div class="hidden md:flex text-white">
 				<?php
-				$actionMenu = [
-					[ 'link' => get_permalink(wc_get_page_id('cart')), 'icon' => 'fa-solid fa-cart-shopping text-xl' ],
-				];
+				wp_nav_menu([
+					'theme_location' => 'navbar-bottom-menu',
+					'container' => 'nav',
+				]);
 				?>
-				<?php foreach ($actionMenu as $item) : ?>
-					<li>
-						<a href="<?= $item['link'] ?>" class="transition-colors duration-300 text-white hover:text-black">
-							<?php if(isset($item['text'])): ?>
-								<?= $item['text'] ?>
-							<?php endif; ?>
-							<?php if(isset($item['icon'])): ?>
-								<i class="<?= $item['icon'] ?> text-xl"></i>
-							<?php endif; ?>
-						</a>
-					</li>
-				<?php endforeach; ?>
-				<li class="px-4">
-					<div class="h-5 w-0.5 bg-white"></div>
-				</li>
-				<!-- @auth('customer')
-					<li>
-						<a href="" class="transition-colors duration-300 text-white hover:text-black">
-							{{-- <span class="text-xs">Rp 10000</span> --}}
-							<i class="fa fa-user text-xl"></i>
-						</a>
-					</li>
-				@endauth
-				@guest('customer') -->
-				<?php
-				$current_user = wp_get_current_user();
-				if(is_user_logged_in()):
-				?>
-					<li>
-						<a href="<?= esc_url(home_url('/my-account')) ?>">
-							<i class="fa fa-user mr-1"></i>
-							<?= $current_user->display_name; ?>
-						</a>
-					</li>
-				<?php else: ?>
-					<li>
-						<a href="<?= esc_url(home_url('/my-account')) ?>" class="eshop__button sm navbar-secondary">
-							Register
-						</a>
-					</li>
-					<li>
-						<a href="<?= esc_url(home_url('/my-account')) ?>" class="eshop__button sm navbar-primary">
-						Login
-						</a>
-					</li>
-				<?php endif ?>
-			</ul>
+			</div> -->
 		</div>
 	</div>
 </nav>

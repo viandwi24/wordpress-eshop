@@ -1,0 +1,4 @@
+2021-10-31T12:32:24+00:00 CRITICAL syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']' di /var/www/html/wp-content/themes/eshop/template/app-navbar.php pada baris 45
+
+2021-10-31T12:32:27+00:00 CRITICAL syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']' di /var/www/html/wp-content/themes/eshop/template/app-navbar.php pada baris 45
+
