@@ -15,16 +15,17 @@
     <article class="post" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
         <div class="eshop-container">
             <div class="md:px-12">
-                <div class="thumbnail-container">
-                    <?php if (has_post_thumbnail()): the_post_thumbnail(); else: ?>
-                        <img src="<?= esc_url(home_url('woocommerce-placeholder')) ?>">
-                    <?php endif; ?>
-                </div>
+                <?php if (has_post_thumbnail()): ?>
+                    <div class="thumbnail-container">
+                        <?= the_post_thumbnail() ?>
+                    </div>
+                <?php endif; ?>
                 <?php the_title('<h1>', '</h1>'); ?>
                 <?php the_date('d/m/Y', '<div class="date">', '</div>'); ?>
                 <div class="content">
                     <?php the_content(); ?>
                 </div>
+                <?php comments_template() ?>
             </div>
         </div>
     </article>
