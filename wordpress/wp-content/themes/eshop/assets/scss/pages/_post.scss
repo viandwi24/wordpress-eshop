@@ -1,0 +1,25 @@
+article.post {
+  h1 {
+    @apply text-5xl;
+    color: theme('colors.black');
+    margin-bottom: 1rem;
+  }
+
+  .thumbnail-container {
+    background-color: red;
+    img {
+      display: inline-block;
+      width: 100%;
+    }
+    margin-bottom: 2rem;
+  }
+
+  .date {
+    @apply text-sm;
+    color: theme('colors.muted');
+  }
+
+  .content {
+    margin-top: 1.5rem;
+  }
+}

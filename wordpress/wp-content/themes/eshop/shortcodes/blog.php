@@ -11,7 +11,7 @@ $args = array(
 $query = new WP_Query($args);
 ?>
 
-<div class="flex flex-col md:flex-row md:space-x-10">
+<div class="eshop-blog flex flex-col md:flex-row md:space-x-10">
     <section class="w-full md:w-3/4 blog">
         <!-- <div class="mb-4">
             <h1 class="text-4xl text-black">
@@ -30,7 +30,7 @@ $query = new WP_Query($args);
                         <a href="<?php the_permalink(); ?>" class="post-link">
                             <div class="thumbnail-container">
                                 <?php if (has_post_thumbnail()): the_post_thumbnail(); else: ?>
-                                    <img src="<?php echo get_template_directory_uri(); ?>/images/no-image.png">
+                                    <img src="<?= esc_url(home_url('woocommerce-placeholder')) ?>">
                                 <?php endif; ?>
                                 <div class="overlay">
                                     <div>Baca</div>

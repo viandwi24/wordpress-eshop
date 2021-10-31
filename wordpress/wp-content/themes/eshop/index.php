@@ -17,7 +17,7 @@ $groups = [
 ];
 
 $taxonomy     = 'product_cat';
-$orderby      = 'name';
+$orderby      = 'id';
 $show_count   = 0;
 $pad_counts   = 0;
 $hierarchical = 1;
