@@ -39,25 +39,62 @@
 					>
 				</form>
 				<ul class="menu flex-1 hidden md:flex justify-end items-center">
-					<?php
-					$actionMenu = [
-						[ 'link' => esc_url(home_url('shop')), 'text' => "Produk" ],
-						[ 'link' => esc_url(home_url('blog')), 'text' => "Blog" ],
-						[ 'link' => get_permalink(wc_get_page_id('cart')), 'icon' => 'fa-solid fa-cart-shopping text-xl' ],
-					];
-					?>
-					<?php foreach ($actionMenu as $item) : ?>
-						<li class="ml-4">
-							<a href="<?= $item['link'] ?>" class="transition-colors duration-300 flex space-x-2 text-white hover:text-black">
-								<?php if(isset($item['icon'])): ?>
-									<i class="<?= $item['icon'] ?> text-xl"></i>
-								<?php endif; ?>
-								<?php if(isset($item['text'])): ?>
-									<span class="self-center"><?= $item['text'] ?></span>
-								<?php endif; ?>
-							</a>
-						</li>
-					<?php endforeach; ?>
+					<li class="ml-4">
+						<a
+							href="javascript:void(0)"
+							class="category-dropdown ml-3 text-sm transition-colors duration-300 justify-center align-middle items-center flex space-x-2 text-white hover:text-black"
+						>
+							<!-- <i class="fas fa-tags"></i> -->
+							<span class="self-center">Kategory</span>
+							<i class="fas fa-chevron-down"></i>
+						</a>
+						<div class="absolute z-20 hidden">
+							<div
+								class="
+									relative px-4 py-2 w-40 mt-6
+									border border-red-500 shadow-xl
+									bg-red-600
+								"
+							>
+								<?php
+								$args = array(
+									'taxonomy'     => 'product_cat',
+									'orderby'      => 'name',
+									'show_count'   => 0,
+									'pad_counts'   => 0,
+									'hierarchical' => 1,
+									'title_li'     => '',
+									'hide_empty'   => 0
+								);
+								$all_categories = get_categories($args);
+								?>
+								<ul class="flex flex-col text-sm space-y-1">
+									<?php foreach ($all_categories as $cat): if($cat->category_parent == 0) { ?>
+										<li class="duration-300 transition-all hover:text-black">
+											<a href="<?= get_term_link($cat->term_id) ?>">
+												<?= $cat->name ?>
+											</a>
+										</li>
+									<?php } endforeach; ?>
+								</ul>
+							</div>
+						</div>
+					</li>
+					<li class="ml-4">
+						<a href="<?= esc_url(home_url('shop')) ?>" class="text-sm transition-colors duration-300 flex space-x-2 text-white hover:text-black">
+							<span class="self-center">Produk</span>
+						</a>
+					</li>
+					<li class="ml-4">
+						<a href="<?= esc_url(home_url('blog')) ?>" class="text-sm transition-colors duration-300 flex space-x-2 text-white hover:text-black">
+							<span class="self-center">Blog</span>
+						</a>
+					</li>
+					<li class="ml-4">
+						<a href="<?= get_permalink(wc_get_page_id('cart')) ?>" class="transition-colors duration-300 flex space-x-2 text-white hover:text-black">
+							<i class="fa-solid fa-cart-shopping text-xl"></i>
+						</a>
+					</li>
 					<li class="pl-4 pr-2">
 						<div class="h-5 w-0.5 bg-white"></div>
 					</li>
@@ -84,6 +121,21 @@
 						</li>
 					<?php endif ?>
 				</ul>
+				<script>
+					document.addEventListener('DOMContentLoaded', function () {
+						document.querySelector('.category-dropdown').addEventListener('click', function (e) {
+							this.parentElement.querySelector('div').classList.toggle('hidden')
+						});
+						document.addEventListener('click', function (e) {
+							if (!document.querySelector('.category-dropdown').parentElement.querySelector('div').classList.contains('hidden')) {
+								// check if the clicked element is outside the dropdown
+								if (!document.querySelector('.category-dropdown').contains(e.target)) {
+									document.querySelector('.category-dropdown').parentElement.querySelector('div').classList.add('hidden')
+								}
+							}
+						});
+					})
+				</script>
 			</div>
 			<!-- <div class="hidden md:flex text-white">
 				<?php
