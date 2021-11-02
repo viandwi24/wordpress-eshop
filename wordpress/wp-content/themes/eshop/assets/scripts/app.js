@@ -409,16 +409,62 @@ const sidebarInit = () => {
 
     const toggle = () => {
         if (el.classList.contains('fixed')) {
-            el.classList.remove('fixed');
-            el.classList.add('hidden');
+            document.body.classList.remove('overflow-hidden');
+            el.querySelector('button').animate([
+                { transform: 'translateY(0)', opacity: 1 },
+                { transform: 'translateY(200px)', opacity: 0 },
+            ], {
+                duration: 300,
+                easing: 'ease-out',
+            });
+            el.querySelector('.sidebar-menu').animate([
+                { transform: 'translateX(0)' },
+                { transform: 'translateX(-300px)' },
+            ], {
+                duration: 300,
+                easing: 'ease-out'
+            }).onfinish = () => {
+                el.classList.remove('fixed');
+                el.classList.add('hidden');
+            }
         } else {
+            document.body.classList.add('overflow-hidden');
             el.classList.add('fixed');
             el.classList.remove('hidden');
+            el.querySelector('.sidebar-menu').animate([
+                { transform: 'translateX(-300px)' },
+                { transform: 'translateX(0)' },
+            ], {
+                duration: 300,
+                easing: 'ease-out'
+            })
+            el.querySelector('button').animate([
+                { transform: 'translateY(200px)', opacity: 0 },
+                { transform: 'translateY(0)', opacity: 1 },
+            ], {
+                duration: 300,
+                easing: 'ease-out',
+            })
         }
     }
 
     bg.forEach(el => el.addEventListener('click', toggle))
     sidebarToggle.forEach(el => el.addEventListener('click', toggle))
+
+    const categoriesToggle = document.querySelectorAll('.kategori-toggle')
+    const categoryToggle = () => {
+        const ulMain = el.querySelector('ul.main');
+        const ulCategory = el.querySelector('ul.kategori');
+
+        if (ulMain.classList.contains('hidden')) {
+            ulMain.classList.remove('hidden');
+            ulCategory.classList.add('hidden');
+        } else {
+            ulMain.classList.add('hidden');
+            ulCategory.classList.remove('hidden');
+        }
+    }
+    categoriesToggle.forEach(el => el.addEventListener('click', categoryToggle))
 }
 
 const liveChatInit = () => {

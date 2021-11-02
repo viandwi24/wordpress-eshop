@@ -173,7 +173,6 @@
 							});
 						})
 						document.addEventListener('click', function (e) {
-							console.log(openedDropdowns)
 							if (openedDropdowns.length > 0) {
 								openedDropdowns.forEach(function (el) {
 									if (!el.parentElement.querySelector('div').classList.contains('hidden')) {
@@ -204,6 +203,7 @@
 $mobileMenus = [
 	['type' => 'item', 'text' => 'Beranda', 'link' => esc_url(home_url())],
 	['type' => 'item', 'text' => 'Produk', 'link' => get_permalink(wc_get_page_id('shop'))],
+	['type' => 'item', 'text' => 'Kategori', 'link' => 'javascript:void(0)', 'class' => 'kategori-toggle'],
 	['type' => 'item', 'text' => 'Blog', 'link' =>esc_url(home_url('blog'))],
 	['type' => 'item', 'text' => 'Keranjang', 'link' => get_permalink(wc_get_page_id('cart'))],
 	['type' => 'header', 'text' => 'Browse'],
@@ -238,22 +238,45 @@ if ($socials = eshop_get_social_media()) {
 <div class="sidebar-mobile hidden z-50 w-full h-full left-0 top-0">
 	<div class="c absolute w-full h-full" style="background: rgba(0, 0, 0, 0.5);z-index: -1;"></div>
 	<div class="w-full h-full flex z-50">
-		<ul class="w-9/12 sidebar-menu px-4 py-4 bg-white">
-			<?php foreach ($mobileMenus as $item) : ?>
-				<!-- if header -->
-				<?php if ($item['type'] == 'header') : ?>
-					<li class="header font-thin mt-3 py-1 px-1 text-muted">
-						<?= $item['text'] ?>
-					</li>
-				<?php else : ?>
-					<li class="item font-thin py-1 px-1 text-black">
-						<a href="<?= $item['link'] ?>">
+		<div class="w-9/12 overflow-y-scroll sidebar-menu px-4 py-4 bg-white">
+			<ul class="main">
+				<?php foreach ($mobileMenus as $item) : ?>
+					<!-- if header -->
+					<?php if ($item['type'] == 'header') : ?>
+						<li class="header font-thin mt-3 py-1 px-1 text-muted">
 							<?= $item['text'] ?>
+						</li>
+					<?php else : ?>
+						<li class="item font-thin py-1 px-1 text-black <?= @$item['class'] ?>">
+							<a href="<?= $item['link'] ?>">
+								<?= $item['text'] ?>
+							</a>
+						</li>
+					<?php endif; ?>
+				<?php endforeach; ?>
+			</ul>
+			<ul class="kategori hidden">
+				<li class="font-thin py-1 px-1 text-muted">
+					<a href="#" class="kategori-toggle">< Kembali</a>
+				</li>
+				<li class="header font-thin mt-3 py-1 px-1 text-muted">
+					Kategori
+				</li>
+				<?php
+				$categories = get_terms([
+					'taxonomy' => 'product_cat',
+					'hide_empty' => false,
+				]);
+				foreach ($categories as $category) :
+					?>
+					<li class="item font-thin py-1 px-1 text-black">
+						<a href="<?= get_term_link($category) ?>">
+							<?= $category->name ?>
 						</a>
 					</li>
-				<?php endif; ?>
-			<?php endforeach; ?>
-		</ul>
+				<?php endforeach; ?>
+			</ul>
+		</div>
 		<div class="bg w-3/12 text-center pt-4">
 			<button>
 				<i class="fas fa-times text-4xl text-white"></i>
