@@ -206,7 +206,7 @@ $mobileMenus = [
 	['type' => 'item', 'text' => 'Kategori', 'link' => 'javascript:void(0)', 'class' => 'kategori-toggle'],
 	['type' => 'item', 'text' => 'Blog', 'link' =>esc_url(home_url('blog'))],
 	['type' => 'item', 'text' => 'Keranjang', 'link' => get_permalink(wc_get_page_id('cart'))],
-	['type' => 'header', 'text' => 'Browse'],
+	['type' => 'header', 'text' => 'Eksplor'],
 ];
 
 if(is_user_logged_in()) {

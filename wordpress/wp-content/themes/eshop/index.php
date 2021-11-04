@@ -144,7 +144,7 @@ get_header()
 							<?= $group['title']; ?>
 						</div>
 						<a href="<?= site_url('shop') ?>" class="text-xs ml-2 text-red-500">
-							<span>View All</span>
+							<span>Lihat Semua</span>
 							<i class="fa fa-arrow-right"></i>
 						</a>
 					</div>
@@ -169,15 +169,59 @@ get_header()
 			</section>
 		<?php endforeach; ?>
 
-		<!-- <section>
+		<section>
+			<?php
+			$args = array(
+				'post_type' => 'post',
+				'orderby' => 'post_date',
+				'posts_per_page' => 2
+			);
+			$query = new WP_Query($args);
+			?>
 			<div class="eshop-container mb-6">
 				<div class="flex items-baseline mb-2">
-					<div class="text-2xl font-bold text-black">
-						Ilham Camera
+					<div class="flex items-baseline mb-2">
+						<div class="text-2xl font-bold text-black">
+							Post Terbaru
+						</div>
+						<a href="<?= site_url('blog') ?>" class="text-xs ml-2 text-red-500">
+							<span>Lihat Semua</span>
+							<i class="fa fa-arrow-right"></i>
+						</a>
 					</div>
 				</div>
+				<?php if($query->have_posts()): ?>
+					<div class="grid grid-cols-2 gap-4">
+						<?php while ($query->have_posts()): ?>
+							<div id="post-<?php the_ID(); ?>" class="post">
+								<?php
+								$query->the_post();
+								?>
+								<div class="">
+									<a href="<?php the_permalink(); ?>" class="post-link">
+										<div class="thumbnail-container">
+											<?php if (has_post_thumbnail()): the_post_thumbnail(); else: ?>
+												<img src="<?= esc_url(home_url('woocommerce-placeholder')) ?>">
+											<?php endif; ?>
+											<div class="overlay">
+												<div>Baca</div>
+											</div>
+										</div>
+										<h2 class="title">
+											<?php the_title(); ?>
+										</h2>
+									</a>
+									<div class="date">
+										<?php the_date(); ?>
+									</div>
+								</div>
+							</div>
+							<?php wp_reset_postdata(); ?>
+						<?php endwhile; ?>
+					</div>
+				<?php endif; ?>
 			</div>
-		</section> -->
+		</section>
 
 	</main>
 <?php endif; ?>
