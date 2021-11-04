@@ -5,7 +5,7 @@ $curpage = $paged ? $paged : 1;
 $args = array(
     'post_type' => 'post',
     'orderby' => 'post_date',
-    'posts_per_page' => 1,
+    'posts_per_page' => 6,
     'paged' => $paged
 );
 $query = new WP_Query($args);
