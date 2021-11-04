@@ -51,10 +51,10 @@
 							<?php endif; ?>
 						</div>
 					</div>
-					<div class="w-full md:w-1/3 flex flex-col">
+					<div class="w-full md:w-1/3 flex flex-col text-muted">
 						<?php
 						wp_nav_menu([
-							'theme_location' => 'navbar-top-menu',
+							'theme_location' => 'footer-menu',
 							'container' => 'nav',
 						]);
 						?>
