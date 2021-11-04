@@ -5,6 +5,9 @@ $groups = [
 		'args' => [
 			'post_type' => 'product',
 			'posts_per_page' => 6,
+			'orderby' => 'meta_value_num',
+			'meta_key' => 'total_sales',
+			'order' => 'DESC',
 		]
 	],
 	[
@@ -12,6 +15,8 @@ $groups = [
 		'args' => [
 			'post_type' => 'product',
 			'posts_per_page' => 6,
+			'orderby' => 'date',
+			'order' => 'DESC',
 		]
 	],
 ];

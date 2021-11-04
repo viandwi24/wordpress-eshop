@@ -68,7 +68,8 @@ add_action('after_setup_theme', 'eshop_setup');
 function eshop_register() {
     // $plugin_path = trailingslashit( WP_PLUGIN_DIR ) . 'woocommerce/woocommerce.php';
     register_nav_menu('navbar-top-menu', 'Top Navbar Menu');
-    register_nav_menu('navbar-bottom-menu', 'Bottom Navbar Menu');
+    register_nav_menu('footer-menu', 'Footer Menu');
+    // register_nav_menu('navbar-bottom-menu', 'Bottom Navbar Menu');
     // add shortcode
     add_shortcode('eshop_blog', 'eshop_shortcode_page_blog');
 }
