@@ -15,13 +15,13 @@
 				<a class="brand self-center flex">
 					<?php (has_custom_logo()) ? the_custom_logo() : '' ?>
 					<a href="<?php echo esc_url(home_url('/')); ?>" class="ml-2 self-center text-2xl font-semibold"><?php bloginfo('name') ?></a>
-					<div class="flex-1 flex md:hidden justify-end justify-items-end items-center">
+					<div class="flex-1 flex lg:hidden justify-end justify-items-end items-center">
 						<button class="self-center toggle-sidebar-mobile">
 							<i class="fas fa-bars text-2xl"></i>
 						</button>
 					</div>
 				</a>
-				<form action="<?= site_url('shop') ?>" class="hidden md:flex w-1/5 pl-4 items-center">
+				<form action="<?= site_url('shop') ?>" class="hidden lg:flex w-1/5 pl-4 items-center">
 					<input type="hidden" name="wpf" value="filter">
 					<input
 						name="wpf_cari"
@@ -38,7 +38,7 @@
 						value="<?= isset($_GET['wpf_cari']) ? $_GET['wpf_cari'] : ''  ?>"
 					>
 				</form>
-				<ul class="menu flex-1 hidden md:flex justify-end items-center">
+				<ul class="menu flex-1 hidden lg:flex justify-end items-center">
 					<li class="ml-4">
 						<a
 							href="javascript:void(0)"
@@ -161,33 +161,8 @@
 						</li>
 					<?php endif ?>
 				</ul>
-				<script>
-					document.addEventListener('DOMContentLoaded', function () {
-						const openedDropdowns = []
-						document.querySelectorAll('.category-dropdown').forEach(function (el) {
-							el.addEventListener('click', function (e) {
-								if (this.parentElement.querySelector('div').classList.contains('hidden')) {
-									openedDropdowns.push(this)
-								}
-								this.parentElement.querySelector('div').classList.toggle('hidden')
-							});
-						})
-						document.addEventListener('click', function (e) {
-							if (openedDropdowns.length > 0) {
-								openedDropdowns.forEach(function (el) {
-									if (!el.parentElement.querySelector('div').classList.contains('hidden')) {
-										// check if the clicked element is outside the dropdown
-										if (!el.contains(e.target)) {
-											el.parentElement.querySelector('div').classList.add('hidden')
-										}
-									}
-								})
-							}
-						});
-					})
-				</script>
 			</div>
-			<!-- <div class="hidden md:flex text-white">
+			<!-- <div class="hidden lg:flex text-white">
 				<?php
 				wp_nav_menu([
 					'theme_location' => 'navbar-bottom-menu',
@@ -198,6 +173,31 @@
 		</div>
 	</div>
 </nav>
+<script>
+	document.addEventListener('DOMContentLoaded', function () {
+		const openedDropdowns = []
+		document.querySelectorAll('.category-dropdown').forEach(function (el) {
+			el.addEventListener('click', function (e) {
+				if (this.parentElement.querySelector('div').classList.contains('hidden')) {
+					openedDropdowns.push(this)
+				}
+				this.parentElement.querySelector('div').classList.toggle('hidden')
+			});
+		})
+		document.addEventListener('click', function (e) {
+			if (openedDropdowns.length > 0) {
+				openedDropdowns.forEach(function (el) {
+					if (!el.parentElement.querySelector('div').classList.contains('hidden')) {
+						// check if the clicked element is outside the dropdown
+						if (!el.contains(e.target)) {
+							el.parentElement.querySelector('div').classList.add('hidden')
+						}
+					}
+				})
+			}
+		});
+	})
+</script>
 
 <?php
 $mobileMenus = [
