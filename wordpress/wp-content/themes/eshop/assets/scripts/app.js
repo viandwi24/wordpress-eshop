@@ -472,6 +472,7 @@ const liveChatInit = () => {
     const btnClose = el.querySelector('.btn-close');
     const messages = el.querySelector('.messages');
     const input = el.querySelector('.text-box');
+    const whatsapp = document.querySelector('meta[name="social-media-whatsapp"]').content;
     let firstOpened = true;
 
     // 
@@ -541,7 +542,7 @@ const liveChatInit = () => {
                 } else {
                     commit(`
                         Maaf, aku tidak mengerti maksudmu. Kamu dapat
-                        <a href="https://wa.me/0895337617550" style="text-decoration: underline;">link ini</a>
+                        <a href="${whatsapp}" style="text-decoration: underline;">link ini</a>
                         ini untuk menghubungi WhatsApp Toko.
                     `)
                 }

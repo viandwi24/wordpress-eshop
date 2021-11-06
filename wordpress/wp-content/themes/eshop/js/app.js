@@ -550,6 +550,7 @@ var liveChatInit = function liveChatInit() {
   var btnClose = el.querySelector('.btn-close');
   var messages = el.querySelector('.messages');
   var input = el.querySelector('.text-box');
+  var whatsapp = document.querySelector('meta[name="social-media-whatsapp"]').content;
   var firstOpened = true; // 
 
   Bots.push({
@@ -619,7 +620,7 @@ var liveChatInit = function liveChatInit() {
             commit(r[i]);
           }
         } else {
-          commit("\n                        Maaf, aku tidak mengerti maksudmu. Kamu dapat\n                        <a href=\"https://wa.me/0895337617550\" style=\"text-decoration: underline;\">link ini</a>\n                        ini untuk menghubungi WhatsApp Toko.\n                    ");
+          commit("\n                        Maaf, aku tidak mengerti maksudmu. Kamu dapat\n                        <a href=\"".concat(whatsapp, "\" style=\"text-decoration: underline;\">link ini</a>\n                        ini untuk menghubungi WhatsApp Toko.\n                    "));
         }
       }, Math.random() * 1000);
     }

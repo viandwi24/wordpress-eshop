@@ -71,15 +71,15 @@ get_header()
 					<div class="w-full md:w-1/5 flex py-4 space-x-4 justify-center items-center">
 						<i class="fas fa-truck text-5xl self-center text-red-500"></i>
 						<div>
-							<div class="text-lg font-semibold">Free Delivery</div>
-							<div class="text-xs text-muted">From $50</div>
+							<div class="text-lg font-semibold">Jemput Paket</div>
+							<div class="text-xs text-muted">Langsung Jemput</div>
 						</div>
 					</div>
 					<div class="w-full md:w-1/5 flex py-4 space-x-4 justify-center items-center">
-						<i class="fas fa-exchange-alt text-5xl self-center text-red-500"></i>
+						<i class="fas fa-hands-helping text-5xl self-center text-red-500"></i>
 						<div>
-							<div class="text-lg font-semibold">99% Positive</div>
-							<div class="text-xs text-muted">Feedbacks</div>
+							<div class="text-lg font-semibold">Ambil di Toko</div>
+							<div class="text-xs text-muted">Ambil Sendiri</div>
 						</div>
 					</div>
 					<div class="w-full md:w-1/5 flex py-4 space-x-4 justify-center items-center">
