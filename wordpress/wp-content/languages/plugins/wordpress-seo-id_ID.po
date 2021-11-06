@@ -32,8 +32,8 @@ msgid "Current date"
 msgstr "Tanggal sekarang"
 
 #. Translators: %s expands to Yoast SEO Premium
-#: languages/wordpress-seojs.php:513 js/dist/block-editor-1740.js:13
-#: js/dist/classic-editor-1740.js:13 js/dist/elementor-1740.js:13
+#: languages/wordpress-seojs.php:513 js/dist/block-editor-1750.js:13
+#: js/dist/classic-editor-1750.js:13 js/dist/elementor-1750.js:13
 msgid "Get %s to unlock social previews!"
 msgstr "Dapatkan %s untuk membuka pratinjau sosial!"
 
@@ -125,31 +125,31 @@ msgstr "%1$sDaftar%3$s: Tidak ada daftar di halaman ini. %2$sTambahkan setidakny
 msgid "%1$sLists%2$s: There is at least one list on this page. Great!"
 msgstr "%1$sDaftar%2$s: Setidaknya ada satu daftar di halaman ini. Bagus!"
 
-#: languages/wordpress-seojs.php:158 js/dist/indexation-1740.js:1
+#: languages/wordpress-seojs.php:158 js/dist/indexation-1750.js:1
 msgid "Error stack trace"
 msgstr "Tanda kesalahan"
 
-#: languages/wordpress-seojs.php:155 js/dist/indexation-1740.js:1
+#: languages/wordpress-seojs.php:155 js/dist/indexation-1750.js:1
 msgid "Response"
 msgstr "Tanggapan"
 
-#: languages/wordpress-seojs.php:152 js/dist/indexation-1740.js:1
+#: languages/wordpress-seojs.php:152 js/dist/indexation-1750.js:1
 msgid "Error message"
 msgstr "Pesan eror"
 
-#: languages/wordpress-seojs.php:149 js/dist/indexation-1740.js:1
+#: languages/wordpress-seojs.php:149 js/dist/indexation-1750.js:1
 msgid "Status code"
 msgstr "Kode status"
 
-#: languages/wordpress-seojs.php:146 js/dist/indexation-1740.js:1
+#: languages/wordpress-seojs.php:146 js/dist/indexation-1750.js:1
 msgid "Request method"
 msgstr "Metode permintaan"
 
-#: languages/wordpress-seojs.php:143 js/dist/indexation-1740.js:1
+#: languages/wordpress-seojs.php:143 js/dist/indexation-1750.js:1
 msgid "Request URL"
 msgstr "URL permintaan"
 
-#: languages/wordpress-seojs.php:140 js/dist/indexation-1740.js:1
+#: languages/wordpress-seojs.php:140 js/dist/indexation-1750.js:1
 msgid "Error details"
 msgstr "Detail eror"
 
@@ -327,8 +327,8 @@ msgstr "Temukan data yang relevan tentang konten Anda langsung di bagian Wawasan
 msgid "Insights"
 msgstr "Wawasan"
 
-#: languages/wordpress-seojs.php:233 js/dist/block-editor-1740.js:63
-#: js/dist/classic-editor-1740.js:63 js/dist/elementor-1740.js:63
+#: languages/wordpress-seojs.php:233 js/dist/block-editor-1750.js:63
+#: js/dist/classic-editor-1750.js:63 js/dist/elementor-1750.js:63
 msgid "Read more about Schema."
 msgstr "Baca lebih lanjut tentang Skema."
 
@@ -389,7 +389,7 @@ msgid "Single %s settings"
 msgstr "Pengaturan %s tunggal"
 
 #: src/schema-templates/cooking-time.block.php:14
-#: js/dist/externals/schemaBlocks-1740.js:13
+#: js/dist/externals/schemaBlocks-1750.js:13
 msgid "Cooking time"
 msgstr "Waktu memasak"
 
@@ -429,7 +429,7 @@ msgstr "Deskripsi sosial"
 msgid "Social title"
 msgstr "Judul sosial"
 
-#: languages/wordpress-seojs.php:604 js/dist/settings-1740.js:6
+#: languages/wordpress-seojs.php:604 js/dist/settings-1750.js:6
 msgid "Social image"
 msgstr "Gambar sosial"
 
@@ -476,56 +476,56 @@ msgstr "%1$s Lanjutkan ke %2$s%3$s"
 msgid "Installing and activating addons"
 msgstr "Menginstal dan mengaktifkan tambahan"
 
-#: languages/wordpress-seojs.php:39 js/dist/addon-installation-1740.js:3
+#: languages/wordpress-seojs.php:39 js/dist/addon-installation-1750.js:3
 msgid "the following addons"
 msgstr "tambahan berikut"
 
 #. translators: %s expands to Yoast
-#: languages/wordpress-seojs.php:36 js/dist/addon-installation-1740.js:3
+#: languages/wordpress-seojs.php:36 js/dist/addon-installation-1750.js:3
 msgid "%s SEO installation"
 msgstr "pemasangan SEO %s"
 
-#: languages/wordpress-seojs.php:32 js/dist/addon-installation-1740.js:5
+#: languages/wordpress-seojs.php:32 js/dist/addon-installation-1750.js:5
 msgid "Install and activate"
 msgstr "Instal dan aktifkan"
 
 #. translators: %s expands to Yoast SEO Premium
-#: languages/wordpress-seojs.php:26 js/dist/addon-installation-1740.js:5
+#: languages/wordpress-seojs.php:26 js/dist/addon-installation-1750.js:5
 msgid "Please confirm below that you would like to install %s on this site."
 msgstr "Harap konfirmasi di bawah bahwa Anda ingin menginstal %s di situs ini."
 
 #: languages/yoast-components.php:227
-#: js/dist/externals/searchMetadataPreviews-1740.js:2
+#: js/dist/externals/searchMetadataPreviews-1750.js:2
 msgid "Shopping data preview:"
 msgstr "Pratinjau data belanja:"
 
 #: languages/yoast-components.php:218
-#: js/dist/externals/searchMetadataPreviews-1740.js:2
+#: js/dist/externals/searchMetadataPreviews-1750.js:2
 msgid "Availability"
 msgstr "Ketersediaan"
 
 #: languages/yoast-components.php:215
-#: js/dist/externals/searchMetadataPreviews-1740.js:2
+#: js/dist/externals/searchMetadataPreviews-1750.js:2
 msgid "Price"
 msgstr "Harga"
 
 #. Translators: %s expands to the actual rating, e.g. 8/10.
 #: languages/yoast-components.php:212
-#: js/dist/externals/searchMetadataPreviews-1740.js:2
+#: js/dist/externals/searchMetadataPreviews-1750.js:2
 msgid "Rating"
 msgstr "Rating"
 
 #: languages/yoast-components.php:209
-#: js/dist/externals/searchMetadataPreviews-1740.js:1
+#: js/dist/externals/searchMetadataPreviews-1750.js:1
 msgid "%s reviews"
 msgstr "pratinjau %s"
 
 #: languages/yoast-components.php:205
-#: js/dist/externals/searchMetadataPreviews-1740.js:1
+#: js/dist/externals/searchMetadataPreviews-1750.js:1
 msgid "Rating: %s"
 msgstr "Rating: %s"
 
-#: languages/wordpress-seojs.php:607 js/dist/settings-1740.js:6
+#: languages/wordpress-seojs.php:607 js/dist/settings-1750.js:6
 msgid "Image"
 msgstr "Gambar"
 
@@ -580,27 +580,27 @@ msgstr "Kami melihat Anda mengaktifkan pembaruan otomatis untuk WordPress. Sebai
 #: languages/yoast-components.php:98
 #: src/presenters/admin/badge-presenter.php:80
 #: src/presenters/admin/badge-presenter.php:87
-#: js/dist/externals/componentsNew-1740.js:1
+#: js/dist/externals/componentsNew-1750.js:1
 msgid "New"
 msgstr "Baru"
 
-#: languages/wordpress-seojs.php:573 js/dist/block-editor-1740.js:83
+#: languages/wordpress-seojs.php:573 js/dist/block-editor-1750.js:83
 msgid "Schema analysis:"
 msgstr "Analisis skema:"
 
-#: languages/yoast-components.php:95 js/dist/externals/componentsNew-1740.js:3
+#: languages/yoast-components.php:95 js/dist/externals/componentsNew-1750.js:3
 msgid "seconds"
 msgstr "detik"
 
-#: languages/yoast-components.php:86 js/dist/externals/componentsNew-1740.js:3
+#: languages/yoast-components.php:86 js/dist/externals/componentsNew-1750.js:3
 msgid "Remove image"
 msgstr "Hapus gambar"
 
-#: languages/yoast-components.php:83 js/dist/externals/componentsNew-1740.js:3
+#: languages/yoast-components.php:83 js/dist/externals/componentsNew-1750.js:3
 msgid "Select image"
 msgstr "Pilih gambar"
 
-#: languages/yoast-components.php:79 js/dist/externals/componentsNew-1740.js:3
+#: languages/yoast-components.php:79 js/dist/externals/componentsNew-1750.js:3
 msgid "Replace image"
 msgstr "Ganti gambar"
 
@@ -625,27 +625,27 @@ msgstr "Pembaruan plugin premium %1$s berjalan lancar"
 msgid "%1$s premium plugins cannot update"
 msgstr "Plugin premium %1$s tidak dapat diperbarui"
 
-#: languages/wordpress-seojs.php:558 js/dist/dynamic-blocks-1740.js:1
+#: languages/wordpress-seojs.php:558 js/dist/dynamic-blocks-1750.js:1
 msgid "site structure"
 msgstr "struktur situs"
 
-#: languages/wordpress-seojs.php:555 js/dist/dynamic-blocks-1740.js:1
+#: languages/wordpress-seojs.php:555 js/dist/dynamic-blocks-1750.js:1
 msgid "internal linking"
 msgstr "Tautan internal"
 
-#: languages/wordpress-seojs.php:552 js/dist/dynamic-blocks-1740.js:1
+#: languages/wordpress-seojs.php:552 js/dist/dynamic-blocks-1750.js:1
 msgid "breadcrumbs"
 msgstr "breadcrumb"
 
-#: languages/wordpress-seojs.php:549 js/dist/dynamic-blocks-1740.js:1
+#: languages/wordpress-seojs.php:549 js/dist/dynamic-blocks-1750.js:1
 msgid "seo"
 msgstr "seo"
 
-#: languages/wordpress-seojs.php:546 js/dist/dynamic-blocks-1740.js:1
+#: languages/wordpress-seojs.php:546 js/dist/dynamic-blocks-1750.js:1
 msgid "Adds the Yoast SEO breadcrumbs to your template or content."
 msgstr "Tambahkan Yoast SEO breadcrumb ke dalam template atau konten Anda."
 
-#: languages/wordpress-seojs.php:543 js/dist/dynamic-blocks-1740.js:1
+#: languages/wordpress-seojs.php:543 js/dist/dynamic-blocks-1750.js:1
 msgid "Yoast Breadcrumbs"
 msgstr "Yoast Breadcrumb"
 
@@ -677,19 +677,19 @@ msgid "Because of a change in your category base setting, some of your SEO data 
 msgstr "Karena adanya perubahan di pengaturan kategori dasar Anda, beberapa data SEO Anda perlu diproses ulang. "
 
 #. Translators: %1$s translates to the Post Label in singular form
-#: languages/wordpress-seojs.php:595 js/dist/elementor-1740.js:83
+#: languages/wordpress-seojs.php:595 js/dist/elementor-1750.js:83
 msgid "Unfortunately we cannot save changes to your SEO settings while you are working on a draft of an already-published %1$s. If you want to save your SEO changes, make sure to click 'Update', or wait to make your SEO changes until you are ready to update the %1$s."
 msgstr "Sayangnya kami tidak dapat menyimpan perubahan pengaturan SEO Anda ketika Anda bekerja dalam draf dari %1$s yang telah diterbitkan. Jika Anda ingin menyimpan perubahan SEO Anda, pastikan klik 'Perbarui', atau tunggu untuk memastikan perubahan SEO Anda siap diperbarui %1$s."
 
-#: languages/wordpress-seojs.php:567 js/dist/elementor-1740.js:83
+#: languages/wordpress-seojs.php:567 js/dist/elementor-1750.js:83
 msgid "Got it"
 msgstr "Paham"
 
-#: languages/wordpress-seojs.php:564 js/dist/elementor-1740.js:83
+#: languages/wordpress-seojs.php:564 js/dist/elementor-1750.js:83
 msgid "Get started with Yoast SEO's content analysis for Elementor!"
 msgstr "Memulai analisis konten Yoast SEO untuk Elementor!"
 
-#: languages/wordpress-seojs.php:561 js/dist/elementor-1740.js:83
+#: languages/wordpress-seojs.php:561 js/dist/elementor-1750.js:83
 msgid "New: Yoast SEO for Elementor"
 msgstr "Baru: Yoast SEO untuk Elementor"
 
@@ -753,7 +753,7 @@ msgstr "%1$s dapat mengintegrasikan dengan produk pihak ketiga. Anda dapat menga
 msgid "Activate your subscription"
 msgstr "Aktifkan langganan Anda"
 
-#: languages/wordpress-seojs.php:125 js/dist/indexation-1740.js:1
+#: languages/wordpress-seojs.php:125 js/dist/indexation-1750.js:1
 msgid "Stop SEO data optimization"
 msgstr "Hentikan optimasi data SEO"
 
@@ -761,221 +761,221 @@ msgstr "Hentikan optimasi data SEO"
 msgid "Oops, something has gone wrong and we couldn't complete the optimization of your SEO data. Please click the button again to re-start the process. "
 msgstr "Terjadi masalah dan kami tidak dapat menyelesaikan optimisasi data SEO Anda. Silakan klik tombol untuk memulai prosesnya kembali."
 
-#: languages/wordpress-seojs.php:134 js/dist/indexation-1740.js:1
+#: languages/wordpress-seojs.php:134 js/dist/indexation-1750.js:1
 msgid "Optimizing SEO data... This may take a while."
 msgstr "Optimasi data SEO... Ini akan memakan waktu beberapa saat."
 
-#: languages/wordpress-seojs.php:137 js/dist/indexation-1740.js:1
+#: languages/wordpress-seojs.php:137 js/dist/indexation-1750.js:1
 msgid "SEO data optimization complete"
 msgstr "Optimasi data SEO selesai"
 
-#: languages/wordpress-seojs.php:131 js/dist/indexation-1740.js:1
+#: languages/wordpress-seojs.php:131 js/dist/indexation-1750.js:1
 msgid "SEO data optimization is disabled for non-production environments."
 msgstr "Optimasi data SEO tidak aktif untuk mode pengembangan."
 
-#: languages/wordpress-seojs.php:122 js/dist/indexation-1740.js:1
+#: languages/wordpress-seojs.php:122 js/dist/indexation-1750.js:1
 msgid "This feature includes and replaces the Text Link Counter and Internal Linking Analysis"
 msgstr "Fitur ini menyertakan dan mengganti Penghitung Tautan Teks dan Analisis Internal Linking"
 
 #. translators: %s: Expands to "Yoast SEO Premium".
-#: languages/wordpress-seojs.php:479 js/dist/block-editor-1740.js:25
-#: js/dist/classic-editor-1740.js:25 js/dist/editor-modules-1740.js:13
-#: js/dist/elementor-1740.js:25
+#: languages/wordpress-seojs.php:479 js/dist/block-editor-1750.js:25
+#: js/dist/classic-editor-1750.js:25 js/dist/editor-modules-1750.js:13
+#: js/dist/elementor-1750.js:25
 msgid "Check out %s!"
 msgstr "Lihat %s!"
 
 #. translators: %s: Expands to "Yoast SEO".
-#: languages/wordpress-seojs.php:475 js/dist/block-editor-1740.js:23
-#: js/dist/classic-editor-1740.js:23 js/dist/editor-modules-1740.js:11
-#: js/dist/elementor-1740.js:23
+#: languages/wordpress-seojs.php:475 js/dist/block-editor-1750.js:23
+#: js/dist/classic-editor-1750.js:23 js/dist/editor-modules-1750.js:11
+#: js/dist/elementor-1750.js:23
 msgid "Would you like to be able to add these related keyphrases to the %s analysis so you can optimize your content even further?"
 msgstr "Bisakah Anda menambahkan frasa kunci terkait berikut ke analisis %s, sehingga Anda dapat mengoptimalkan konten Anda lebih jauh lagi?"
 
-#: languages/wordpress-seojs.php:471 js/dist/block-editor-1740.js:25
-#: js/dist/classic-editor-1740.js:25 js/dist/editor-modules-1740.js:13
-#: js/dist/elementor-1740.js:25
+#: languages/wordpress-seojs.php:471 js/dist/block-editor-1750.js:25
+#: js/dist/classic-editor-1750.js:25 js/dist/editor-modules-1750.js:13
+#: js/dist/elementor-1750.js:25
 msgid "We've encountered a problem trying to get related keyphrases. Please try again later."
 msgstr "Terjadi masalah dalam pencarian frasa kunci terkait. Mohon coba lagi nanti."
 
 #. translators: %s: Expands to "Yoast SEO".
-#: languages/wordpress-seojs.php:468 js/dist/block-editor-1740.js:27
-#: js/dist/classic-editor-1740.js:27 js/dist/editor-modules-1740.js:15
-#: js/dist/elementor-1740.js:27
+#: languages/wordpress-seojs.php:468 js/dist/block-editor-1750.js:27
+#: js/dist/classic-editor-1750.js:27 js/dist/editor-modules-1750.js:15
+#: js/dist/elementor-1750.js:27
 msgid "You've reached the maximum amount of 4 related keyphrases. You can change or remove related keyphrases in the %s metabox or sidebar."
 msgstr "Anda telah mencapai jumlah maksimal 4 frasa kunci terkait. Anda dapat mengubah atau menghapus frasa kunci terkait di metabox %s atau sidebar."
 
 #. translators: %1$s expands to "Yoast SEO", %2$s expands to "Semrush".
-#: languages/wordpress-seojs.php:464 js/dist/block-editor-1740.js:15
-#: js/dist/classic-editor-1740.js:15 js/dist/editor-modules-1740.js:3
-#: js/dist/elementor-1740.js:15
+#: languages/wordpress-seojs.php:464 js/dist/block-editor-1750.js:15
+#: js/dist/classic-editor-1750.js:15 js/dist/editor-modules-1750.js:3
+#: js/dist/elementor-1750.js:15
 msgid "Please wait while %1$s connects to %2$s to get related keyphrases..."
 msgstr "Mohon tunggu ketika %1$s menghubungkan ke %2$s untuk mendapatkan frasa kunci terkait..."
 
 #. translators: %s : Expands to "Semrush".
-#: languages/wordpress-seojs.php:460 js/dist/block-editor-1740.js:19
-#: js/dist/classic-editor-1740.js:19 js/dist/editor-modules-1740.js:7
-#: js/dist/elementor-1740.js:19
+#: languages/wordpress-seojs.php:460 js/dist/block-editor-1750.js:19
+#: js/dist/classic-editor-1750.js:19 js/dist/editor-modules-1750.js:7
+#: js/dist/elementor-1750.js:19
 msgid "Upgrade your %s plan"
 msgstr "Upgrade paket %s Anda"
 
 #. translators: %s : Expands to "Semrush".
-#: languages/wordpress-seojs.php:456 js/dist/block-editor-1740.js:17
-#: js/dist/classic-editor-1740.js:17 js/dist/editor-modules-1740.js:5
-#: js/dist/elementor-1740.js:17
+#: languages/wordpress-seojs.php:456 js/dist/block-editor-1750.js:17
+#: js/dist/classic-editor-1750.js:17 js/dist/editor-modules-1750.js:5
+#: js/dist/elementor-1750.js:17
 msgid "You've reached your request limit for today. Check back tomorrow or upgrade your plan over at %s."
 msgstr "Anda telah melewati batas permintaan Anda hari ini. Cek kembali besok dan upgrade plan Anda melalui %s."
 
-#: languages/wordpress-seojs.php:452 js/dist/block-editor-1740.js:19
-#: js/dist/classic-editor-1740.js:19 js/dist/editor-modules-1740.js:7
-#: js/dist/elementor-1740.js:19
+#: languages/wordpress-seojs.php:452 js/dist/block-editor-1750.js:19
+#: js/dist/classic-editor-1750.js:19 js/dist/editor-modules-1750.js:7
+#: js/dist/elementor-1750.js:19
 msgid "Last month"
 msgstr "Bulan Terakhir"
 
-#: languages/wordpress-seojs.php:449 js/dist/block-editor-1740.js:19
-#: js/dist/classic-editor-1740.js:19 js/dist/editor-modules-1740.js:7
-#: js/dist/elementor-1740.js:19
+#: languages/wordpress-seojs.php:449 js/dist/block-editor-1750.js:19
+#: js/dist/classic-editor-1750.js:19 js/dist/editor-modules-1750.js:7
+#: js/dist/elementor-1750.js:19
 msgid "Two months ago"
 msgstr "Dua bulan yang lalu"
 
-#: languages/wordpress-seojs.php:446 js/dist/block-editor-1740.js:19
-#: js/dist/classic-editor-1740.js:19 js/dist/editor-modules-1740.js:7
-#: js/dist/elementor-1740.js:19
+#: languages/wordpress-seojs.php:446 js/dist/block-editor-1750.js:19
+#: js/dist/classic-editor-1750.js:19 js/dist/editor-modules-1750.js:7
+#: js/dist/elementor-1750.js:19
 msgid "Three months ago"
 msgstr "Tiga bulan yang lalu"
 
-#: languages/wordpress-seojs.php:443 js/dist/block-editor-1740.js:19
-#: js/dist/classic-editor-1740.js:19 js/dist/editor-modules-1740.js:7
-#: js/dist/elementor-1740.js:19
+#: languages/wordpress-seojs.php:443 js/dist/block-editor-1750.js:19
+#: js/dist/classic-editor-1750.js:19 js/dist/editor-modules-1750.js:7
+#: js/dist/elementor-1750.js:19
 msgid "Four months ago"
 msgstr "Empat bulan yang lalu"
 
-#: languages/wordpress-seojs.php:440 js/dist/block-editor-1740.js:19
-#: js/dist/classic-editor-1740.js:19 js/dist/editor-modules-1740.js:7
-#: js/dist/elementor-1740.js:19
+#: languages/wordpress-seojs.php:440 js/dist/block-editor-1750.js:19
+#: js/dist/classic-editor-1750.js:19 js/dist/editor-modules-1750.js:7
+#: js/dist/elementor-1750.js:19
 msgid "Five months ago"
 msgstr "Lima bulan yang lalu"
 
-#: languages/wordpress-seojs.php:437 js/dist/block-editor-1740.js:19
-#: js/dist/classic-editor-1740.js:19 js/dist/editor-modules-1740.js:7
-#: js/dist/elementor-1740.js:19
+#: languages/wordpress-seojs.php:437 js/dist/block-editor-1750.js:19
+#: js/dist/classic-editor-1750.js:19 js/dist/editor-modules-1750.js:7
+#: js/dist/elementor-1750.js:19
 msgid "Six months ago"
 msgstr "Enam bulan yang lalu"
 
-#: languages/wordpress-seojs.php:434 js/dist/block-editor-1740.js:19
-#: js/dist/classic-editor-1740.js:19 js/dist/editor-modules-1740.js:7
-#: js/dist/elementor-1740.js:19
+#: languages/wordpress-seojs.php:434 js/dist/block-editor-1750.js:19
+#: js/dist/classic-editor-1750.js:19 js/dist/editor-modules-1750.js:7
+#: js/dist/elementor-1750.js:19
 msgid "Seven months ago"
 msgstr "Tujuh bulan yang lalu"
 
-#: languages/wordpress-seojs.php:431 js/dist/block-editor-1740.js:19
-#: js/dist/classic-editor-1740.js:19 js/dist/editor-modules-1740.js:7
-#: js/dist/elementor-1740.js:19
+#: languages/wordpress-seojs.php:431 js/dist/block-editor-1750.js:19
+#: js/dist/classic-editor-1750.js:19 js/dist/editor-modules-1750.js:7
+#: js/dist/elementor-1750.js:19
 msgid "Eight months ago"
 msgstr "Delapan bulan yang lalu"
 
-#: languages/wordpress-seojs.php:428 js/dist/block-editor-1740.js:19
-#: js/dist/classic-editor-1740.js:19 js/dist/editor-modules-1740.js:7
-#: js/dist/elementor-1740.js:19
+#: languages/wordpress-seojs.php:428 js/dist/block-editor-1750.js:19
+#: js/dist/classic-editor-1750.js:19 js/dist/editor-modules-1750.js:7
+#: js/dist/elementor-1750.js:19
 msgid "Nine months ago"
 msgstr "Sembilan bulan yang lalu"
 
-#: languages/wordpress-seojs.php:425 js/dist/block-editor-1740.js:19
-#: js/dist/classic-editor-1740.js:19 js/dist/editor-modules-1740.js:7
-#: js/dist/elementor-1740.js:19
+#: languages/wordpress-seojs.php:425 js/dist/block-editor-1750.js:19
+#: js/dist/classic-editor-1750.js:19 js/dist/editor-modules-1750.js:7
+#: js/dist/elementor-1750.js:19
 msgid "Ten months ago"
 msgstr "Sepuluh bulan yang lalu"
 
-#: languages/wordpress-seojs.php:422 js/dist/block-editor-1740.js:19
-#: js/dist/classic-editor-1740.js:19 js/dist/editor-modules-1740.js:7
-#: js/dist/elementor-1740.js:19
+#: languages/wordpress-seojs.php:422 js/dist/block-editor-1750.js:19
+#: js/dist/classic-editor-1750.js:19 js/dist/editor-modules-1750.js:7
+#: js/dist/elementor-1750.js:19
 msgid "Eleven months ago"
 msgstr "Sebelas bulan yang lalu"
 
-#: languages/wordpress-seojs.php:419 js/dist/block-editor-1740.js:19
-#: js/dist/classic-editor-1740.js:19 js/dist/editor-modules-1740.js:7
-#: js/dist/elementor-1740.js:19
+#: languages/wordpress-seojs.php:419 js/dist/block-editor-1750.js:19
+#: js/dist/classic-editor-1750.js:19 js/dist/editor-modules-1750.js:7
+#: js/dist/elementor-1750.js:19
 msgid "Twelve months ago"
 msgstr "Dua belas bulan yang lalu"
 
 #. translators: %s expands to Semrush
-#: languages/wordpress-seojs.php:416 js/dist/block-editor-1740.js:21
-#: js/dist/classic-editor-1740.js:21 js/dist/editor-modules-1740.js:9
-#: js/dist/elementor-1740.js:21
+#: languages/wordpress-seojs.php:416 js/dist/block-editor-1750.js:21
+#: js/dist/classic-editor-1750.js:21 js/dist/editor-modules-1750.js:9
+#: js/dist/elementor-1750.js:21
 msgid "Get more insights at %s"
 msgstr "Dapatkan insight lebih banyak di %s"
 
-#: languages/wordpress-seojs.php:412 js/dist/block-editor-1740.js:19
-#: js/dist/classic-editor-1740.js:19 js/dist/editor-modules-1740.js:7
-#: js/dist/elementor-1740.js:19
+#: languages/wordpress-seojs.php:412 js/dist/block-editor-1750.js:19
+#: js/dist/classic-editor-1750.js:19 js/dist/editor-modules-1750.js:7
+#: js/dist/elementor-1750.js:19
 msgid "Keyphrase volume in the last 12 months on a scale from 0 to 100."
 msgstr "Volume frasa kunci dalam 12 bulan terakhir bertambah dari 0 ke 100."
 
-#: languages/wordpress-seojs.php:409 js/dist/block-editor-1740.js:19
-#: js/dist/classic-editor-1740.js:19 js/dist/editor-modules-1740.js:7
-#: js/dist/elementor-1740.js:19
+#: languages/wordpress-seojs.php:409 js/dist/block-editor-1750.js:19
+#: js/dist/classic-editor-1750.js:19 js/dist/editor-modules-1750.js:7
+#: js/dist/elementor-1750.js:19
 msgid "Learn more about the related keyphrases trend"
 msgstr "Pelajari lebih lanjut tentang tren frasa kunci terkait"
 
-#: languages/wordpress-seojs.php:406 js/dist/block-editor-1740.js:19
-#: js/dist/classic-editor-1740.js:19 js/dist/editor-modules-1740.js:7
-#: js/dist/elementor-1740.js:19
+#: languages/wordpress-seojs.php:406 js/dist/block-editor-1750.js:19
+#: js/dist/classic-editor-1750.js:19 js/dist/editor-modules-1750.js:7
+#: js/dist/elementor-1750.js:19
 msgid "Trend"
 msgstr "Tren"
 
-#: languages/wordpress-seojs.php:403 js/dist/block-editor-1740.js:19
-#: js/dist/classic-editor-1740.js:19 js/dist/editor-modules-1740.js:7
-#: js/dist/elementor-1740.js:19
+#: languages/wordpress-seojs.php:403 js/dist/block-editor-1750.js:19
+#: js/dist/classic-editor-1750.js:19 js/dist/editor-modules-1750.js:7
+#: js/dist/elementor-1750.js:19
 msgid "Learn more about the related keyphrases volume"
 msgstr "Pelajari lebih lanjut tentang volume frasa kunci terkait"
 
-#: languages/wordpress-seojs.php:400 js/dist/block-editor-1740.js:19
-#: js/dist/classic-editor-1740.js:19 js/dist/editor-modules-1740.js:7
-#: js/dist/elementor-1740.js:19
+#: languages/wordpress-seojs.php:400 js/dist/block-editor-1750.js:19
+#: js/dist/classic-editor-1750.js:19 js/dist/editor-modules-1750.js:7
+#: js/dist/elementor-1750.js:19
 msgid "Volume"
 msgstr "Volume"
 
-#: languages/wordpress-seojs.php:397 js/dist/block-editor-1740.js:19
-#: js/dist/classic-editor-1740.js:19 js/dist/editor-modules-1740.js:7
-#: js/dist/elementor-1740.js:19
+#: languages/wordpress-seojs.php:397 js/dist/block-editor-1750.js:19
+#: js/dist/classic-editor-1750.js:19 js/dist/editor-modules-1750.js:7
+#: js/dist/elementor-1750.js:19
 msgid "Related keyphrase"
 msgstr "Frasa kunci terkait"
 
-#: languages/wordpress-seojs.php:394 js/dist/block-editor-1740.js:19
-#: js/dist/classic-editor-1740.js:19 js/dist/editor-modules-1740.js:7
-#: js/dist/elementor-1740.js:19
+#: languages/wordpress-seojs.php:394 js/dist/block-editor-1750.js:19
+#: js/dist/classic-editor-1750.js:19 js/dist/editor-modules-1750.js:7
+#: js/dist/elementor-1750.js:19
 msgid "Select country"
 msgstr "Pilih negara"
 
-#: languages/wordpress-seojs.php:391 js/dist/block-editor-1740.js:19
-#: js/dist/classic-editor-1740.js:19 js/dist/editor-modules-1740.js:7
-#: js/dist/elementor-1740.js:19
+#: languages/wordpress-seojs.php:391 js/dist/block-editor-1750.js:19
+#: js/dist/classic-editor-1750.js:19 js/dist/editor-modules-1750.js:7
+#: js/dist/elementor-1750.js:19
 msgid "Show results for:"
 msgstr "Hasil pencarian untuk:"
 
-#: languages/wordpress-seojs.php:286 js/dist/block-editor-1740.js:59
-#: js/dist/classic-editor-1740.js:59 js/dist/elementor-1740.js:59
+#: languages/wordpress-seojs.php:286 js/dist/block-editor-1750.js:59
+#: js/dist/classic-editor-1750.js:59 js/dist/elementor-1750.js:59
 msgid "Please enter a focus keyphrase first to get related keyphrases"
 msgstr "Silakan masukkan fokus frasa kunci pertama untuk mendapatkan frasa kunci terkait"
 
-#: languages/wordpress-seojs.php:210 js/dist/block-editor-1740.js:27
-#: js/dist/classic-editor-1740.js:27 js/dist/editor-modules-1740.js:15
-#: js/dist/elementor-1740.js:27
+#: languages/wordpress-seojs.php:210 js/dist/block-editor-1750.js:27
+#: js/dist/classic-editor-1750.js:27 js/dist/editor-modules-1750.js:15
+#: js/dist/elementor-1750.js:27
 msgid "Sorry, there's no data available for that keyphrase/country combination."
 msgstr "Maaf, tidak ada data tersedia untuk kombinasi frasa kunci/kombinasi negara."
 
-#: languages/wordpress-seojs.php:204 js/dist/block-editor-1740.js:59
-#: js/dist/classic-editor-1740.js:59 js/dist/elementor-1740.js:59
+#: languages/wordpress-seojs.php:204 js/dist/block-editor-1750.js:59
+#: js/dist/classic-editor-1750.js:59 js/dist/elementor-1750.js:59
 msgid "Get related keyphrases"
 msgstr "Dapatkan frasa kunci terkait"
 
-#: languages/wordpress-seojs.php:201 js/dist/block-editor-1740.js:59
-#: js/dist/classic-editor-1740.js:59 js/dist/elementor-1740.js:59
+#: languages/wordpress-seojs.php:201 js/dist/block-editor-1750.js:59
+#: js/dist/classic-editor-1750.js:59 js/dist/elementor-1750.js:59
 msgid "Related keyphrases"
 msgstr "Fasa kunci terkait"
 
-#: languages/wordpress-seojs.php:107 js/dist/block-editor-1740.js:19
-#: js/dist/classic-editor-1740.js:19 js/dist/editor-modules-1740.js:7
-#: js/dist/elementor-1740.js:19
+#: languages/wordpress-seojs.php:107 js/dist/block-editor-1750.js:19
+#: js/dist/classic-editor-1750.js:19 js/dist/editor-modules-1750.js:7
+#: js/dist/elementor-1750.js:19
 msgid "The number of headers and header labels don't match."
 msgstr "Jumlah header dan label header tidak cocok."
 
@@ -989,7 +989,7 @@ msgstr "Anda dapat mempercepat situs Anda dan mendapatkan insight dalam struktur
 
 #: languages/wordpress-seojs.php:128
 #: src/presenters/admin/indexing-notification-presenter.php:59
-#: js/dist/indexation-1740.js:1
+#: js/dist/indexation-1750.js:1
 msgid "Start SEO data optimization"
 msgstr "Mulai SEO optimasi data"
 
@@ -1038,28 +1038,28 @@ msgid "Disabling Yoast SEO's XML sitemaps will not disable WordPress' core sitem
 msgstr "Menonaktifkan sitemap XML Yoast SEO tidak akan menonaktifkan sitemap core WordPress. Dalam kasus tertentu, %1$s ini mengakibatkan eror SEO pada %2$s situs Anda. Hal tersebut mungkin saja dilaporkan dalam Google Search Console dan tool lainnya."
 
 #. Translators: %s expands to the social medium name, i.e. Faceboook.
-#: languages/wordpress-seojs.php:501 js/dist/block-editor-1740.js:83
-#: js/dist/elementor-1740.js:76
+#: languages/wordpress-seojs.php:501 js/dist/block-editor-1750.js:83
+#: js/dist/elementor-1750.js:76
 msgid "Twitter preview"
 msgstr "Tampilan Twitter"
 
 #. Translators: %s expands to the social medium name, i.e. Faceboook.
-#: languages/wordpress-seojs.php:497 js/dist/block-editor-1740.js:83
-#: js/dist/elementor-1740.js:81
+#: languages/wordpress-seojs.php:497 js/dist/block-editor-1750.js:83
+#: js/dist/elementor-1750.js:81
 msgid "Facebook preview"
 msgstr "Tampilan Facebook"
 
 #. Translators: %s translates to the Post Label in singular form
-#: languages/wordpress-seojs.php:493 js/dist/block-editor-1740.js:9
-#: js/dist/classic-editor-1740.js:9 js/dist/editor-modules-1740.js:19
-#: js/dist/elementor-1740.js:9
+#: languages/wordpress-seojs.php:493 js/dist/block-editor-1750.js:9
+#: js/dist/classic-editor-1750.js:9 js/dist/editor-modules-1750.js:19
+#: js/dist/elementor-1750.js:9
 msgid "Return to your %s"
 msgstr "Kembali ke %s Anda"
 
 #. Translators: %s translates to the Post Label in singular form
-#: languages/wordpress-seojs.php:489 js/dist/block-editor-1740.js:7
-#: js/dist/classic-editor-1740.js:7 js/dist/editor-modules-1740.js:17
-#: js/dist/elementor-1740.js:7
+#: languages/wordpress-seojs.php:489 js/dist/block-editor-1750.js:7
+#: js/dist/classic-editor-1750.js:7 js/dist/editor-modules-1750.js:17
+#: js/dist/elementor-1750.js:7
 msgid "Make sure to save your %s for changes to take effect"
 msgstr "Pastikan menyimpan perubahan %s Anda"
 
@@ -1090,62 +1090,62 @@ msgstr "Keamanan: tidak ada pengaturan lanjutan atau skema untuk penulis"
 
 #. translators: %1$s expands to the plural name of the current post type, %2$s
 #. expands to the current site wide default.
-#: languages/wordpress-seojs.php:251 js/dist/block-editor-1740.js:61
-#: js/dist/classic-editor-1740.js:61 js/dist/elementor-1740.js:61
+#: languages/wordpress-seojs.php:251 js/dist/block-editor-1750.js:61
+#: js/dist/classic-editor-1750.js:61 js/dist/elementor-1750.js:61
 msgid "Default for %1$s (%2$s)"
 msgstr "Standar untuk %1$s (%2$s)"
 
-#: languages/wordpress-seojs.php:536 js/dist/block-editor-1740.js:63
-#: js/dist/classic-editor-1740.js:63 js/dist/elementor-1740.js:63
+#: languages/wordpress-seojs.php:536 js/dist/block-editor-1750.js:63
+#: js/dist/classic-editor-1750.js:63 js/dist/elementor-1750.js:63
 msgid "This helps search engines understand your website and your content. You can change some of your settings for this page below."
 msgstr "Ini membantu mesin telusur memahami situs web dan konten Anda. Anda dapat mengubah beberapa pengaturan Anda untuk halaman ini di bawah."
 
-#: languages/wordpress-seojs.php:533 js/dist/block-editor-1740.js:63
-#: js/dist/classic-editor-1740.js:63 js/dist/elementor-1740.js:63
+#: languages/wordpress-seojs.php:533 js/dist/block-editor-1750.js:63
+#: js/dist/classic-editor-1750.js:63 js/dist/elementor-1750.js:63
 msgid "Yoast SEO automatically describes your pages using schema.org"
 msgstr "Yoast SEO secara otomatis mendeskripsikan halaman Anda menggunakan schema.org"
 
-#: languages/wordpress-seojs.php:530 js/dist/settings-1740.js:6
+#: languages/wordpress-seojs.php:530 js/dist/settings-1750.js:6
 msgid "default"
 msgstr "Standar"
 
-#: languages/wordpress-seojs.php:247 js/dist/block-editor-1740.js:63
-#: js/dist/classic-editor-1740.js:63 js/dist/elementor-1740.js:63
+#: languages/wordpress-seojs.php:247 js/dist/block-editor-1750.js:63
+#: js/dist/classic-editor-1750.js:63 js/dist/elementor-1750.js:63
 msgid "Article type"
 msgstr "Jenis artikel"
 
-#: languages/wordpress-seojs.php:243 js/dist/block-editor-1740.js:63
-#: js/dist/classic-editor-1740.js:63 js/dist/elementor-1740.js:63
+#: languages/wordpress-seojs.php:243 js/dist/block-editor-1750.js:63
+#: js/dist/classic-editor-1750.js:63 js/dist/elementor-1750.js:63
 msgid "Page type"
 msgstr "Tipe halaman"
 
-#: languages/wordpress-seojs.php:239 js/dist/block-editor-1740.js:63
-#: js/dist/classic-editor-1740.js:63 js/dist/elementor-1740.js:63
+#: languages/wordpress-seojs.php:239 js/dist/block-editor-1750.js:63
+#: js/dist/classic-editor-1750.js:63 js/dist/elementor-1750.js:63
 msgid "Learn more about page or content types"
 msgstr "Pelajari lebih lanjut tentang tipe halaman dan dan konten"
 
-#: languages/wordpress-seojs.php:236 js/dist/block-editor-1740.js:63
-#: js/dist/classic-editor-1740.js:63 js/dist/elementor-1740.js:63
+#: languages/wordpress-seojs.php:236 js/dist/block-editor-1750.js:63
+#: js/dist/classic-editor-1750.js:63 js/dist/elementor-1750.js:63
 msgid "What type of page or content is this?"
 msgstr "Tipe halaman atau konten apa ini?"
 
-#: languages/wordpress-seojs.php:258 js/dist/block-editor-1740.js:63
-#: js/dist/classic-editor-1740.js:63 js/dist/elementor-1740.js:63
+#: languages/wordpress-seojs.php:258 js/dist/block-editor-1750.js:63
+#: js/dist/classic-editor-1750.js:63 js/dist/elementor-1750.js:63
 msgid "Learn more about structured data with Schema.org"
 msgstr "Pelajari lebih lanjut tentang data terstruktur dengan Schema.org"
 
 #. translators: %1$s expands to the plural name of the current post type, %2$s
 #. and %3$s expand to a link to the Search Appearance Settings page
-#: languages/wordpress-seojs.php:255 js/dist/block-editor-1740.js:63
-#: js/dist/classic-editor-1740.js:63 js/dist/elementor-1740.js:63
+#: languages/wordpress-seojs.php:255 js/dist/block-editor-1750.js:63
+#: js/dist/classic-editor-1750.js:63 js/dist/elementor-1750.js:63
 msgid "You can change the default type for %1$s in your %2$sSearch Appearance Settings%3$s."
 msgstr "Anda dapat mengubah tipe standar untuk %1$s dalam %2$sPengaturan Tampilan Pencarian%3$s."
 
 #. translators: %1$s expands to an indexable object's name, e.g. Posts or
 #. Pages.
-#: languages/wordpress-seojs.php:230 js/dist/block-editor-1740.js:5
-#: js/dist/classic-editor-1740.js:5 js/dist/elementor-1740.js:5
-#: js/dist/settings-1740.js:10
+#: languages/wordpress-seojs.php:230 js/dist/block-editor-1750.js:5
+#: js/dist/classic-editor-1750.js:5 js/dist/elementor-1750.js:5
+#: js/dist/settings-1750.js:10
 msgid "Upon saving, this setting will apply to all of your %1$s. %1$s that are manually configured will be left untouched."
 msgid_plural "Upon saving, these settings will apply to all of your %1$s. %1$s that are manually configured will be left untouched."
 msgstr[0] "Selama penyimpanan, pengaturan ini akan berlaku pada semua %1$s Anda. %1$s yang diatur secara manual akan tidak terpengaruh."
@@ -1153,33 +1153,33 @@ msgstr[1] "Selama penyimpanan, pengaturan ini akan berlaku pada semua %1$s Anda.
 
 #. translators: %1$s expands to an indexable object's name, e.g. Posts or
 #. Pages.
-#: languages/wordpress-seojs.php:226 js/dist/block-editor-1740.js:3
-#: js/dist/classic-editor-1740.js:3 js/dist/elementor-1740.js:3
-#: js/dist/settings-1740.js:8
+#: languages/wordpress-seojs.php:226 js/dist/block-editor-1750.js:3
+#: js/dist/classic-editor-1750.js:3 js/dist/elementor-1750.js:3
+#: js/dist/settings-1750.js:8
 msgid "Choose how your %1$s should be described by default in your site's schema.org markup. You can change these settings for individual %1$s."
 msgstr "Tentukan bagaimana %1$s Anda dijelaskan secara standar pada markup schema.org situs Anda. Anda dapat mengubah pengaturan %1$s satu per satu."
 
-#: languages/wordpress-seojs.php:222 js/dist/block-editor-1740.js:1
-#: js/dist/classic-editor-1740.js:1 js/dist/elementor-1740.js:1
-#: js/dist/settings-1740.js:6
+#: languages/wordpress-seojs.php:222 js/dist/block-editor-1750.js:1
+#: js/dist/classic-editor-1750.js:1 js/dist/elementor-1750.js:1
+#: js/dist/settings-1750.js:6
 msgid "Learn more about the schema settings"
 msgstr "Pelajari lebih lanjut tentang pengaturan skema"
 
-#: languages/wordpress-seojs.php:219 js/dist/block-editor-1740.js:1
-#: js/dist/classic-editor-1740.js:1 js/dist/elementor-1740.js:1
-#: js/dist/settings-1740.js:6
+#: languages/wordpress-seojs.php:219 js/dist/block-editor-1750.js:1
+#: js/dist/classic-editor-1750.js:1 js/dist/elementor-1750.js:1
+#: js/dist/settings-1750.js:6
 msgid "Schema settings"
 msgstr "Pengaturan skema"
 
-#: languages/wordpress-seojs.php:216 js/dist/block-editor-1740.js:5
-#: js/dist/classic-editor-1740.js:5 js/dist/elementor-1740.js:5
-#: js/dist/settings-1740.js:10
+#: languages/wordpress-seojs.php:216 js/dist/block-editor-1750.js:5
+#: js/dist/classic-editor-1750.js:5 js/dist/elementor-1750.js:5
+#: js/dist/settings-1750.js:10
 msgid "Default Article type"
 msgstr "Tipe Artikel Standar"
 
-#: languages/wordpress-seojs.php:213 js/dist/block-editor-1740.js:5
-#: js/dist/classic-editor-1740.js:5 js/dist/elementor-1740.js:5
-#: js/dist/settings-1740.js:10
+#: languages/wordpress-seojs.php:213 js/dist/block-editor-1750.js:5
+#: js/dist/classic-editor-1750.js:5 js/dist/elementor-1750.js:5
+#: js/dist/settings-1750.js:10
 msgid "Default Page type"
 msgstr "Tipe Halaman Standar"
 
@@ -1298,15 +1298,15 @@ msgstr "Tidak, saya tidak mengizinkan Anda untuk memantau data situs saya."
 msgid "Can we collect anonymous information about your website and its usage?"
 msgstr "Dapatkah kami mengambil data anonim tentang situs web Anda dan penggunaannya?"
 
-#: languages/wordpress-seojs.php:688 js/dist/structured-data-blocks-1740.js:9
+#: languages/wordpress-seojs.php:688 js/dist/structured-data-blocks-1750.js:9
 msgid "Yoast How-to"
 msgstr "Petunjuk Yoast"
 
-#: languages/wordpress-seojs.php:657 js/dist/structured-data-blocks-1740.js:9
+#: languages/wordpress-seojs.php:657 js/dist/structured-data-blocks-1750.js:9
 msgid "Structured Data"
 msgstr "Data Terstruktur"
 
-#: languages/wordpress-seojs.php:640 js/dist/structured-data-blocks-1740.js:9
+#: languages/wordpress-seojs.php:640 js/dist/structured-data-blocks-1750.js:9
 msgid "Yoast FAQ"
 msgstr "Tanya Jawab Yoast"
 
@@ -1319,25 +1319,25 @@ msgid "Because of a change in your home URL setting, some of your SEO data needs
 msgstr "Karena adanya perubahan di pengaturan URL kategori Anda, beberapa data SEO Anda perlu diproses ulang. "
 
 #. Translators: %s expands to the social medium name, i.e. Faceboook.
-#: languages/wordpress-seojs.php:527 js/dist/block-editor-1740.js:75
-#: js/dist/block-editor-1740.js:80 js/dist/classic-editor-1740.js:75
-#: js/dist/classic-editor-1740.js:80 js/dist/elementor-1740.js:75
-#: js/dist/elementor-1740.js:80
+#: languages/wordpress-seojs.php:527 js/dist/block-editor-1750.js:75
+#: js/dist/block-editor-1750.js:80 js/dist/classic-editor-1750.js:75
+#: js/dist/classic-editor-1750.js:80 js/dist/elementor-1750.js:75
+#: js/dist/elementor-1750.js:80
 msgid "Modify your %s description by editing it right here..."
 msgstr "Ubah deskripsi %s Anda dengan mengeditnya di sini..."
 
 #. Translators: %s expands to the social medium name, i.e. Faceboook.
-#: languages/wordpress-seojs.php:520 js/dist/block-editor-1740.js:73
-#: js/dist/block-editor-1740.js:78 js/dist/classic-editor-1740.js:73
-#: js/dist/classic-editor-1740.js:78 js/dist/elementor-1740.js:73
-#: js/dist/elementor-1740.js:78
+#: languages/wordpress-seojs.php:520 js/dist/block-editor-1750.js:73
+#: js/dist/block-editor-1750.js:78 js/dist/classic-editor-1750.js:73
+#: js/dist/classic-editor-1750.js:78 js/dist/elementor-1750.js:73
+#: js/dist/elementor-1750.js:78
 msgid "Modify your %s title by editing it right here..."
 msgstr "Ubah judul %s Anda dengan mengeditnya di sini..."
 
 #. Translators: %s expands to the social medium name, i.e. Faceboook.
-#: languages/wordpress-seojs.php:505 js/dist/block-editor-1740.js:82
-#: js/dist/block-editor-1740.js:83 js/dist/classic-editor-1740.js:82
-#: js/dist/classic-editor-1740.js:83
+#: languages/wordpress-seojs.php:505 js/dist/block-editor-1750.js:82
+#: js/dist/block-editor-1750.js:83 js/dist/classic-editor-1750.js:82
+#: js/dist/classic-editor-1750.js:83
 msgid "%s preview"
 msgstr "lakukan pratinjau %s"
 
@@ -1354,34 +1354,34 @@ msgid "%1$sKeyphrase in title%3$s: The exact match of the focus keyphrase appear
 msgstr "%1$sFrasa kunci dalam judul%3$s: Frasa kunci yang sama persis muncul dalam judul SEO, tapi tidak di awal judul. %2$sUntuk hasil terbaik, pindahkan frasa kunci ke awal judul%3$s."
 
 #. Translators: %s expands to Twitter, %s expands to the 5MB size.
-#: languages/yoast-components.php:171 js/dist/externals/helpers-1740.js:13
+#: languages/yoast-components.php:171 js/dist/externals/helpers-1750.js:13
 msgid "The file size of the uploaded image is too large for %s. File size must be less than %s."
 msgstr "Ukuran berkas gambar yang diunggah terlalu besar untuk %s. Ukuran berkas harus lebih kecil dari %s."
 
 #. Translators: %s expands to the jpg format, %s expands to the png format, %s
 #. expands to the gif format.
-#: languages/yoast-components.php:167 js/dist/externals/helpers-1740.js:11
+#: languages/yoast-components.php:167 js/dist/externals/helpers-1750.js:11
 msgid "The format of the uploaded image is not supported. The supported formats are: %s, %s, %s and %s."
 msgstr "Format gambar yang diunggah tidak didukung. Format yang didukung adalah: %s, %s, %s dan %s."
 
 #. Translators: %s expands to the gif format, %s expands to the gif format.
-#: languages/yoast-components.php:163 js/dist/externals/helpers-1740.js:9
+#: languages/yoast-components.php:163 js/dist/externals/helpers-1750.js:9
 msgid "You have uploaded a %s. Please note that, if it’s an animated %s, only the first frame will be used."
 msgstr "Anda telah mengunggah %s. Mohon dicatat, Jika %s beranimasi, hanya bingkai pertama yang akan digunakan."
 
-#: languages/yoast-components.php:159 js/dist/externals/helpers-1740.js:5
+#: languages/yoast-components.php:159 js/dist/externals/helpers-1750.js:5
 msgid "Your image dimensions are not suitable. The minimum dimensions are %dx%d pixels. The maximum dimensions are %dx%d pixels."
 msgstr "Dimensi gambar Anda tidak sesuai. Dimensi minimum adalah %dx%d piksel. Dimensi maksimum adalah %dx%d piksel."
 
 #. Translators: %s expands to the jpg format, %s expands to the png format, %s
 #. expands to the gif format.
-#: languages/yoast-components.php:155 js/dist/externals/helpers-1740.js:5
+#: languages/yoast-components.php:155 js/dist/externals/helpers-1750.js:5
 msgid "The format of the uploaded image is not supported. The supported formats are: %s, %s and %s."
 msgstr "Format gambar yang diunggah tidak didukung. Format yang didukung adalah: %s, %s dan %s."
 
 #. Translators: %d expands to the minimum width, %d expands to the minimum
 #. hight
-#: languages/yoast-components.php:151 js/dist/externals/helpers-1740.js:3
+#: languages/yoast-components.php:151 js/dist/externals/helpers-1750.js:3
 msgid "Your image dimensions are not suitable. The minimum dimensions are %dx%d pixels."
 msgstr "Dimensi gambar Anda tidak sesuai. Dimensi minimum adalah %dx%d piksel."
 
@@ -1390,75 +1390,75 @@ msgstr "Dimensi gambar Anda tidak sesuai. Dimensi minimum adalah %dx%d piksel."
 msgid "%1$s Internal Linking Blocks"
 msgstr "Blok Tautan Internal %1$s"
 
-#: languages/wordpress-seojs.php:637 js/dist/block-editor-1740.js:83
+#: languages/wordpress-seojs.php:637 js/dist/block-editor-1750.js:83
 msgid "Open in new tab"
 msgstr "Buka di tab baru"
 
-#: languages/wordpress-seojs.php:634 js/dist/block-editor-1740.js:83
+#: languages/wordpress-seojs.php:634 js/dist/block-editor-1750.js:83
 msgid "This is a sponsored link or advert (mark as %1$ssponsored%2$s)%3$s"
 msgstr "Ini adalah tautan tersponsor atau iklan (tandai sebagai %1$stersponsor%2$s)%3$s"
 
-#: languages/wordpress-seojs.php:631 js/dist/block-editor-1740.js:83
+#: languages/wordpress-seojs.php:631 js/dist/block-editor-1750.js:83
 msgid "Search engines should ignore this link (mark as %1$snofollow%2$s)%3$s"
 msgstr "Mesin pencari harus mengabaikan tautan ini (tandai sebagai %1$snofollow%2$s)%3$s"
 
-#: languages/wordpress-seojs.php:628 js/dist/block-editor-1740.js:83
+#: languages/wordpress-seojs.php:628 js/dist/block-editor-1750.js:83
 msgid "Learn more about marking a link as nofollow or sponsored."
 msgstr "Pelajari lebih lanjut tentang penandaan tautan sebagai nofollow atau tersponsor."
 
-#: languages/wordpress-seojs.php:625 js/dist/block-editor-1740.js:83
+#: languages/wordpress-seojs.php:625 js/dist/block-editor-1750.js:83
 msgid "Link inserted."
 msgstr "Tautan dimasukkan."
 
-#: languages/wordpress-seojs.php:622 js/dist/block-editor-1740.js:83
+#: languages/wordpress-seojs.php:622 js/dist/block-editor-1750.js:83
 msgid "Link edited."
 msgstr "Tautan diubah."
 
-#: languages/wordpress-seojs.php:619 js/dist/block-editor-1740.js:83
+#: languages/wordpress-seojs.php:619 js/dist/block-editor-1750.js:83
 msgid "Warning: the link has been inserted but may have errors. Please test it."
 msgstr "Peringatan: tautan ini telah ditambahkan tapi kemungkinan memiliki banyak eror. Mohon lakukan pengujian. "
 
-#: languages/wordpress-seojs.php:616 js/dist/block-editor-1740.js:83
+#: languages/wordpress-seojs.php:616 js/dist/block-editor-1750.js:83
 msgid "Link"
 msgstr "Tautan"
 
-#: languages/wordpress-seojs.php:613 js/dist/block-editor-1740.js:83
+#: languages/wordpress-seojs.php:613 js/dist/block-editor-1750.js:83
 msgid "Unlink"
 msgstr "Hapus tautan"
 
-#: languages/wordpress-seojs.php:610 js/dist/block-editor-1740.js:83
+#: languages/wordpress-seojs.php:610 js/dist/block-editor-1750.js:83
 msgid "Link removed."
 msgstr "Tautan dihapus."
 
-#: languages/wordpress-seojs.php:591 js/dist/block-editor-1740.js:83
+#: languages/wordpress-seojs.php:591 js/dist/block-editor-1750.js:83
 msgid "Please upgrade your WordPress version or install the Gutenberg plugin to get this %1$s feature."
 msgstr "Mohon lakukan upgrade versi WordPress Anda atau instal plugin Gutenberg untuk mendapatkan fitur %1$s ini."
 
-#: languages/wordpress-seojs.php:588 js/dist/block-editor-1740.js:83
+#: languages/wordpress-seojs.php:588 js/dist/block-editor-1750.js:83
 msgid "Marking links with nofollow/sponsored has been disabled for WordPress installs < 5.4."
 msgstr "Penandaan tautan dengan nofollow/tersponsor telah dinonaktifkan untuk penginstalan WordPress < 5.4."
 
-#: languages/wordpress-seojs.php:576 js/dist/block-editor-1740.js:83
+#: languages/wordpress-seojs.php:576 js/dist/block-editor-1750.js:83
 msgid "No focus keyword was entered"
 msgstr "Tidak ada fokus kata kunci yang dimasukkan"
 
-#: languages/wordpress-seojs.php:187 js/dist/block-editor-1740.js:83
+#: languages/wordpress-seojs.php:187 js/dist/block-editor-1750.js:83
 msgid "We've analyzed your post. There is still room for improvement!"
 msgstr "Kami telah menganalisa artikel anda. Ditemukan masih ada beberapa kriteria supaya diperbaiki!"
 
-#: languages/wordpress-seojs.php:184 js/dist/block-editor-1740.js:83
+#: languages/wordpress-seojs.php:184 js/dist/block-editor-1750.js:83
 msgid "We've analyzed your post. Everything looks good. Well done!"
 msgstr "Kami telah menganalisis artikel Anda. Semua terlihat bagus. Selamat!"
 
-#: languages/wordpress-seojs.php:172 js/dist/block-editor-1740.js:83
+#: languages/wordpress-seojs.php:172 js/dist/block-editor-1750.js:83
 msgid "Share your post!"
 msgstr "Bagikan artikel Anda!"
 
-#: languages/wordpress-seojs.php:96 js/dist/block-editor-1740.js:83
+#: languages/wordpress-seojs.php:96 js/dist/block-editor-1750.js:83
 msgid "Improve your post with Yoast SEO"
 msgstr "Tingkatkan artikel Anda dengan Yoast SEO"
 
-#: languages/wordpress-seojs.php:582 js/dist/block-editor-1740.js:83
+#: languages/wordpress-seojs.php:582 js/dist/block-editor-1750.js:83
 msgid "SEO analysis:"
 msgstr "Analisis SEO:"
 
@@ -1533,44 +1533,44 @@ msgstr "Saya tidak ingin situs ini ditampilkan dalam hasil pencarian."
 msgid "If you want search engines to show this site in their results, you must %1$sgo to your Reading Settings%2$s and uncheck the box for Search Engine Visibility."
 msgstr "Jika Anda ingin mesin pencari menampilkan situs ini dalam hasil pencariannya, Anda harus %1$skunjungi Pengaturan Membaca%2$s dan hilangkan centang pada Penampakan pada Mesin Pencari."
 
-#: languages/wordpress-seojs.php:292 js/dist/block-editor-1740.js:59
-#: js/dist/classic-editor-1740.js:59 js/dist/elementor-1740.js:59
+#: languages/wordpress-seojs.php:292 js/dist/block-editor-1750.js:59
+#: js/dist/classic-editor-1750.js:59 js/dist/elementor-1750.js:59
 msgid "Your keyphrase is too long. It can be a maximum of 191 characters."
 msgstr "Frasa kunci Anda terlalu panjang. Maksimal 191 karakter."
 
-#: languages/wordpress-seojs.php:93 js/dist/block-editor-1740.js:69
-#: js/dist/classic-editor-1740.js:69 js/dist/elementor-1740.js:69
+#: languages/wordpress-seojs.php:93 js/dist/block-editor-1750.js:69
+#: js/dist/classic-editor-1750.js:69 js/dist/elementor-1750.js:69
 msgid "Learn more about the no-index setting on our help page."
 msgstr "Pelajari lebih lanjut tentang pengaturan no-index di halaman bantuan kami."
 
-#: languages/wordpress-seojs.php:86 js/dist/block-editor-1740.js:67
-#: js/dist/classic-editor-1740.js:67 js/dist/elementor-1740.js:67
+#: languages/wordpress-seojs.php:86 js/dist/block-editor-1750.js:67
+#: js/dist/classic-editor-1750.js:67 js/dist/elementor-1750.js:67
 msgid "Even though you can set the meta robots setting here, the entire site is set to noindex in the sitewide privacy settings, so these settings won't have an effect."
 msgstr "Walaupun Anda dapat mengatur meta robots di pengaturan ini, namun seluruh situs pada  konfigurasi privasi di atur ke noindex, sehingga pengaturan ini tidak akan berpengaruh."
 
-#: languages/wordpress-seojs.php:73 js/dist/block-editor-1740.js:71
-#: js/dist/classic-editor-1740.js:71 js/dist/elementor-1740.js:71
+#: languages/wordpress-seojs.php:73 js/dist/block-editor-1750.js:71
+#: js/dist/classic-editor-1750.js:71 js/dist/elementor-1750.js:71
 msgid "Learn more about canonical URLs on our help page."
 msgstr "Pelajari lebih lanjut tentang URL kanonik di halaman bantuan kami."
 
-#: languages/wordpress-seojs.php:67 js/dist/block-editor-1740.js:71
-#: js/dist/classic-editor-1740.js:71 js/dist/elementor-1740.js:71
+#: languages/wordpress-seojs.php:67 js/dist/block-editor-1750.js:71
+#: js/dist/classic-editor-1750.js:71 js/dist/elementor-1750.js:71
 msgid "Learn more about the breadcrumbs title setting on our help page."
 msgstr "Pelajari lebih lanjut tentang pengaturan judul breadcrumbs di halaman bantuan kami."
 
-#: languages/wordpress-seojs.php:61 js/dist/block-editor-1740.js:71
-#: js/dist/classic-editor-1740.js:71 js/dist/elementor-1740.js:71
+#: languages/wordpress-seojs.php:61 js/dist/block-editor-1750.js:71
+#: js/dist/classic-editor-1750.js:71 js/dist/elementor-1750.js:71
 msgid "Learn more about advanced meta robots settings on our help page."
 msgstr "Pelajari lebih lanjut tentang pengaturan meta robots tingkat lanjut di halaman bantuan kami."
 
-#: languages/wordpress-seojs.php:46 js/dist/block-editor-1740.js:71
-#: js/dist/classic-editor-1740.js:71 js/dist/elementor-1740.js:71
+#: languages/wordpress-seojs.php:46 js/dist/block-editor-1750.js:71
+#: js/dist/classic-editor-1750.js:71 js/dist/elementor-1750.js:71
 msgid "Learn more about the no-follow setting on our help page."
 msgstr "Pelajari lebih lanjut tentang pengaturan no-follow di halaman bantuan kami."
 
 #. Translators: %s translates to the Post Label in singular form
-#: languages/wordpress-seojs.php:43 js/dist/block-editor-1740.js:71
-#: js/dist/classic-editor-1740.js:71 js/dist/elementor-1740.js:71
+#: languages/wordpress-seojs.php:43 js/dist/block-editor-1750.js:71
+#: js/dist/classic-editor-1750.js:71 js/dist/elementor-1750.js:71
 msgid "Should search engines follow links on this %s"
 msgstr "Apakah mesin pencari harus mengikuti tautan pada %s ini"
 
@@ -1791,27 +1791,27 @@ msgid "%1$sGo to the Discussion Settings page%2$s"
 msgstr "%1$sKunjungi laman Pengaturan Diskusi%2$s"
 
 #: languages/yoast-components.php:180
-#: js/dist/externals/searchMetadataPreviews-1740.js:2
+#: js/dist/externals/searchMetadataPreviews-1750.js:2
 msgid "Mobile result"
 msgstr "Hasil seluler"
 
 #: languages/yoast-components.php:177
-#: js/dist/externals/searchMetadataPreviews-1740.js:2
+#: js/dist/externals/searchMetadataPreviews-1750.js:2
 msgid "Preview as:"
 msgstr "Pratinjau sebagai:"
 
 #: languages/yoast-components.php:174
-#: js/dist/externals/searchMetadataPreviews-1740.js:2
+#: js/dist/externals/searchMetadataPreviews-1750.js:2
 msgid "Desktop result"
 msgstr "Hasil desktop"
 
 #: languages/wordpress-seojs.php:335 languages/yoast-seo-js.php:445
-#: js/dist/block-editor-1740.js:83 js/dist/classic-editor-1740.js:83
-#: js/dist/elementor-1740.js:71
+#: js/dist/block-editor-1750.js:83 js/dist/classic-editor-1750.js:83
+#: js/dist/elementor-1750.js:71
 msgid "Google preview"
 msgstr "Pratinjau Google"
 
-#: languages/wordpress-seojs.php:570 js/dist/help-scout-beacon-1740.js:1
+#: languages/wordpress-seojs.php:570 js/dist/help-scout-beacon-1750.js:1
 msgid "When you click OK we will open our HelpScout beacon where you can find answers to your questions. This beacon will load our support data and also potentially set cookies."
 msgstr "Ketika Anda mengklik OK, kami akan membuka suar HelpScout kami di mana Anda dapat menemukan jawaban untuk pertanyaan Anda. Suar ini akan memuat data dukungan kami dan juga berpotensi mengatur cookie."
 
@@ -1863,8 +1863,8 @@ msgid "Your %1$s settings:"
 msgstr "Pengaturan %1$s Anda:"
 
 #: admin/metabox/class-metabox.php:420 languages/wordpress-seojs.php:346
-#: js/dist/block-editor-1740.js:83 js/dist/elementor-1740.js:81
-#: js/dist/structured-data-blocks-1740.js:9
+#: js/dist/block-editor-1750.js:83 js/dist/elementor-1750.js:81
+#: js/dist/structured-data-blocks-1750.js:9
 msgid "Schema"
 msgstr "Skema"
 
@@ -1911,7 +1911,7 @@ msgstr "Harap periksa format URL Instagram yang anda masukkan. %s"
 msgid "Please check the format of the Facebook Page URL you entered. %s"
 msgstr "Harap periksa format URL Facebook yang anda masukkan. %s"
 
-#: languages/yoast-components.php:29 js/dist/externals/componentsNew-1740.js:3
+#: languages/yoast-components.php:29 js/dist/externals/componentsNew-1750.js:3
 msgid "Dismiss this alert"
 msgstr "Abaikan peringatan ini"
 
@@ -1992,7 +1992,7 @@ msgid_plural "You have %d hidden notifications:"
 msgstr[0] "Anda memiliki %d pemberitahuan tersembunyi:"
 msgstr[1] "Anda memiliki %d pemberitahuan tersembunyi:"
 
-#: languages/yoast-components.php:58 js/dist/externals/componentsNew-1740.js:3
+#: languages/yoast-components.php:58 js/dist/externals/componentsNew-1750.js:3
 msgid "Once you add a bit more copy, we'll give you a list of words that occur the most in the content. These give an indication of what your content focuses on."
 msgstr "Setelah Anda menambahkan beberapa kata lagi, kami akan memberi Anda daftar kata-kata yang paling banyak muncul di dalam konten. Ini memberikan indikasi tentang fokus dari konten Anda."
 
@@ -2020,7 +2020,7 @@ msgid "Activate %s for your site on MyYoast"
 msgstr "Aktifkan %s untuk situs Anda di MyYoast"
 
 #. Translators: %d expands to number of occurrences.
-#: languages/yoast-components.php:72 js/dist/externals/componentsNew-1740.js:3
+#: languages/yoast-components.php:72 js/dist/externals/componentsNew-1750.js:3
 msgid "%d occurrences"
 msgstr "%d kejadian"
 
@@ -2028,7 +2028,7 @@ msgstr "%d kejadian"
 msgid "Show blog page in breadcrumbs"
 msgstr "Tampilkan laman blog dalam breadcrumb"
 
-#: languages/yoast-components.php:108 js/dist/externals/components-1740.js:3
+#: languages/yoast-components.php:108 js/dist/externals/components-1750.js:3
 msgid "We could not find any relevant articles on your website that you could link to from your post."
 msgstr "Kami tidak dapat menemukan artikel yang relevan pada situs web Anda yang bisa dijadikan tautan dari artikel ini."
 
@@ -2079,7 +2079,7 @@ msgstr "Optimasi konten:"
 msgid "Posts with the SEO score: %s"
 msgstr "Artikel dengan nilai SEO: %s"
 
-#: languages/wordpress-seojs.php:601 js/dist/settings-1740.js:6
+#: languages/wordpress-seojs.php:601 js/dist/settings-1750.js:6
 msgid "Person logo / avatar"
 msgstr "Logo personal / avatar"
 
@@ -2120,16 +2120,16 @@ msgid "Google has discontinued its Crawl Errors API. Therefore, any possible cra
 msgstr "Google menghentikan layanan Crawl Errors API mereka. Karenanya, kesalahan perambatan yang Anda alami tidak lagi dapat ditampilkan di sini. %1$sBaca pernyataan kami tentang hal ini untuk informasi lebih lanjut%2$s."
 
 #. translators: %s expands to Local SEO
-#: languages/wordpress-seojs.php:169 js/dist/settings-1740.js:5
+#: languages/wordpress-seojs.php:169 js/dist/settings-1750.js:5
 msgid "Get the %s plugin now"
 msgstr "Dapatkan plugin %s sekarang"
 
 #. translators: %s expands to Local SEO
-#: languages/wordpress-seojs.php:165 js/dist/settings-1740.js:3
+#: languages/wordpress-seojs.php:165 js/dist/settings-1750.js:3
 msgid "Truly optimize your site for a local audience with our %s plugin! Optimized address details, opening hours, store locator and pickup option!"
 msgstr "Optimalkan situs Anda dengan benar untuk pemirsa lokal dengan plugin %s kami! Optimasi pada rincian alamat, jam buka, lokasi toko, serta opsi pengambilan barang!"
 
-#: languages/wordpress-seojs.php:161 js/dist/settings-1740.js:1
+#: languages/wordpress-seojs.php:161 js/dist/settings-1750.js:1
 msgid "Serving local customers?"
 msgstr "Melayani pelanggan lokal?"
 
@@ -2137,7 +2137,7 @@ msgstr "Melayani pelanggan lokal?"
 msgid "Personal info"
 msgstr "Info personal"
 
-#: languages/wordpress-seojs.php:598 js/dist/settings-1740.js:6
+#: languages/wordpress-seojs.php:598 js/dist/settings-1750.js:6
 msgid "Organization logo"
 msgstr "Logo organisasi"
 
@@ -2239,21 +2239,21 @@ msgstr "Tidak dikategorikan"
 
 #. translators: %1$s expands to the user's name, %2$s expands to an opening
 #. anchor tag, %3$s expands to a closing anchor tag.
-#: languages/wordpress-seojs.php:280 js/dist/settings-1740.js:6
+#: languages/wordpress-seojs.php:280 js/dist/settings-1750.js:6
 msgid "You have selected the user %1$s as the person this site represents. Their user profile information will now be used in search results. %2$sUpdate their profile to make sure the information is correct.%3$s"
 msgstr "Anda telah memilih pengguna %1$s sebagai orang yang diwakili oleh situs ini. Informasi profil pengguna tersebut sekarang akan digunakan dalam hasil pencarian. %2$sPerbarui profilnya untuk memastikan informasinya sudah benar.%3$s"
 
-#: languages/wordpress-seojs.php:277 js/dist/settings-1740.js:5
+#: languages/wordpress-seojs.php:277 js/dist/settings-1750.js:5
 msgid "Please select a user below to make your site's meta data complete."
 msgstr "Mohon pilih satu pengguna di bawah untuk membuat data meta situs Anda lengkap."
 
 #. translators: %1$s expands to WordPress
-#: languages/wordpress-seojs.php:271 js/dist/configuration-wizard-1740.js:3
+#: languages/wordpress-seojs.php:271 js/dist/configuration-wizard-1750.js:3
 msgid "You can edit the details shown in meta data, like the social profiles, the name and the description of this user on their %1$s profile page."
 msgstr "Anda dapat mengedit detail yang ditampilkan dalam meta data, seperti profil sosial, nama dan deskripsi pengguna ini di halaman profil %1$s mereka."
 
-#: languages/wordpress-seojs.php:264 js/dist/configuration-wizard-1740.js:1
-#: js/dist/settings-1740.js:1
+#: languages/wordpress-seojs.php:264 js/dist/configuration-wizard-1750.js:1
+#: js/dist/settings-1750.js:1
 msgid "Select a user..."
 msgstr "Pilih pengguna..."
 
@@ -2304,11 +2304,11 @@ msgstr "Menerima tautan internal"
 msgid "Outgoing internal links"
 msgstr "Tautan internal keluar"
 
-#: languages/wordpress-seojs.php:700 js/dist/structured-data-blocks-1740.js:1
+#: languages/wordpress-seojs.php:700 js/dist/structured-data-blocks-1750.js:1
 msgid "New step added"
 msgstr "Langkah baru ditambahkan"
 
-#: languages/wordpress-seojs.php:660 js/dist/structured-data-blocks-1740.js:9
+#: languages/wordpress-seojs.php:660 js/dist/structured-data-blocks-1750.js:9
 msgid "New question added"
 msgstr "Pertanyaan baru ditambahkan"
 
@@ -2790,32 +2790,32 @@ msgstr "Bagus!"
 msgid "%1$sFlesch Reading Ease%2$s: The copy scores %3$s in the test, which is considered %4$s to read. %5$s%6$s%7$s"
 msgstr "%1$sKemudahan Membaca Flesch%2$s: Artikel memiliki skor %3$s dalam tes, yang dianggap %4$s untuk dibaca. %5$s%6$s%7$s"
 
-#: languages/wordpress-seojs.php:296 js/dist/block-editor-1740.js:59
-#: js/dist/classic-editor-1740.js:59 js/dist/elementor-1740.js:27
-#: js/dist/elementor-1740.js:59 js/dist/post-edit-1740.js:1
-#: js/dist/settings-1740.js:1 js/dist/term-edit-1740.js:1
+#: languages/wordpress-seojs.php:296 js/dist/block-editor-1750.js:59
+#: js/dist/classic-editor-1750.js:59 js/dist/elementor-1750.js:27
+#: js/dist/elementor-1750.js:59 js/dist/post-edit-1750.js:1
+#: js/dist/settings-1750.js:1 js/dist/term-edit-1750.js:1
 msgid "Focus keyphrase"
 msgstr "Frasa kunci utama"
 
-#: languages/wordpress-seojs.php:283 js/dist/block-editor-1740.js:59
-#: js/dist/classic-editor-1740.js:59 js/dist/elementor-1740.js:59
+#: languages/wordpress-seojs.php:283 js/dist/block-editor-1750.js:59
+#: js/dist/classic-editor-1750.js:59 js/dist/elementor-1750.js:59
 msgid "Help on choosing the perfect focus keyphrase"
 msgstr "Bantuan dalam memilih frasa kunci utama yang baik"
 
-#: languages/wordpress-seojs.php:315 js/dist/block-editor-1740.js:59
-#: js/dist/classic-editor-1740.js:59 js/dist/elementor-1740.js:59
+#: languages/wordpress-seojs.php:315 js/dist/block-editor-1750.js:59
+#: js/dist/classic-editor-1750.js:59 js/dist/elementor-1750.js:59
 msgid "Would you like to add a related keyphrase?"
 msgstr "Apakah Anda ingin menambahkan frasa kunci terkait?"
 
 #. translators: %s expands to Premium
-#: languages/wordpress-seojs.php:104 js/dist/block-editor-1740.js:31
-#: js/dist/classic-editor-1740.js:31 js/dist/elementor-1740.js:31
+#: languages/wordpress-seojs.php:104 js/dist/block-editor-1750.js:31
+#: js/dist/classic-editor-1750.js:31 js/dist/elementor-1750.js:31
 msgid "Go %s!"
 msgstr "Beralih ke %s!"
 
 #. translators: %s expands to Yoast SEO Premium
-#: languages/wordpress-seojs.php:100 js/dist/block-editor-1740.js:29
-#: js/dist/classic-editor-1740.js:29 js/dist/elementor-1740.js:29
+#: languages/wordpress-seojs.php:100 js/dist/block-editor-1750.js:29
+#: js/dist/classic-editor-1750.js:29 js/dist/elementor-1750.js:29
 msgid "Did you know %s also analyzes the different word forms of your keyphrase, like plurals and past tenses?"
 msgstr "Tahukah Anda %s juga menganalisis bentuk kata berbeda dari frasa kunci Anda, seperti kata jamak atau kata kerja pasif?"
 
@@ -2839,8 +2839,8 @@ msgid "This tab allows you to selectively disable %s features for all sites in t
 msgstr "Tab ini memungkinkan Anda untuk secara selektif menonaktifkan fitur %s untuk semua situs di jaringan. Secara default semua fitur diaktifkan, yang memungkinkan admin situs untuk memilih sendiri jika mereka ingin mengaktifkan atau menonaktifkan fitur untuk situs mereka. Ketika Anda menonaktifkan fitur di sini, admin situs tidak akan dapat menggunakan fitur itu sama sekali."
 
 #: admin/views/sidebar.php:28 languages/wordpress-seojs.php:353
-#: js/dist/block-editor-1740.js:33 js/dist/classic-editor-1740.js:33
-#: js/dist/elementor-1740.js:33
+#: js/dist/block-editor-1750.js:33 js/dist/classic-editor-1750.js:33
+#: js/dist/elementor-1750.js:33
 msgid "Rank better with synonyms & related keyphrases"
 msgstr "Dapatkan peringkat pencarian yang lebih baik dengan sinonim & frasa kunci terkait"
 
@@ -2857,10 +2857,10 @@ msgstr "%s adalah fitur pengalihan argumen yang diperlukan."
 msgid "Synonyms & related keyphrases"
 msgstr "Sinonim & frasa kunci terkait"
 
-#: languages/wordpress-seojs.php:318 js/dist/block-editor-1740.js:55
-#: js/dist/block-editor-1740.js:59 js/dist/classic-editor-1740.js:55
-#: js/dist/classic-editor-1740.js:59 js/dist/elementor-1740.js:55
-#: js/dist/elementor-1740.js:59
+#: languages/wordpress-seojs.php:318 js/dist/block-editor-1750.js:55
+#: js/dist/block-editor-1750.js:59 js/dist/classic-editor-1750.js:55
+#: js/dist/classic-editor-1750.js:59 js/dist/elementor-1750.js:55
+#: js/dist/elementor-1750.js:59
 msgid "Add related keyphrase"
 msgstr "Tambahkan frasa kunci terkait"
 
@@ -2915,32 +2915,32 @@ msgstr "Frasa kunci utama belum diatur."
 #: src/deprecated/admin/add-keyword-modal.php:47
 #: src/deprecated/admin/keyword-synonyms-modal.php:47
 #: src/deprecated/admin/multiple-keywords-modal.php:47
-#: js/dist/block-editor-1740.js:41 js/dist/block-editor-1740.js:51
-#: js/dist/block-editor-1740.js:53 js/dist/block-editor-1740.js:55
-#: js/dist/block-editor-1740.js:57 js/dist/block-editor-1740.js:59
-#: js/dist/classic-editor-1740.js:41 js/dist/classic-editor-1740.js:51
-#: js/dist/classic-editor-1740.js:53 js/dist/classic-editor-1740.js:55
-#: js/dist/classic-editor-1740.js:57 js/dist/classic-editor-1740.js:59
-#: js/dist/elementor-1740.js:41 js/dist/elementor-1740.js:51
-#: js/dist/elementor-1740.js:53 js/dist/elementor-1740.js:55
-#: js/dist/elementor-1740.js:57 js/dist/elementor-1740.js:59
+#: js/dist/block-editor-1750.js:41 js/dist/block-editor-1750.js:51
+#: js/dist/block-editor-1750.js:53 js/dist/block-editor-1750.js:55
+#: js/dist/block-editor-1750.js:57 js/dist/block-editor-1750.js:59
+#: js/dist/classic-editor-1750.js:41 js/dist/classic-editor-1750.js:51
+#: js/dist/classic-editor-1750.js:53 js/dist/classic-editor-1750.js:55
+#: js/dist/classic-editor-1750.js:57 js/dist/classic-editor-1750.js:59
+#: js/dist/elementor-1750.js:41 js/dist/elementor-1750.js:51
+#: js/dist/elementor-1750.js:53 js/dist/elementor-1750.js:55
+#: js/dist/elementor-1750.js:57 js/dist/elementor-1750.js:59
 msgid "Get %s"
 msgstr "Dapatkan %s"
 
-#: languages/wordpress-seojs.php:739 js/dist/structured-data-blocks-1740.js:1
+#: languages/wordpress-seojs.php:739 js/dist/structured-data-blocks-1750.js:1
 msgid "Optional. Customize how you want to describe the duration of the instruction"
 msgstr "Opsional. Sesuaikan bagaimana Anda ingin menggambarkan durasi waktu dari instruksi"
 
-#: languages/wordpress-seojs.php:736 js/dist/structured-data-blocks-1740.js:1
+#: languages/wordpress-seojs.php:736 js/dist/structured-data-blocks-1750.js:1
 msgid "Describe the duration of the instruction:"
 msgstr "Jelaskan durasi waktu dari instruksi:"
 
-#: languages/wordpress-seojs.php:303 js/dist/block-editor-1740.js:59
-#: js/dist/classic-editor-1740.js:59 js/dist/elementor-1740.js:59
+#: languages/wordpress-seojs.php:303 js/dist/block-editor-1750.js:59
+#: js/dist/classic-editor-1750.js:59 js/dist/elementor-1750.js:59
 msgid "Learn more about the readability analysis"
 msgstr "Pelajari lebih lanjut mengenai analisis keterbacaan"
 
-#: languages/wordpress-seojs.php:579 js/dist/block-editor-1740.js:83
+#: languages/wordpress-seojs.php:579 js/dist/block-editor-1750.js:83
 msgid "Readability analysis:"
 msgstr "Analisis keterbacaan:"
 
@@ -2961,83 +2961,83 @@ msgid "Both %1$s and %2$s manage the SEO of your site. Running two SEO plugins a
 msgstr "Terdapat %1$s dan %2$s yang mengatur SEO situs Anda. Menggunakan dua plugin SEO sekaligus bisa merugikan."
 
 #. translators: %s expands to a unit of time (e.g. 1 day).
-#: languages/wordpress-seojs.php:789 js/dist/structured-data-blocks-1740.js:5
-#: js/dist/structured-data-blocks-1740.js:9
+#: languages/wordpress-seojs.php:789 js/dist/structured-data-blocks-1750.js:5
+#: js/dist/structured-data-blocks-1750.js:9
 msgid "%s, %s and %s"
 msgstr "%s, %s dan %s"
 
 #. translators: %s expands to a unit of time (e.g. 1 day).
-#: languages/wordpress-seojs.php:784 js/dist/structured-data-blocks-1740.js:3
-#: js/dist/structured-data-blocks-1740.js:7
+#: languages/wordpress-seojs.php:784 js/dist/structured-data-blocks-1750.js:3
+#: js/dist/structured-data-blocks-1750.js:7
 msgid "%s and %s"
 msgstr "%s dan %s"
 
-#: languages/wordpress-seojs.php:779 js/dist/structured-data-blocks-1740.js:1
-#: js/dist/structured-data-blocks-1740.js:5
+#: languages/wordpress-seojs.php:779 js/dist/structured-data-blocks-1750.js:1
+#: js/dist/structured-data-blocks-1750.js:5
 msgid "%d minute"
 msgid_plural "%d minutes"
 msgstr[0] "%d menit"
 msgstr[1] "%d menit"
 
-#: languages/wordpress-seojs.php:775 js/dist/structured-data-blocks-1740.js:1
-#: js/dist/structured-data-blocks-1740.js:5
+#: languages/wordpress-seojs.php:775 js/dist/structured-data-blocks-1750.js:1
+#: js/dist/structured-data-blocks-1750.js:5
 msgid "%d hour"
 msgid_plural "%d hours"
 msgstr[0] "%d jam"
 msgstr[1] "%d jam"
 
-#: languages/wordpress-seojs.php:771 js/dist/structured-data-blocks-1740.js:1
-#: js/dist/structured-data-blocks-1740.js:5
+#: languages/wordpress-seojs.php:771 js/dist/structured-data-blocks-1750.js:1
+#: js/dist/structured-data-blocks-1750.js:5
 msgid "%d day"
 msgid_plural "%d days"
 msgstr[0] "%d hari"
 msgstr[1] "%d hari"
 
-#: languages/wordpress-seojs.php:764 js/dist/structured-data-blocks-1740.js:1
+#: languages/wordpress-seojs.php:764 js/dist/structured-data-blocks-1750.js:1
 msgid "Enter a step title"
 msgstr "Isi judul dari tahapan"
 
-#: languages/wordpress-seojs.php:733 js/dist/structured-data-blocks-1740.js:1
+#: languages/wordpress-seojs.php:733 js/dist/structured-data-blocks-1750.js:1
 msgid "Optional. This can give you better control over the styling of the steps."
 msgstr "Optional. Ini bisa memberi Anda kontrol yang lebih baik atas gaya penulisan langkah-langkahnya."
 
-#: languages/wordpress-seojs.php:730 js/dist/structured-data-blocks-1740.js:1
+#: languages/wordpress-seojs.php:730 js/dist/structured-data-blocks-1750.js:1
 msgid "CSS class(es) to apply to the steps"
 msgstr "CSS class yang akan diaplikasikan pada langkah"
 
 #: languages/wordpress-seojs.php:721 languages/yoast-components.php:92
-#: js/dist/externals/componentsNew-1740.js:3
-#: js/dist/externals/schemaBlocks-1740.js:10
-#: js/dist/externals/schemaBlocks-1740.js:13
-#: js/dist/structured-data-blocks-1740.js:1
+#: js/dist/externals/componentsNew-1750.js:3
+#: js/dist/externals/schemaBlocks-1750.js:10
+#: js/dist/externals/schemaBlocks-1750.js:13
+#: js/dist/structured-data-blocks-1750.js:1
 msgid "minutes"
 msgstr "menit"
 
 #: languages/wordpress-seojs.php:718 languages/yoast-components.php:89
-#: js/dist/externals/componentsNew-1740.js:3
-#: js/dist/externals/schemaBlocks-1740.js:10
-#: js/dist/structured-data-blocks-1740.js:1
+#: js/dist/externals/componentsNew-1750.js:3
+#: js/dist/externals/schemaBlocks-1750.js:10
+#: js/dist/structured-data-blocks-1750.js:1
 msgid "hours"
 msgstr "jam"
 
-#: languages/wordpress-seojs.php:715 js/dist/structured-data-blocks-1740.js:1
+#: languages/wordpress-seojs.php:715 js/dist/structured-data-blocks-1750.js:1
 msgid "days"
 msgstr "hari"
 
-#: languages/wordpress-seojs.php:691 js/dist/structured-data-blocks-1740.js:9
+#: languages/wordpress-seojs.php:691 js/dist/structured-data-blocks-1750.js:9
 msgid "Create a How-to guide in an SEO-friendly way. You can only use one How-to block per post."
 msgstr "Buat sebuah panduan How-to yang ramah untuk SEO. Anda hanya dapat menggunakan satu blok How-to per artikel."
 
-#: languages/wordpress-seojs.php:643 js/dist/structured-data-blocks-1740.js:9
+#: languages/wordpress-seojs.php:643 js/dist/structured-data-blocks-1750.js:9
 msgid "List your Frequently Asked Questions in an SEO-friendly way. You can only use one FAQ block per post."
 msgstr "Urutkan artikel FAQ Anda dengan cara yang ramah SEO. Anda hanya bisa menggunakan satu blok FAQ per artikel."
 
-#: languages/wordpress-seojs.php:194 js/dist/post-edit-1740.js:5
+#: languages/wordpress-seojs.php:194 js/dist/post-edit-1750.js:5
 msgid "Copy error"
 msgstr "Gagal menyalin"
 
 #. translators: %s expands to Yoast SEO.
-#: languages/wordpress-seojs.php:191 js/dist/post-edit-1740.js:5
+#: languages/wordpress-seojs.php:191 js/dist/post-edit-1750.js:5
 msgid "An error occurred loading the %s primary taxonomy picker."
 msgstr "Terjadi kesalahan memuat pemilih taksonomi utama %s."
 
@@ -3046,40 +3046,40 @@ msgstr "Terjadi kesalahan memuat pemilih taksonomi utama %s."
 msgid "%1$s Structured Data Blocks"
 msgstr "%1$s Blok Data Terstruktur"
 
-#: languages/wordpress-seojs.php:749 js/dist/structured-data-blocks-1740.js:1
-#: js/dist/structured-data-blocks-1740.js:9
+#: languages/wordpress-seojs.php:749 js/dist/structured-data-blocks-1750.js:1
+#: js/dist/structured-data-blocks-1750.js:9
 msgid "Time needed:"
 msgstr "Waktu yang dibutuhkan:"
 
-#: languages/wordpress-seojs.php:675 js/dist/structured-data-blocks-1740.js:9
+#: languages/wordpress-seojs.php:675 js/dist/structured-data-blocks-1750.js:9
 msgid "Move question down"
 msgstr "Pindah pertanyaan ke bawah"
 
-#: languages/wordpress-seojs.php:672 js/dist/structured-data-blocks-1740.js:9
+#: languages/wordpress-seojs.php:672 js/dist/structured-data-blocks-1750.js:9
 msgid "Move question up"
 msgstr "Pindah pertanyaan ke atas"
 
-#: languages/wordpress-seojs.php:669 js/dist/structured-data-blocks-1740.js:9
+#: languages/wordpress-seojs.php:669 js/dist/structured-data-blocks-1750.js:9
 msgid "Insert question"
 msgstr "Masukkan pertanyaan"
 
-#: languages/wordpress-seojs.php:666 js/dist/structured-data-blocks-1740.js:9
+#: languages/wordpress-seojs.php:666 js/dist/structured-data-blocks-1750.js:9
 msgid "Delete question"
 msgstr "Hapus pertanyaan"
 
-#: languages/wordpress-seojs.php:681 js/dist/structured-data-blocks-1740.js:9
+#: languages/wordpress-seojs.php:681 js/dist/structured-data-blocks-1750.js:9
 msgid "Enter the answer to the question"
 msgstr "Ketik jawabannya"
 
-#: languages/wordpress-seojs.php:678 js/dist/structured-data-blocks-1740.js:9
+#: languages/wordpress-seojs.php:678 js/dist/structured-data-blocks-1750.js:9
 msgid "Enter a question"
 msgstr "Ketikkan pertanyaannya"
 
-#: languages/wordpress-seojs.php:663 js/dist/structured-data-blocks-1740.js:9
+#: languages/wordpress-seojs.php:663 js/dist/structured-data-blocks-1750.js:9
 msgid "Add question"
 msgstr "Tambahkan pertanyaan"
 
-#: languages/wordpress-seojs.php:649 js/dist/structured-data-blocks-1740.js:9
+#: languages/wordpress-seojs.php:649 js/dist/structured-data-blocks-1750.js:9
 msgid "Frequently Asked Questions"
 msgstr "Tanya Jawab"
 
@@ -3098,18 +3098,18 @@ msgstr "Tanya Jawab"
 #: src/deprecated/admin/add-keyword-modal.php:35
 #: src/deprecated/admin/keyword-synonyms-modal.php:35
 #: src/deprecated/admin/multiple-keywords-modal.php:35
-#: js/dist/block-editor-1740.js:43 js/dist/classic-editor-1740.js:43
-#: js/dist/elementor-1740.js:43
+#: js/dist/block-editor-1750.js:43 js/dist/classic-editor-1750.js:43
+#: js/dist/elementor-1750.js:43
 msgid "Great news: you can, with %s!"
 msgstr "Kabar baik: tentu saja bisa, dengan %s!"
 
-#: languages/wordpress-seojs.php:207 js/dist/block-editor-1740.js:59
-#: js/dist/classic-editor-1740.js:59 js/dist/elementor-1740.js:59
+#: languages/wordpress-seojs.php:207 js/dist/block-editor-1750.js:59
+#: js/dist/classic-editor-1750.js:59 js/dist/elementor-1750.js:59
 msgid "(Opens in a new browser window)"
 msgstr "(Buka di tab browser baru)"
 
 #. translators: %s expands to the taxonomy name.
-#: languages/wordpress-seojs.php:198 js/dist/post-edit-1740.js:3
+#: languages/wordpress-seojs.php:198 js/dist/post-edit-1750.js:3
 msgid "Select the primary %s"
 msgstr "Pilih yang utama dari %s"
 
@@ -3121,95 +3121,95 @@ msgstr "Periksa tautan dari URL ini"
 msgid "Keyword research training"
 msgstr "Pelatihan riset kata kunci"
 
-#: languages/wordpress-seojs.php:289 js/dist/block-editor-1740.js:59
-#: js/dist/classic-editor-1740.js:59 js/dist/elementor-1740.js:59
+#: languages/wordpress-seojs.php:289 js/dist/block-editor-1750.js:59
+#: js/dist/classic-editor-1750.js:59 js/dist/elementor-1750.js:59
 msgid "Are you trying to use multiple keyphrases? You should add them separately below."
 msgstr "Apakah Anda ingin menggunakan beberapa kata kunci? Anda perlu menambahkannya secara terpisah di bawah ini."
 
 #: languages/wordpress-seojs.php:119 languages/yoast-components.php:128
-#: js/dist/block-editor-1740.js:59 js/dist/classic-editor-1740.js:59
-#: js/dist/elementor-1740.js:59 js/dist/externals/components-1740.js:1
+#: js/dist/block-editor-1750.js:59 js/dist/classic-editor-1750.js:59
+#: js/dist/elementor-1750.js:59 js/dist/externals/components-1750.js:1
 msgid "Mark as cornerstone content"
 msgstr "Tandai sebagai konten landasan"
 
-#: languages/wordpress-seojs.php:761 js/dist/structured-data-blocks-1740.js:1
+#: languages/wordpress-seojs.php:761 js/dist/structured-data-blocks-1750.js:1
 msgid "Move step down"
 msgstr "Pindahkan ke bawah"
 
-#: languages/wordpress-seojs.php:758 js/dist/structured-data-blocks-1740.js:1
+#: languages/wordpress-seojs.php:758 js/dist/structured-data-blocks-1750.js:1
 msgid "Move step up"
 msgstr "Pindahkan ke atas"
 
-#: languages/wordpress-seojs.php:755 js/dist/structured-data-blocks-1740.js:1
+#: languages/wordpress-seojs.php:755 js/dist/structured-data-blocks-1750.js:1
 msgid "Insert step"
 msgstr "Sisipkan langkah"
 
-#: languages/wordpress-seojs.php:752 js/dist/structured-data-blocks-1740.js:1
+#: languages/wordpress-seojs.php:752 js/dist/structured-data-blocks-1750.js:1
 msgid "Delete step"
 msgstr "Hapus langkah"
 
-#: languages/wordpress-seojs.php:685 js/dist/structured-data-blocks-1740.js:1
-#: js/dist/structured-data-blocks-1740.js:9
+#: languages/wordpress-seojs.php:685 js/dist/structured-data-blocks-1750.js:1
+#: js/dist/structured-data-blocks-1750.js:9
 msgid "Add image"
 msgstr "Tambah gambar"
 
-#: languages/wordpress-seojs.php:767 js/dist/structured-data-blocks-1740.js:1
+#: languages/wordpress-seojs.php:767 js/dist/structured-data-blocks-1750.js:1
 msgid "Enter a step description"
 msgstr "Masukkan deskripsi langkah"
 
-#: languages/wordpress-seojs.php:745 js/dist/structured-data-blocks-1740.js:1
+#: languages/wordpress-seojs.php:745 js/dist/structured-data-blocks-1750.js:1
 msgid "Enter a description"
 msgstr "Masukkan deskripsi"
 
-#: languages/wordpress-seojs.php:742 js/dist/structured-data-blocks-1740.js:1
+#: languages/wordpress-seojs.php:742 js/dist/structured-data-blocks-1750.js:1
 msgid "Unordered list"
 msgstr "Daftar tidak berurutan"
 
-#: languages/wordpress-seojs.php:709 js/dist/structured-data-blocks-1740.js:1
+#: languages/wordpress-seojs.php:709 js/dist/structured-data-blocks-1750.js:1
 msgid "Showing step items as an ordered list."
 msgstr "Menampilkan item langkah sebagai daftar berurutan."
 
-#: languages/wordpress-seojs.php:706 js/dist/structured-data-blocks-1740.js:1
+#: languages/wordpress-seojs.php:706 js/dist/structured-data-blocks-1750.js:1
 msgid "Showing step items as an unordered list"
 msgstr "Menampilkan item langkah sebagai daftar yang tidak berurutan"
 
-#: languages/wordpress-seojs.php:703 js/dist/structured-data-blocks-1740.js:1
+#: languages/wordpress-seojs.php:703 js/dist/structured-data-blocks-1750.js:1
 msgid "Add step"
 msgstr "Tambah langkah"
 
-#: languages/wordpress-seojs.php:724 js/dist/structured-data-blocks-1740.js:1
+#: languages/wordpress-seojs.php:724 js/dist/structured-data-blocks-1750.js:1
 msgid "Delete total time"
 msgstr "Hapus total waktu"
 
-#: languages/wordpress-seojs.php:712 js/dist/structured-data-blocks-1740.js:1
+#: languages/wordpress-seojs.php:712 js/dist/structured-data-blocks-1750.js:1
 msgid "Add total time"
 msgstr "Tambah total waktu"
 
-#: languages/wordpress-seojs.php:697 js/dist/structured-data-blocks-1740.js:9
+#: languages/wordpress-seojs.php:697 js/dist/structured-data-blocks-1750.js:9
 msgid "How to"
 msgstr "Bagaimana cara"
 
-#: languages/wordpress-seojs.php:694 js/dist/structured-data-blocks-1740.js:9
+#: languages/wordpress-seojs.php:694 js/dist/structured-data-blocks-1750.js:9
 msgid "How-to"
 msgstr "How-to"
 
-#: languages/wordpress-seojs.php:300 js/dist/block-editor-1740.js:59
-#: js/dist/classic-editor-1740.js:59 js/dist/elementor-1740.js:59
+#: languages/wordpress-seojs.php:300 js/dist/block-editor-1750.js:59
+#: js/dist/classic-editor-1750.js:59 js/dist/elementor-1750.js:59
 msgid "Analysis results"
 msgstr "Hasil analisis"
 
-#: languages/wordpress-seojs.php:321 js/dist/block-editor-1740.js:59
-#: js/dist/classic-editor-1740.js:59 js/dist/elementor-1740.js:59
+#: languages/wordpress-seojs.php:321 js/dist/block-editor-1750.js:59
+#: js/dist/classic-editor-1750.js:59 js/dist/elementor-1750.js:59
 msgid "Enter a focus keyphrase to calculate the SEO score"
 msgstr "Masukkan suatu frasa kunci untuk menghitung skor SEO"
 
-#: languages/wordpress-seojs.php:116 js/dist/block-editor-1740.js:59
-#: js/dist/classic-editor-1740.js:59 js/dist/elementor-1740.js:59
+#: languages/wordpress-seojs.php:116 js/dist/block-editor-1750.js:59
+#: js/dist/classic-editor-1750.js:59 js/dist/elementor-1750.js:59
 msgid "Learn more about Cornerstone Content."
 msgstr "Pelajari selengkapnya tentang Konten Landasan."
 
-#: languages/wordpress-seojs.php:113 js/dist/block-editor-1740.js:59
-#: js/dist/classic-editor-1740.js:59 js/dist/elementor-1740.js:59
+#: languages/wordpress-seojs.php:113 js/dist/block-editor-1750.js:59
+#: js/dist/classic-editor-1750.js:59 js/dist/elementor-1750.js:59
 msgid "Cornerstone content should be the most important and extensive articles on your site."
 msgstr "Konten landasan sebaiknya berupa artikel paling penting dan terlengkap dalam situs Anda."
 
@@ -3260,44 +3260,44 @@ msgstr "Apakah Anda ingin menambahkan frasa kunci lainnya?"
 msgid "image preview"
 msgstr "pratinjau gambar"
 
-#: languages/yoast-components.php:122 js/dist/externals/components-1740.js:3
+#: languages/yoast-components.php:122 js/dist/externals/components-1750.js:3
 msgid "Copied!"
 msgstr "Disalin!"
 
-#: languages/yoast-components.php:125 js/dist/externals/components-1740.js:3
+#: languages/yoast-components.php:125 js/dist/externals/components-1750.js:3
 msgid "Not supported!"
 msgstr "Tidak didukung!"
 
-#: languages/yoast-components.php:112 js/dist/externals/components-1740.js:3
+#: languages/yoast-components.php:112 js/dist/externals/components-1750.js:3
 msgid "{{a}}Read our article about site structure{{/a}} to learn more about how internal linking can help improve your SEO."
 msgstr "{{a}}Baca artikel kami tentang struktur situs{{/a}} untuk mempelajari tentang bagaimana tautan internal dapat membantu untuk meningkatkan SEO Anda."
 
-#: languages/yoast-components.php:116 js/dist/externals/components-1740.js:3
+#: languages/yoast-components.php:116 js/dist/externals/components-1750.js:3
 msgid "Consider linking to these {{a}}cornerstone articles:{{/a}}"
 msgstr "Pertimbangkan menautkannya ke {{a}}konten landasan ini:{{/a}}"
 
-#: languages/yoast-components.php:119 js/dist/externals/components-1740.js:3
+#: languages/yoast-components.php:119 js/dist/externals/components-1750.js:3
 msgid "Consider linking to these articles:"
 msgstr "Pertimbangkan menautkannya ke artikel ini:"
 
-#: languages/yoast-components.php:101 js/dist/externals/components-1740.js:1
+#: languages/yoast-components.php:101 js/dist/externals/components-1750.js:1
 msgid "Copy link"
 msgstr "Salin tautan"
 
 #. translators: %s expands to the link value
-#: languages/yoast-components.php:105 js/dist/externals/components-1740.js:3
+#: languages/yoast-components.php:105 js/dist/externals/components-1750.js:3
 msgid "Copy link to suggested article: %s"
 msgstr "Salin tautan ke artikel yang disarankan: %s"
 
-#: languages/yoast-components.php:55 js/dist/externals/componentsNew-1740.js:3
+#: languages/yoast-components.php:55 js/dist/externals/componentsNew-1750.js:3
 msgid "Read our %1$sultimate guide to keyword research%2$s to learn more about keyword research and keyword strategy."
 msgstr "Baca %1$spanduan lengkap tentang riset kata kunci%2$s dari kami untuk belajar lebih lanjut mengenai riset kata kunci dan strateginya."
 
-#: languages/yoast-components.php:61 js/dist/externals/componentsNew-1740.js:3
+#: languages/yoast-components.php:61 js/dist/externals/componentsNew-1750.js:3
 msgid "The following words occur the most in the content. These give an indication of what your content focuses on. If the words differ a lot from your topic, you might want to rewrite your content accordingly. "
 msgstr "Kata-kata berikut sering muncul pada konten. Ini mengindikasikan tentang apa fokus dari konten Anda. Jika kata-katanya sangat berbeda dari topik Anda, Anda mungkin ingin menulis ulang konten Anda."
 
-#: languages/yoast-components.php:65 js/dist/externals/componentsNew-1740.js:3
+#: languages/yoast-components.php:65 js/dist/externals/componentsNew-1750.js:3
 msgid "Prominent words"
 msgstr "Kata-kata yang menonjol"
 
@@ -3310,15 +3310,15 @@ msgstr "Slogan situs"
 msgid "Not all required fields are given. Missing field %1$s"
 msgstr "Data yang wajib diisi ada yang kosong. Lengkapi data %1$s"
 
-#: languages/wordpress-seojs.php:327 js/dist/block-editor-1740.js:51
-#: js/dist/classic-editor-1740.js:51 js/dist/elementor-1740.js:51
+#: languages/wordpress-seojs.php:327 js/dist/block-editor-1750.js:51
+#: js/dist/classic-editor-1750.js:51 js/dist/elementor-1750.js:51
 msgid "Add synonyms"
 msgstr "Tambahkan sinonim"
 
 #: languages/wordpress-seojs.php:330
 #: src/deprecated/admin/keyword-synonyms-modal.php:32
-#: js/dist/block-editor-1740.js:55 js/dist/classic-editor-1740.js:55
-#: js/dist/elementor-1740.js:55
+#: js/dist/block-editor-1750.js:55 js/dist/classic-editor-1750.js:55
+#: js/dist/elementor-1750.js:55
 msgid "Would you like to add keyphrase synonyms?"
 msgstr "Apakah Anda ingin menambahkan sinonim dari frasa kunci?"
 
@@ -3338,40 +3338,40 @@ msgid "You haven't set a Shop page in your WooCommerce settings. Please do this 
 msgstr "Anda belum menetapkan laman Toko di pengaturan WooCommerce Anda. Tolong lakukan ini dulu."
 
 #: inc/class-wpseo-replace-vars.php:1456 languages/wordpress-seojs.php:792
-#: js/dist/elementor-1740.js:27 js/dist/post-edit-1740.js:1
-#: js/dist/settings-1740.js:1 js/dist/term-edit-1740.js:1
+#: js/dist/elementor-1750.js:27 js/dist/post-edit-1750.js:1
+#: js/dist/settings-1750.js:1 js/dist/term-edit-1750.js:1
 msgid "Current year"
 msgstr "Tahun sekarang"
 
-#: languages/yoast-components.php:32 js/dist/externals/componentsNew-1740.js:3
+#: languages/yoast-components.php:32 js/dist/externals/componentsNew-1750.js:3
 msgid "Something went wrong. Please reload the page."
 msgstr "Ada yang salah. Silakan muat ulang halaman."
 
 #: languages/yoast-components.php:224
-#: js/dist/externals/searchMetadataPreviews-1740.js:2
+#: js/dist/externals/searchMetadataPreviews-1750.js:2
 msgid "Url preview"
 msgstr "Pratinjau url"
 
 #: languages/yoast-components.php:221
-#: js/dist/externals/searchMetadataPreviews-1740.js:2
+#: js/dist/externals/searchMetadataPreviews-1750.js:2
 msgid "Please provide a meta description by editing the snippet below. If you don’t, Google will try to find a relevant part of your post to show in the search results."
 msgstr "Harap berikan deskripsi meta dengan menyunting cuplikan di bawah ini. Jika tidak, Google akan mencoba menemukan bagian yang relevan dari artikel Anda untuk ditampilkan di hasil pencarian."
 
 #: inc/class-wpseo-replace-vars.php:1442 languages/wordpress-seojs.php:807
-#: js/dist/elementor-1740.js:27 js/dist/post-edit-1740.js:1
-#: js/dist/settings-1740.js:1 js/dist/term-edit-1740.js:1
+#: js/dist/elementor-1750.js:27 js/dist/post-edit-1750.js:1
+#: js/dist/settings-1750.js:1 js/dist/term-edit-1750.js:1
 msgid "Tagline"
 msgstr "Slogan"
 
-#: languages/wordpress-seojs.php:801 js/dist/elementor-1740.js:27
-#: js/dist/post-edit-1740.js:1 js/dist/settings-1740.js:1
-#: js/dist/term-edit-1740.js:1
+#: languages/wordpress-seojs.php:801 js/dist/elementor-1750.js:27
+#: js/dist/post-edit-1750.js:1 js/dist/settings-1750.js:1
+#: js/dist/term-edit-1750.js:1
 msgid "Page"
 msgstr "Halaman"
 
 #: languages/wordpress-seojs.php:261 languages/yoast-components.php:183
-#: js/dist/externals/searchMetadataPreviews-1740.js:2
-#: js/dist/settings-1740.js:6
+#: js/dist/externals/searchMetadataPreviews-1750.js:2
+#: js/dist/settings-1750.js:6
 msgid "Modify your meta description by editing it right here"
 msgstr "Atur deskripsi meta Anda dengan menyuntingnya di sini"
 
@@ -3412,8 +3412,8 @@ msgid "User description"
 msgstr "Deskripsi pengguna"
 
 #: inc/class-wpseo-replace-vars.php:1482 languages/wordpress-seojs.php:798
-#: js/dist/elementor-1740.js:27 js/dist/post-edit-1740.js:1
-#: js/dist/settings-1740.js:1 js/dist/term-edit-1740.js:1
+#: js/dist/elementor-1750.js:27 js/dist/post-edit-1750.js:1
+#: js/dist/settings-1750.js:1 js/dist/term-edit-1750.js:1
 msgid "ID"
 msgstr "ID"
 
@@ -3430,14 +3430,14 @@ msgid "Post type (singular)"
 msgstr "Post type (tunggal)"
 
 #: inc/class-wpseo-replace-vars.php:1454 languages/wordpress-seojs.php:828
-#: js/dist/elementor-1740.js:27 js/dist/post-edit-1740.js:1
-#: js/dist/settings-1740.js:1 js/dist/term-edit-1740.js:1
+#: js/dist/elementor-1750.js:27 js/dist/post-edit-1750.js:1
+#: js/dist/settings-1750.js:1 js/dist/term-edit-1750.js:1
 msgid "Separator"
 msgstr "Pemisah"
 
 #: inc/class-wpseo-replace-vars.php:1452 languages/wordpress-seojs.php:804
-#: js/dist/elementor-1740.js:27 js/dist/post-edit-1740.js:1
-#: js/dist/settings-1740.js:1 js/dist/term-edit-1740.js:1
+#: js/dist/elementor-1750.js:27 js/dist/post-edit-1750.js:1
+#: js/dist/settings-1750.js:1 js/dist/term-edit-1750.js:1
 msgid "Search phrase"
 msgstr "Frasa pencarian"
 
@@ -3446,32 +3446,32 @@ msgid "Term title"
 msgstr "Judul term"
 
 #: inc/class-wpseo-replace-vars.php:1450 languages/wordpress-seojs.php:840
-#: js/dist/elementor-1740.js:27 js/dist/post-edit-1740.js:1
-#: js/dist/settings-1740.js:1 js/dist/term-edit-1740.js:1
+#: js/dist/elementor-1750.js:27 js/dist/post-edit-1750.js:1
+#: js/dist/settings-1750.js:1 js/dist/term-edit-1750.js:1
 msgid "Term description"
 msgstr "Deskripsi term"
 
 #: inc/class-wpseo-replace-vars.php:1449 languages/wordpress-seojs.php:837
-#: js/dist/elementor-1740.js:27 js/dist/post-edit-1740.js:1
-#: js/dist/settings-1740.js:1 js/dist/term-edit-1740.js:1
+#: js/dist/elementor-1750.js:27 js/dist/post-edit-1750.js:1
+#: js/dist/settings-1750.js:1 js/dist/term-edit-1750.js:1
 msgid "Tag description"
 msgstr "Deskripsi label"
 
 #: inc/class-wpseo-replace-vars.php:1448 languages/wordpress-seojs.php:834
-#: js/dist/elementor-1740.js:27 js/dist/post-edit-1740.js:1
-#: js/dist/settings-1740.js:1 js/dist/term-edit-1740.js:1
+#: js/dist/elementor-1750.js:27 js/dist/post-edit-1750.js:1
+#: js/dist/settings-1750.js:1 js/dist/term-edit-1750.js:1
 msgid "Category description"
 msgstr "Deskripsi kategori"
 
 #: inc/class-wpseo-replace-vars.php:1447 languages/wordpress-seojs.php:825
-#: js/dist/elementor-1740.js:27 js/dist/post-edit-1740.js:1
-#: js/dist/settings-1740.js:1 js/dist/term-edit-1740.js:1
+#: js/dist/elementor-1750.js:27 js/dist/post-edit-1750.js:1
+#: js/dist/settings-1750.js:1 js/dist/term-edit-1750.js:1
 msgid "Primary category"
 msgstr "Kategori primer"
 
 #: inc/class-wpseo-replace-vars.php:1446 languages/wordpress-seojs.php:813
-#: js/dist/elementor-1740.js:27 js/dist/post-edit-1740.js:1
-#: js/dist/settings-1740.js:1 js/dist/term-edit-1740.js:1
+#: js/dist/elementor-1750.js:27 js/dist/post-edit-1750.js:1
+#: js/dist/settings-1750.js:1 js/dist/term-edit-1750.js:1
 msgid "Category"
 msgstr "Kategori"
 
@@ -3480,20 +3480,20 @@ msgid "Tag"
 msgstr "Label"
 
 #: inc/class-wpseo-replace-vars.php:1444 languages/wordpress-seojs.php:831
-#: js/dist/elementor-1740.js:27 js/dist/post-edit-1740.js:1
-#: js/dist/settings-1740.js:1 js/dist/term-edit-1740.js:1
+#: js/dist/elementor-1750.js:27 js/dist/post-edit-1750.js:1
+#: js/dist/settings-1750.js:1 js/dist/term-edit-1750.js:1
 msgid "Excerpt only"
 msgstr "Hanya kutipan"
 
 #: inc/class-wpseo-replace-vars.php:1443 languages/wordpress-seojs.php:822
-#: js/dist/elementor-1740.js:27 js/dist/post-edit-1740.js:1
-#: js/dist/settings-1740.js:1 js/dist/term-edit-1740.js:1
+#: js/dist/elementor-1750.js:27 js/dist/post-edit-1750.js:1
+#: js/dist/settings-1750.js:1 js/dist/term-edit-1750.js:1
 msgid "Excerpt"
 msgstr "Kutipan"
 
 #: inc/class-wpseo-replace-vars.php:1441 languages/wordpress-seojs.php:810
-#: js/dist/elementor-1740.js:27 js/dist/post-edit-1740.js:1
-#: js/dist/settings-1740.js:1 js/dist/term-edit-1740.js:1
+#: js/dist/elementor-1750.js:27 js/dist/post-edit-1750.js:1
+#: js/dist/settings-1750.js:1 js/dist/term-edit-1750.js:1
 msgid "Site title"
 msgstr "Judul situs"
 
@@ -3502,14 +3502,14 @@ msgid "Archive title"
 msgstr "Judul arsip"
 
 #: inc/class-wpseo-replace-vars.php:1439 languages/wordpress-seojs.php:819
-#: js/dist/elementor-1740.js:27 js/dist/post-edit-1740.js:1
-#: js/dist/settings-1740.js:1 js/dist/term-edit-1740.js:1
+#: js/dist/elementor-1750.js:27 js/dist/post-edit-1750.js:1
+#: js/dist/settings-1750.js:1 js/dist/term-edit-1750.js:1
 msgid "Parent title"
 msgstr "Judul induk"
 
 #: inc/class-wpseo-replace-vars.php:1437 languages/wordpress-seojs.php:795
-#: js/dist/elementor-1740.js:27 js/dist/post-edit-1740.js:1
-#: js/dist/settings-1740.js:1 js/dist/term-edit-1740.js:1
+#: js/dist/elementor-1750.js:27 js/dist/post-edit-1750.js:1
+#: js/dist/settings-1750.js:1 js/dist/term-edit-1750.js:1
 msgid "Date"
 msgstr "Tanggal"
 
@@ -3550,12 +3550,12 @@ msgstr "Pengaturan untuk arsip %s"
 msgid "The settings on this page allow you to specify what the default search appearance should be for any type of content you have. You can choose which content types appear in search results and what their default description should be."
 msgstr "Pengaturan di halaman ini memungkinkan Anda untuk menetapkan tampilan pencarian default untuk tipe konten apa saja yang ada.  Anda bisa bisa memilih tipe konten mana yang tampil di hasil pencarian dan apa deskripsi defaultnya."
 
-#: languages/yoast-components.php:46 js/dist/externals/componentsNew-1740.js:6
+#: languages/yoast-components.php:46 js/dist/externals/componentsNew-1750.js:6
 msgid "Dismiss this notice"
 msgstr "Tutup peringatan ini"
 
 #. Translators: %s expands to the actual language.
-#: languages/yoast-components.php:40 js/dist/externals/componentsNew-1740.js:6
+#: languages/yoast-components.php:40 js/dist/externals/componentsNew-1750.js:6
 msgid "Your site language is set to %s. If this is not correct, contact your site administrator."
 msgstr "Bahasa situs Anda menggunakan %s. Jika ini tidak benar, silakan hubungi administrator situs Anda."
 
@@ -3697,10 +3697,10 @@ msgid "%s data not found."
 msgstr "%s data tidak ditemukan."
 
 #: admin/class-premium-upsell-admin-block.php:58 admin/views/sidebar.php:37
-#: languages/wordpress-seojs.php:371 js/dist/block-editor-1740.js:37
-#: js/dist/block-editor-1740.js:47 js/dist/classic-editor-1740.js:37
-#: js/dist/classic-editor-1740.js:47 js/dist/elementor-1740.js:37
-#: js/dist/elementor-1740.js:47
+#: languages/wordpress-seojs.php:371 js/dist/block-editor-1750.js:37
+#: js/dist/block-editor-1750.js:47 js/dist/classic-editor-1750.js:37
+#: js/dist/classic-editor-1750.js:47 js/dist/elementor-1750.js:37
+#: js/dist/elementor-1750.js:47
 msgid "24/7 email support"
 msgstr "24/7 bantuan melalui email"
 
@@ -3872,7 +3872,7 @@ msgstr "Pelajari lebih lanjut tentang verifikasi Webmaster Tools"
 #: admin/views/tabs/metas/paper-content/author-archive-settings.php:13
 #: admin/views/tabs/metas/paper-content/date-archives-settings.php:13
 #: admin/views/tabs/metas/paper-content/taxonomy-content.php:19
-#: languages/yoast-components.php:49 js/dist/externals/componentsNew-1740.js:6
+#: languages/yoast-components.php:49 js/dist/externals/componentsNew-1750.js:6
 msgid "On"
 msgstr "Aktif"
 
@@ -3899,7 +3899,7 @@ msgstr "%1$s memiliki banyak fitur. Anda dapat aktifkan / nonaktifkan di antaran
 #: admin/views/tabs/metas/paper-content/author-archive-settings.php:14
 #: admin/views/tabs/metas/paper-content/date-archives-settings.php:14
 #: admin/views/tabs/metas/paper-content/taxonomy-content.php:19
-#: languages/yoast-components.php:52 js/dist/externals/componentsNew-1740.js:6
+#: languages/yoast-components.php:52 js/dist/externals/componentsNew-1750.js:6
 msgid "Off"
 msgstr "Nonaktif"
 
@@ -3943,10 +3943,10 @@ msgstr "Tidak menampilkan %1$s dalam hasil pencarian secara teknis berarti merek
 #. in plural form
 #. Translators: %s translates to the "yes" or "no" ,%s translates to the Post
 #. Label in plural form
-#: languages/wordpress-seojs.php:83 js/dist/block-editor-1740.js:65
-#: js/dist/block-editor-1740.js:67 js/dist/classic-editor-1740.js:65
-#: js/dist/classic-editor-1740.js:67 js/dist/elementor-1740.js:65
-#: js/dist/elementor-1740.js:67
+#: languages/wordpress-seojs.php:83 js/dist/block-editor-1750.js:65
+#: js/dist/block-editor-1750.js:67 js/dist/classic-editor-1750.js:65
+#: js/dist/classic-editor-1750.js:67 js/dist/elementor-1750.js:65
+#: js/dist/elementor-1750.js:67
 msgid "%s (current default for %s)"
 msgstr "%s (saat ini standar untuk %s)"
 
@@ -3971,8 +3971,8 @@ msgstr "Standar untuk %2$s, saat ini: %1$s"
 #. translators: %s expands to the post type name.
 #. Translators: %s translates to the Post Label in singular form
 #: admin/metabox/class-metabox.php:176 languages/wordpress-seojs.php:90
-#: js/dist/block-editor-1740.js:69 js/dist/classic-editor-1740.js:69
-#: js/dist/elementor-1740.js:69
+#: js/dist/block-editor-1750.js:69 js/dist/classic-editor-1750.js:69
+#: js/dist/elementor-1750.js:69
 msgid "Allow search engines to show this %s in search results?"
 msgstr "Izinkan mesin pencari untuk menampilkan %s ini di hasil pencarian?"
 
@@ -4066,8 +4066,8 @@ msgid "The SEO analysis offers suggestions to improve the SEO of your text."
 msgstr "Analisis SEO menawarkan saran untuk meningkatkan SEO teks Anda."
 
 #: admin/views/class-yoast-feature-toggles.php:74
-#: languages/wordpress-seojs.php:324 js/dist/block-editor-1740.js:59
-#: js/dist/classic-editor-1740.js:59 js/dist/elementor-1740.js:59
+#: languages/wordpress-seojs.php:324 js/dist/block-editor-1750.js:59
+#: js/dist/classic-editor-1750.js:59 js/dist/elementor-1750.js:59
 msgid "SEO analysis"
 msgstr "Analisis SEO"
 
@@ -4081,7 +4081,7 @@ msgid "Get better search results in local search"
 msgstr "Dapatkan hasil pencarian lebih baik di pencarian lokal"
 
 #: admin/formatter/class-metabox-formatter.php:192
-#: languages/yoast-components.php:20 js/dist/externals/analysisReport-1740.js:1
+#: languages/yoast-components.php:20 js/dist/externals/analysisReport-1750.js:1
 msgid "Good results"
 msgstr "Hasil yang baik"
 
@@ -4099,7 +4099,7 @@ msgid "Latest blog posts on %1$s"
 msgstr "Artikel blog terbaru di %1$s"
 
 #: admin/formatter/class-metabox-formatter.php:194
-#: languages/yoast-components.php:8 js/dist/externals/analysisReport-1740.js:1
+#: languages/yoast-components.php:8 js/dist/externals/analysisReport-1750.js:1
 msgid "Remove highlight from the text"
 msgstr "Hapus sorot dari teks"
 
@@ -4114,26 +4114,26 @@ msgid "First-time SEO configuration"
 msgstr "Konfigurasi SEO pertama kali"
 
 #. Translators: %s expands to the actual language.
-#: languages/yoast-components.php:36 js/dist/externals/componentsNew-1740.js:4
+#: languages/yoast-components.php:36 js/dist/externals/componentsNew-1750.js:4
 msgid "Your site language is set to %s. "
 msgstr "Bahasa situs Anda menggunakan %s."
 
 #: admin/formatter/class-metabox-formatter.php:193
-#: languages/yoast-components.php:11 js/dist/externals/analysisReport-1740.js:1
+#: languages/yoast-components.php:11 js/dist/externals/analysisReport-1750.js:1
 msgid "Highlight this result in the text"
 msgstr "Sorot hasil ini pada teks"
 
 #: admin/formatter/class-metabox-formatter.php:191
-#: languages/yoast-components.php:17 js/dist/externals/analysisReport-1740.js:1
+#: languages/yoast-components.php:17 js/dist/externals/analysisReport-1750.js:1
 msgid "Considerations"
 msgstr "Pertimbangan"
 
 #: admin/formatter/class-metabox-formatter.php:188
-#: languages/yoast-components.php:23 js/dist/externals/analysisReport-1740.js:1
+#: languages/yoast-components.php:23 js/dist/externals/analysisReport-1750.js:1
 msgid "Errors"
 msgstr "Galat"
 
-#: languages/yoast-components.php:43 js/dist/externals/componentsNew-1740.js:6
+#: languages/yoast-components.php:43 js/dist/externals/componentsNew-1750.js:6
 msgid "Change language"
 msgstr "Ganti bahasa"
 
@@ -4210,8 +4210,8 @@ msgstr "Tandai %1$s yang paling penting sebagai 'konten landasan' untuk meningka
 #: src/deprecated/admin/keyword-synonyms-modal.php:51
 #: src/deprecated/admin/multiple-keywords-modal.php:51
 #: src/presenters/admin/help-link-presenter.php:75
-#: js/dist/block-editor-1740.js:83 js/dist/externals/componentsNew-1740.js:1
-#: js/dist/externals/helpers-1740.js:1
+#: js/dist/block-editor-1750.js:83 js/dist/externals/componentsNew-1750.js:1
+#: js/dist/externals/helpers-1750.js:1
 msgid "(Opens in a new browser tab)"
 msgstr "(Buka di tab peramban baru)"
 
@@ -4356,7 +4356,7 @@ msgid "Readability score"
 msgstr "Skor keterbacaan"
 
 #: languages/yoast-components.php:201 languages/yoast-seo-js.php:466
-#: js/dist/externals/searchMetadataPreviews-1740.js:1
+#: js/dist/externals/searchMetadataPreviews-1750.js:1
 msgid "Scroll to see the preview content."
 msgstr "Gulir untuk melihat konten pratinjau."
 
@@ -4370,16 +4370,16 @@ msgstr "Gulir untuk melihat konten pratinjau."
 #: src/deprecated/admin/add-keyword-modal.php:41
 #: src/deprecated/admin/keyword-synonyms-modal.php:41
 #: src/deprecated/admin/multiple-keywords-modal.php:41
-#: js/dist/block-editor-1740.js:39 js/dist/block-editor-1740.js:49
-#: js/dist/classic-editor-1740.js:39 js/dist/classic-editor-1740.js:49
-#: js/dist/elementor-1740.js:39 js/dist/elementor-1740.js:49
+#: js/dist/block-editor-1750.js:39 js/dist/block-editor-1750.js:49
+#: js/dist/classic-editor-1750.js:39 js/dist/classic-editor-1750.js:49
+#: js/dist/elementor-1750.js:39 js/dist/elementor-1750.js:49
 msgid "Other benefits of %s for you:"
 msgstr "Keuntungan lain dari %s untuk Anda:"
 
 #: admin/filters/class-cornerstone-filter.php:87
 #: admin/views/class-yoast-feature-toggles.php:90
-#: languages/wordpress-seojs.php:110 js/dist/block-editor-1740.js:59
-#: js/dist/classic-editor-1740.js:59 js/dist/elementor-1740.js:59
+#: languages/wordpress-seojs.php:110 js/dist/block-editor-1750.js:59
+#: js/dist/classic-editor-1750.js:59 js/dist/elementor-1750.js:59
 msgid "Cornerstone content"
 msgstr "Konten landasan"
 
@@ -4417,17 +4417,17 @@ msgid "The configuration wizard helps you to easily configure your site to have 
 msgstr "Pemandu konfigurasi membantu Anda mengkonfigurasi situs Anda untuk memiliki pengaturan SEO yang optimal secara mudah."
 
 #: admin/class-premium-upsell-admin-block.php:56
-#: languages/wordpress-seojs.php:362 js/dist/block-editor-1740.js:35
-#: js/dist/block-editor-1740.js:45 js/dist/classic-editor-1740.js:35
-#: js/dist/classic-editor-1740.js:45 js/dist/elementor-1740.js:35
-#: js/dist/elementor-1740.js:45
+#: languages/wordpress-seojs.php:362 js/dist/block-editor-1750.js:35
+#: js/dist/block-editor-1750.js:45 js/dist/classic-editor-1750.js:35
+#: js/dist/classic-editor-1750.js:45 js/dist/elementor-1750.js:35
+#: js/dist/elementor-1750.js:45
 msgid "Superfast internal linking suggestions"
 msgstr "Anjuran pemilihan tautan internal yang cepat"
 
 #. translators: %1$s expands to a 'Yoast SEO Premium' text linked to the
 #. yoast.com website.
-#: languages/wordpress-seojs.php:350 js/dist/block-editor-1740.js:33
-#: js/dist/classic-editor-1740.js:33 js/dist/elementor-1740.js:33
+#: languages/wordpress-seojs.php:350 js/dist/block-editor-1750.js:33
+#: js/dist/classic-editor-1750.js:33 js/dist/elementor-1750.js:33
 msgid "Great news: you can, with %1$s!"
 msgstr "Berita baik: Anda bisa, dengan %1$s!"
 
@@ -4441,9 +4441,9 @@ msgstr "Simpan perubahan"
 #: src/deprecated/admin/add-keyword-modal.php:50
 #: src/deprecated/admin/keyword-synonyms-modal.php:50
 #: src/deprecated/admin/multiple-keywords-modal.php:50
-#: js/dist/block-editor-1740.js:41 js/dist/block-editor-1740.js:51
-#: js/dist/classic-editor-1740.js:41 js/dist/classic-editor-1740.js:51
-#: js/dist/elementor-1740.js:41 js/dist/elementor-1740.js:51
+#: js/dist/block-editor-1750.js:41 js/dist/block-editor-1750.js:51
+#: js/dist/classic-editor-1750.js:41 js/dist/classic-editor-1750.js:51
+#: js/dist/elementor-1750.js:41 js/dist/elementor-1750.js:51
 msgid "1 year free support and updates included!"
 msgstr "Termasuk gratis dukungan dan update selama 1 tahun!"
 
@@ -4456,27 +4456,27 @@ msgstr "Plugin %2$s mengubah hasil situs Anda dan membedakan antara mesin pencar
 
 #. translators: %1$s expands to a 'strong' start tag, %2$s to a 'strong' end
 #. tag.
-#: languages/wordpress-seojs.php:367 js/dist/block-editor-1740.js:37
-#: js/dist/block-editor-1740.js:47 js/dist/classic-editor-1740.js:37
-#: js/dist/classic-editor-1740.js:47 js/dist/elementor-1740.js:37
-#: js/dist/elementor-1740.js:47
+#: languages/wordpress-seojs.php:367 js/dist/block-editor-1750.js:37
+#: js/dist/block-editor-1750.js:47 js/dist/classic-editor-1750.js:37
+#: js/dist/classic-editor-1750.js:47 js/dist/elementor-1750.js:37
+#: js/dist/elementor-1750.js:47
 msgid "%1$sSocial media preview%2$s: Facebook & Twitter"
 msgstr "%1$sPratinjau media sosial%2$s: Facebook & Twitter"
 
 #. translators: %1$s expands to a 'strong' start tag, %2$s to a 'strong' end
 #. tag.
-#: languages/wordpress-seojs.php:358 js/dist/block-editor-1740.js:35
-#: js/dist/block-editor-1740.js:45 js/dist/classic-editor-1740.js:35
-#: js/dist/classic-editor-1740.js:45 js/dist/elementor-1740.js:35
-#: js/dist/elementor-1740.js:45
+#: languages/wordpress-seojs.php:358 js/dist/block-editor-1750.js:35
+#: js/dist/block-editor-1750.js:45 js/dist/classic-editor-1750.js:35
+#: js/dist/classic-editor-1750.js:45 js/dist/elementor-1750.js:35
+#: js/dist/elementor-1750.js:45
 msgid "%1$sNo more dead links%2$s: easy redirect manager"
 msgstr "%1$sTidak ada lagi tautan mati%2$s: pengelola pengalihan yang mudah"
 
 #: admin/class-premium-upsell-admin-block.php:59 admin/views/sidebar.php:38
-#: languages/wordpress-seojs.php:375 js/dist/block-editor-1740.js:37
-#: js/dist/block-editor-1740.js:47 js/dist/classic-editor-1740.js:37
-#: js/dist/classic-editor-1740.js:47 js/dist/elementor-1740.js:37
-#: js/dist/elementor-1740.js:47
+#: languages/wordpress-seojs.php:375 js/dist/block-editor-1750.js:37
+#: js/dist/block-editor-1750.js:47 js/dist/classic-editor-1750.js:37
+#: js/dist/classic-editor-1750.js:47 js/dist/elementor-1750.js:37
+#: js/dist/elementor-1750.js:47
 msgid "No ads!"
 msgstr "Tanpa iklan!"
 
@@ -4543,7 +4543,7 @@ msgstr[0] "Kurang sedikit lagi untuk mencapai batas minimal yang disarankan yait
 msgstr[1] "Kurang sedikit lagi untuk mencapai batas minimal yang disarankan yaitu %5$d kata. %3$sTambahkan beberapa kata lagi%4$s."
 
 #: languages/yoast-components.php:147
-#: js/dist/externals/configurationWizard-1740.js:1
+#: js/dist/externals/configurationWizard-1750.js:1
 msgid "Step %1$d: %2$s"
 msgstr "Langkah %1$d: %2$s"
 
@@ -4577,7 +4577,7 @@ msgid "Please provide an SEO title by editing the snippet below."
 msgstr "Berikan judul SEO dengan menyunting kotak kecil di bawah ini."
 
 #: languages/yoast-components.php:233 languages/yoast-seo-js.php:454
-#: js/dist/externals/searchMetadataPreviews-1740.js:2
+#: js/dist/externals/searchMetadataPreviews-1750.js:2
 msgid "Meta description preview:"
 msgstr "Pratinjau deskripsi meta:"
 
@@ -4590,12 +4590,12 @@ msgid "SEO title preview:"
 msgstr "Pratinjau judul SEO:"
 
 #: languages/yoast-components.php:186 languages/yoast-seo-js.php:442
-#: js/dist/externals/searchMetadataPreviews-1740.js:2
+#: js/dist/externals/searchMetadataPreviews-1750.js:2
 msgid "Close snippet editor"
 msgstr "Tutup penyunting cuplikan"
 
 #: languages/yoast-components.php:195 languages/yoast-seo-js.php:436
-#: js/dist/externals/searchMetadataPreviews-1740.js:2
+#: js/dist/externals/searchMetadataPreviews-1750.js:2
 msgid "Slug"
 msgstr "Slug"
 
@@ -4609,28 +4609,28 @@ msgstr "Tandai hasil ini di teks"
 
 #: admin/formatter/class-metabox-formatter.php:195
 #: languages/yoast-components.php:5 languages/yoast-seo-js.php:421
-#: js/dist/externals/analysisReport-1740.js:1
+#: js/dist/externals/analysisReport-1750.js:1
 msgid "Marks are disabled in current view"
 msgstr "Tanda dinonaktifkan pada tampilan saat ini"
 
 #: languages/wordpress-seojs.php:18 languages/yoast-seo-js.php:41
-#: js/dist/block-editor-1740.js:1 js/dist/classic-editor-1740.js:1
-#: js/dist/editor-modules-1740.js:15 js/dist/elementor-1740.js:1
-#: js/dist/post-edit-1740.js:1 js/dist/term-edit-1740.js:1
+#: js/dist/block-editor-1750.js:1 js/dist/classic-editor-1750.js:1
+#: js/dist/editor-modules-1750.js:15 js/dist/elementor-1750.js:1
+#: js/dist/post-edit-1750.js:1 js/dist/term-edit-1750.js:1
 msgid "Good SEO score"
 msgstr "Skor SEO bagus"
 
 #: languages/wordpress-seojs.php:12 languages/yoast-seo-js.php:34
-#: js/dist/block-editor-1740.js:1 js/dist/classic-editor-1740.js:1
-#: js/dist/editor-modules-1740.js:15 js/dist/elementor-1740.js:1
-#: js/dist/post-edit-1740.js:1 js/dist/term-edit-1740.js:1
+#: js/dist/block-editor-1750.js:1 js/dist/classic-editor-1750.js:1
+#: js/dist/editor-modules-1750.js:15 js/dist/elementor-1750.js:1
+#: js/dist/post-edit-1750.js:1 js/dist/term-edit-1750.js:1
 msgid "OK SEO score"
 msgstr "Skor SEO OK"
 
 #: languages/wordpress-seojs.php:5 languages/yoast-seo-js.php:22
-#: js/dist/block-editor-1740.js:1 js/dist/classic-editor-1740.js:1
-#: js/dist/editor-modules-1740.js:15 js/dist/elementor-1740.js:1
-#: js/dist/post-edit-1740.js:1 js/dist/term-edit-1740.js:1
+#: js/dist/block-editor-1750.js:1 js/dist/classic-editor-1750.js:1
+#: js/dist/editor-modules-1750.js:15 js/dist/elementor-1750.js:1
+#: js/dist/post-edit-1750.js:1 js/dist/term-edit-1750.js:1
 msgid "Feedback"
 msgstr "Umpan Balik"
 
@@ -4655,18 +4655,18 @@ msgid "Sign Up!"
 msgstr "Daftar!"
 
 #: inc/class-wpseo-replace-vars.php:1483 languages/wordpress-seojs.php:274
-#: js/dist/settings-1740.js:6
+#: js/dist/settings-1750.js:6
 msgid "Name"
 msgstr "Nama"
 
 #: languages/wordpress-seojs.php:540 languages/yoast-seo-js.php:472
-#: js/dist/block-editor-1740.js:71 js/dist/classic-editor-1740.js:71
-#: js/dist/elementor-1740.js:71
+#: js/dist/block-editor-1750.js:71 js/dist/classic-editor-1750.js:71
+#: js/dist/elementor-1750.js:71
 msgid "Please provide a meta description by editing the snippet below."
 msgstr "Berikan deskripsi meta dengan menyunting cuplikan di bawah ini."
 
 #: languages/yoast-components.php:189 languages/yoast-seo-js.php:430
-#: js/dist/externals/searchMetadataPreviews-1740.js:2
+#: js/dist/externals/searchMetadataPreviews-1750.js:2
 msgid "Edit snippet"
 msgstr "Sunting kotak kecil"
 
@@ -4675,20 +4675,20 @@ msgid "You can click on each element in the preview to jump to the Snippet Edito
 msgstr "Anda dapat mengklik setiap elemen dalam pratinjau untuk beralih ke Penyunting Cuplikan."
 
 #: languages/yoast-components.php:230
-#: js/dist/externals/searchMetadataPreviews-1740.js:2
+#: js/dist/externals/searchMetadataPreviews-1750.js:2
 msgid "SEO title preview"
 msgstr "Pratinjau judul SEO"
 
 #. Translators: {{link}} resolves to the link opening tag to yoa.st/bugreport,
 #. {{/link}} resolves to the link closing tag.
 #: languages/yoast-components.php:131
-#: js/dist/externals/configurationWizard-1740.js:3
+#: js/dist/externals/configurationWizard-1750.js:3
 msgid "A problem occurred when saving the current step, {{link}}please file a bug report{{/link}} describing what step you are on and which changes you want to make (if any)."
 msgstr "Terjadi masalah saat menyimpan tahap ini, {{link}}silakan laporkan bug{{/link}} dengan menjelaskan pada tahap apa Anda mengalami masalah dan perubahan mana yang ingin Anda buat (bila ada)."
 
 #: admin/config-ui/class-configuration-page.php:142
 #: languages/yoast-components.php:134
-#: js/dist/externals/configurationWizard-1740.js:3
+#: js/dist/externals/configurationWizard-1750.js:3
 msgid "Close the Wizard"
 msgstr "Tutup Pemandu"
 
@@ -4741,7 +4741,7 @@ msgstr "(tanpa judul)"
 
 #. Translators: %s expands to "Yoast SEO for WordPress".
 #: languages/yoast-components.php:144
-#: js/dist/externals/configurationWizard-1740.js:5
+#: js/dist/externals/configurationWizard-1750.js:5
 msgid "%s installation wizard"
 msgstr "Panduan instalasi %s"
 
@@ -4767,8 +4767,8 @@ msgstr "Fitur"
 
 #: admin/metabox/class-metabox.php:172 languages/yoast-components.php:192
 #: languages/yoast-seo-js.php:433
-#: js/dist/externals/replacementVariableEditor-1740.js:1
-#: js/dist/externals/searchMetadataPreviews-1740.js:2
+#: js/dist/externals/replacementVariableEditor-1750.js:1
+#: js/dist/externals/searchMetadataPreviews-1750.js:2
 msgid "SEO title"
 msgstr "Judul SEO"
 
@@ -4776,21 +4776,29 @@ msgstr "Judul SEO"
 msgid "Google shows your website's name in the search results, if you want to change it, you can do that here."
 msgstr "Google menampilkan nama situs Anda dalam hasil pencarian, bila Anda ingin mengubahnya, Anda dapat melakukannya di sini."
 
-#: inc/options/class-wpseo-option-titles.php:997
+#: inc/options/class-wpseo-option-titles.php:1005
 msgid "Greater than sign"
 msgstr "Tanda lebih besar"
 
-#: inc/options/class-wpseo-option-titles.php:993
+#: inc/options/class-wpseo-option-titles.php:1001
 msgid "Less than sign"
 msgstr "Tanda kurang dari"
 
-#: inc/options/class-wpseo-option-titles.php:989
+#: inc/options/class-wpseo-option-titles.php:997
 msgid "Right angle quotation mark"
 msgstr "Tanda kutip sudut kanan"
 
-#: inc/options/class-wpseo-option-titles.php:985
+#: inc/options/class-wpseo-option-titles.php:993
 msgid "Left angle quotation mark"
 msgstr "Tanda kutip sudut kiri"
+
+#: inc/options/class-wpseo-option-titles.php:989
+msgid "Small tilde"
+msgstr "Tanda aksen kecil"
+
+#: inc/options/class-wpseo-option-titles.php:985
+msgid "Vertical bar"
+msgstr "Bilah vertikal"
 
 #: inc/options/class-wpseo-option-titles.php:981
 msgid "Low asterisk"
@@ -4825,7 +4833,7 @@ msgstr "Tanda pisah"
 msgid "Choose the symbol to use as your title separator. This will display, for instance, between your post title and site name. Symbols are shown in the size they'll appear in the search results."
 msgstr "Pilih simbol yang akan digunakan sebagai pemisah judul Anda. Ini akan menampilkan, misalnya, antara judul artikel dan nama situs Anda. Simbol ditampilkan dengan ukuran sama dengan yang akan muncul di hasil pencarian."
 
-#: languages/wordpress-seojs.php:267 js/dist/configuration-wizard-1740.js:1
+#: languages/wordpress-seojs.php:267 js/dist/configuration-wizard-1750.js:1
 msgid "The name of the person"
 msgstr "Nama orang"
 
@@ -4833,8 +4841,8 @@ msgstr "Nama orang"
 #: admin/config-ui/fields/class-field-multiple-authors.php:24
 #: admin/metabox/class-metabox.php:183 admin/metabox/class-metabox.php:188
 #: admin/views/tabs/metas/paper-content/media-content.php:20
-#: languages/wordpress-seojs.php:76 js/dist/block-editor-1740.js:63
-#: js/dist/classic-editor-1740.js:63 js/dist/elementor-1740.js:63
+#: languages/wordpress-seojs.php:76 js/dist/block-editor-1750.js:63
+#: js/dist/classic-editor-1750.js:63 js/dist/elementor-1750.js:63
 msgid "No"
 msgstr "Tidak"
 
@@ -4842,9 +4850,9 @@ msgstr "Tidak"
 #: admin/config-ui/fields/class-field-multiple-authors.php:23
 #: admin/metabox/class-metabox.php:182 admin/metabox/class-metabox.php:187
 #: admin/views/tabs/metas/paper-content/media-content.php:19
-#: languages/wordpress-seojs.php:79 js/dist/block-editor-1740.js:63
-#: js/dist/classic-editor-1740.js:63 js/dist/elementor-1740.js:63
-#: js/dist/externals/schemaBlocks-1740.js:13
+#: languages/wordpress-seojs.php:79 js/dist/block-editor-1750.js:63
+#: js/dist/classic-editor-1750.js:63 js/dist/elementor-1750.js:63
+#: js/dist/externals/schemaBlocks-1750.js:13
 msgid "Yes"
 msgstr "Ya"
 
@@ -5050,7 +5058,7 @@ msgstr "Pengaturan breadcrumbs"
 msgid "Make primary"
 msgstr "Buat utama"
 
-#: languages/wordpress-seojs.php:29 js/dist/addon-installation-1740.js:5
+#: languages/wordpress-seojs.php:29 js/dist/addon-installation-1750.js:5
 msgid "Cancel"
 msgstr "Batalkan"
 
@@ -5071,8 +5079,8 @@ msgid "Removes the readability analysis section from the metabox and disables al
 msgstr "Menghilangkan bagian analisis keterbacaan dalam metabox dan menonaktifkan semua anjuran terkait keterbacaan."
 
 #: admin/views/class-yoast-feature-toggles.php:82
-#: languages/wordpress-seojs.php:306 js/dist/block-editor-1740.js:59
-#: js/dist/classic-editor-1740.js:59 js/dist/elementor-1740.js:59
+#: languages/wordpress-seojs.php:306 js/dist/block-editor-1750.js:59
+#: js/dist/classic-editor-1750.js:59 js/dist/elementor-1750.js:59
 msgid "Readability analysis"
 msgstr "Analisis keterbacaan"
 
@@ -5081,10 +5089,10 @@ msgstr "Analisis keterbacaan"
 #: admin/statistics/class-statistics-service.php:217
 #: inc/class-wpseo-rank.php:140 inc/class-wpseo-rank.php:163
 #: inc/class-wpseo-rank.php:195 languages/wordpress-seojs.php:9
-#: languages/yoast-seo-js.php:30 js/dist/block-editor-1740.js:1
-#: js/dist/block-editor-1740.js:83 js/dist/classic-editor-1740.js:1
-#: js/dist/editor-modules-1740.js:15 js/dist/elementor-1740.js:1
-#: js/dist/post-edit-1740.js:1 js/dist/term-edit-1740.js:1
+#: languages/yoast-seo-js.php:30 js/dist/block-editor-1750.js:1
+#: js/dist/block-editor-1750.js:83 js/dist/classic-editor-1750.js:1
+#: js/dist/editor-modules-1750.js:15 js/dist/elementor-1750.js:1
+#: js/dist/post-edit-1750.js:1 js/dist/term-edit-1750.js:1
 msgid "Needs improvement"
 msgstr "Butuh perbaikan"
 
@@ -5094,7 +5102,7 @@ msgid "Readability"
 msgstr "Keterbacaan"
 
 #: admin/formatter/class-metabox-formatter.php:190
-#: languages/yoast-components.php:14 js/dist/externals/analysisReport-1740.js:1
+#: languages/yoast-components.php:14 js/dist/externals/analysisReport-1750.js:1
 msgid "Improvements"
 msgstr "Peningkatan"
 
@@ -5112,12 +5120,12 @@ msgstr "Kami telah mendeteksi masalah berikut yang memengaruhi SEO situs Anda."
 
 #: admin/formatter/class-metabox-formatter.php:189
 #: admin/views/partial-notifications-errors.php:20
-#: languages/yoast-components.php:26 js/dist/externals/analysisReport-1740.js:1
+#: languages/yoast-components.php:26 js/dist/externals/analysisReport-1750.js:1
 msgid "Problems"
 msgstr "Masalah"
 
 #: admin/formatter/class-metabox-formatter.php:166
-#: js/dist/externals/schemaBlocks-1740.js:9
+#: js/dist/externals/schemaBlocks-1750.js:9
 msgid "Analysis"
 msgstr "Analisis"
 
@@ -5134,8 +5142,8 @@ msgstr "Saring menurut Skor SEO"
 msgid "Meta description not set."
 msgstr "Deskripsi meta belum diatur."
 
-#: languages/wordpress-seojs.php:482 js/dist/block-editor-1740.js:51
-#: js/dist/classic-editor-1740.js:51 js/dist/elementor-1740.js:51
+#: languages/wordpress-seojs.php:482 js/dist/block-editor-1750.js:51
+#: js/dist/classic-editor-1750.js:51 js/dist/elementor-1750.js:51
 msgid "Open"
 msgstr "Buka"
 
@@ -5285,7 +5293,7 @@ msgstr "Plugin pertama yang benar-benar memberikan semua solusi SEO untuk WordPr
 #: languages/wordpress-seojs.php:585
 #: src/integrations/third-party/elementor.php:185
 #: src/integrations/third-party/elementor.php:203
-#: js/dist/block-editor-1740.js:83
+#: js/dist/block-editor-1750.js:83
 msgid "Yoast SEO"
 msgstr "Yoast SEO"
 
@@ -5361,7 +5369,7 @@ msgstr "%1$s tampaknya bukan string verifikasi %2$s yang valid. Mohon perbaiki."
 
 #. translators: %s expands to the name of a post type (plural).
 #. translators: %s expands to the name of a post type (plural).
-#: inc/class-upgrade.php:1219 inc/options/class-wpseo-option-titles.php:283
+#: inc/class-upgrade.php:1206 inc/options/class-wpseo-option-titles.php:283
 msgid "%s Archive"
 msgstr "%s Arsip"
 
@@ -5438,10 +5446,10 @@ msgstr "Galat 404: Laman tidak ditemukan"
 #: admin/statistics/class-statistics-service.php:227
 #: inc/class-wpseo-rank.php:142 inc/class-wpseo-rank.php:173
 #: inc/class-wpseo-rank.php:205 languages/wordpress-seojs.php:22
-#: languages/yoast-seo-js.php:44 js/dist/block-editor-1740.js:1
-#: js/dist/block-editor-1740.js:83 js/dist/classic-editor-1740.js:1
-#: js/dist/editor-modules-1740.js:15 js/dist/elementor-1740.js:1
-#: js/dist/post-edit-1740.js:1 js/dist/term-edit-1740.js:1
+#: languages/yoast-seo-js.php:44 js/dist/block-editor-1750.js:1
+#: js/dist/block-editor-1750.js:83 js/dist/classic-editor-1750.js:1
+#: js/dist/editor-modules-1750.js:15 js/dist/elementor-1750.js:1
+#: js/dist/post-edit-1750.js:1 js/dist/term-edit-1750.js:1
 msgid "Good"
 msgstr "Bagus"
 
@@ -5608,7 +5616,7 @@ msgstr "Laman tidak ditemukan"
 #. translators: %s expands to the variable used for term title.
 #. translators: %s expands to the variable used for term title.
 #: admin/formatter/class-term-metabox-formatter.php:163
-#: inc/class-upgrade.php:1222 inc/options/class-wpseo-option-titles.php:319
+#: inc/class-upgrade.php:1209 inc/options/class-wpseo-option-titles.php:319
 msgid "%s Archives"
 msgstr "%s Arsip"
 
@@ -5962,9 +5970,9 @@ msgid "author archives"
 msgstr "arsip penulis"
 
 #: admin/views/tool-bulk-editor.php:109 inc/class-wpseo-replace-vars.php:1438
-#: languages/wordpress-seojs.php:816 js/dist/elementor-1740.js:27
-#: js/dist/post-edit-1740.js:1 js/dist/settings-1740.js:1
-#: js/dist/term-edit-1740.js:1
+#: languages/wordpress-seojs.php:816 js/dist/elementor-1750.js:27
+#: js/dist/post-edit-1750.js:1 js/dist/settings-1750.js:1
+#: js/dist/term-edit-1750.js:1
 msgid "Title"
 msgstr "Judul"
 
@@ -6122,20 +6130,20 @@ msgid "Email"
 msgstr "Email"
 
 #: languages/yoast-components.php:137
-#: js/dist/externals/configurationWizard-1740.js:3
+#: js/dist/externals/configurationWizard-1750.js:3
 msgid "Previous"
 msgstr "Sebelumnya"
 
 #: languages/yoast-components.php:140
-#: js/dist/externals/configurationWizard-1740.js:3
+#: js/dist/externals/configurationWizard-1750.js:3
 msgid "Next"
 msgstr "Selanjutnya"
 
 #: admin/google_search_console/views/gsc-redirect-nopremium.php:27
 #: languages/wordpress-seojs.php:485 languages/yoast-components.php:68
-#: js/dist/block-editor-1740.js:51 js/dist/classic-editor-1740.js:51
-#: js/dist/elementor-1740.js:51 js/dist/externals/componentsNew-1740.js:1
-#: js/dist/externals/configurationWizard-1740.js:3
+#: js/dist/block-editor-1750.js:51 js/dist/classic-editor-1750.js:51
+#: js/dist/elementor-1750.js:51 js/dist/externals/componentsNew-1750.js:1
+#: js/dist/externals/configurationWizard-1750.js:3
 msgid "Close"
 msgstr "Tutup"
 
@@ -6157,12 +6165,12 @@ msgid "Both %1$s and %2$s create Open Graph output, which might make Facebook, T
 msgstr "%1$s dan %2$s menampilkan Open Graph, yang bisa jadi akan membuat Facebook, Twitter, LinkedIn, dan jejaring sosial lainnya menggunakan teks dan gambar yang salah ketika laman Anda dibagikan."
 
 #: admin/pages/social.php:20 languages/wordpress-seojs.php:178
-#: js/dist/block-editor-1740.js:83
+#: js/dist/block-editor-1750.js:83
 msgid "Twitter"
 msgstr "Twitter"
 
 #: admin/pages/social.php:19 languages/wordpress-seojs.php:175
-#: js/dist/block-editor-1740.js:83
+#: js/dist/block-editor-1750.js:83
 msgid "Facebook"
 msgstr "Facebook"
 
@@ -6191,10 +6199,10 @@ msgstr "cukup sulit"
 #: admin/statistics/class-statistics-service.php:222
 #: inc/class-wpseo-rank.php:141 inc/class-wpseo-rank.php:168
 #: inc/class-wpseo-rank.php:200 languages/wordpress-seojs.php:15
-#: languages/yoast-seo-js.php:37 js/dist/block-editor-1740.js:1
-#: js/dist/classic-editor-1740.js:1 js/dist/editor-modules-1740.js:15
-#: js/dist/elementor-1740.js:1 js/dist/post-edit-1740.js:1
-#: js/dist/term-edit-1740.js:1
+#: languages/yoast-seo-js.php:37 js/dist/block-editor-1750.js:1
+#: js/dist/classic-editor-1750.js:1 js/dist/editor-modules-1750.js:15
+#: js/dist/elementor-1750.js:1 js/dist/post-edit-1750.js:1
+#: js/dist/term-edit-1750.js:1
 msgid "OK"
 msgstr "OK"
 
@@ -6247,8 +6255,8 @@ msgid "The canonical URL that this page should point to. Leave empty to default 
 msgstr "URL kanonik untuk menuju laman ini. Biarkan kosong untuk menggunakan permalink bawaan. Juga mendukung %1$skanonik antar domain%2$s."
 
 #: admin/metabox/class-metabox.php:199 languages/wordpress-seojs.php:70
-#: js/dist/block-editor-1740.js:71 js/dist/classic-editor-1740.js:71
-#: js/dist/elementor-1740.js:71
+#: js/dist/block-editor-1750.js:71 js/dist/classic-editor-1750.js:71
+#: js/dist/elementor-1750.js:71
 msgid "Canonical URL"
 msgstr "URL Kanonik"
 
@@ -6257,26 +6265,26 @@ msgid "Title to use for this page in breadcrumb paths"
 msgstr "Judul digunakan untuk halaman ini dalam path breadcrumb"
 
 #: admin/metabox/class-metabox.php:196 languages/wordpress-seojs.php:64
-#: js/dist/block-editor-1740.js:71 js/dist/classic-editor-1740.js:71
-#: js/dist/elementor-1740.js:71
+#: js/dist/block-editor-1750.js:71 js/dist/classic-editor-1750.js:71
+#: js/dist/elementor-1750.js:71
 msgid "Breadcrumbs Title"
 msgstr "Judul Breadcrumbs"
 
 #: admin/metabox/class-metabox.php:194 languages/wordpress-seojs.php:58
-#: js/dist/block-editor-1740.js:71 js/dist/classic-editor-1740.js:71
-#: js/dist/elementor-1740.js:71
+#: js/dist/block-editor-1750.js:71 js/dist/classic-editor-1750.js:71
+#: js/dist/elementor-1750.js:71
 msgid "No Snippet"
 msgstr "Tidak ada snippet"
 
 #: admin/metabox/class-metabox.php:193 languages/wordpress-seojs.php:55
-#: js/dist/block-editor-1740.js:71 js/dist/classic-editor-1740.js:71
-#: js/dist/elementor-1740.js:71
+#: js/dist/block-editor-1750.js:71 js/dist/classic-editor-1750.js:71
+#: js/dist/elementor-1750.js:71
 msgid "No Archive"
 msgstr "Tidak ada arsip"
 
 #: admin/metabox/class-metabox.php:192 languages/wordpress-seojs.php:52
-#: js/dist/block-editor-1740.js:71 js/dist/classic-editor-1740.js:71
-#: js/dist/elementor-1740.js:71
+#: js/dist/block-editor-1750.js:71 js/dist/classic-editor-1750.js:71
+#: js/dist/elementor-1750.js:71
 msgid "No Image Index"
 msgstr "Tidak ada indeks gambar"
 
@@ -6288,8 +6296,8 @@ msgid "None"
 msgstr "Tidak ada"
 
 #: admin/metabox/class-metabox.php:190 languages/wordpress-seojs.php:49
-#: js/dist/block-editor-1740.js:71 js/dist/classic-editor-1740.js:71
-#: js/dist/elementor-1740.js:71
+#: js/dist/block-editor-1750.js:71 js/dist/classic-editor-1750.js:71
+#: js/dist/elementor-1750.js:71
 msgid "Meta robots advanced"
 msgstr "Robot meta lanjutan"
 
@@ -6299,8 +6307,8 @@ msgstr "Peringatan: walaupun Anda dapat mengatur meta robots di pengaturan ini, 
 
 #: admin/metabox/class-metabox.php:173 languages/yoast-components.php:198
 #: languages/yoast-seo-js.php:439
-#: js/dist/externals/replacementVariableEditor-1740.js:1
-#: js/dist/externals/searchMetadataPreviews-1740.js:2
+#: js/dist/externals/replacementVariableEditor-1750.js:1
+#: js/dist/externals/searchMetadataPreviews-1750.js:2
 msgid "Meta description"
 msgstr "Deskripsi meta"
 
@@ -6434,12 +6442,12 @@ msgid "Twitter username (without @)"
 msgstr "Username Twitter (tanpa @)"
 
 #: admin/class-admin.php:230 languages/wordpress-seojs.php:646
-#: js/dist/structured-data-blocks-1740.js:9
+#: js/dist/structured-data-blocks-1750.js:9
 msgid "FAQ"
 msgstr "FAQ"
 
 #: admin/class-admin.php:225 languages/wordpress-seojs.php:727
-#: js/dist/structured-data-blocks-1740.js:1
+#: js/dist/structured-data-blocks-1750.js:1
 msgid "Settings"
 msgstr "Pengaturan"
 
@@ -6473,8 +6481,8 @@ msgstr "Konsol Pencarian"
 msgid "Tools"
 msgstr "Alat"
 
-#: languages/wordpress-seojs.php:340 js/dist/block-editor-1740.js:83
-#: js/dist/classic-editor-1740.js:83 js/dist/elementor-1740.js:81
+#: languages/wordpress-seojs.php:340 js/dist/block-editor-1750.js:83
+#: js/dist/classic-editor-1750.js:83 js/dist/elementor-1750.js:81
 msgid "Advanced"
 msgstr "Lanjutan"
 
@@ -6494,7 +6502,7 @@ msgstr "Sosial"
 #: inc/class-wpseo-admin-bar-menu.php:481 inc/health-check.php:173
 #: languages/wordpress-seojs.php:653
 #: src/presenters/meta-description-presenter.php:36
-#: js/dist/structured-data-blocks-1740.js:9
+#: js/dist/structured-data-blocks-1750.js:9
 msgid "SEO"
 msgstr "SEO"
 
